@@ -10,9 +10,9 @@ var companySchema = new Schema({
         userName:String,
         userId:String
     }],
-    companyPlaces:[{
-    	placeId:String,
-    	placeName:String
+    companyLocations:[{
+    	locationId:String,
+    	locationName:String
     }]
     
 

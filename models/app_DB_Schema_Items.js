@@ -4,14 +4,17 @@ var Schema = mongoose.Schema;
 var itemSchema = new Schema({
   
     itemCode:String,
-    itemType:String,
+    itemCodeType:String,
     itemName:String,
+    itemAssemblyName:String,
     itemAmount:Number,
     itemUnits:String,
     itemProvider:String,
     itemBrand:String,
     itemSellPrice:Number,
     itemBuyPrice:Number,
+    itemCategorie:String,
+    itemLocation:String,
     companyId:String
 
 
