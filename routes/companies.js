@@ -11,7 +11,9 @@ function companies (app,Company){
 
 	function findCompany (req,res){
 		Company.find({},function (err,array){
+			console.log(array);
 			res.json(array);
+
 		});
 	}
 
@@ -23,7 +25,6 @@ function companies (app,Company){
 
 	function updateCompany (req,res){
 		var query = req.query;
-
 		var todo = req.body;
             Company.findOneAndUpdate({'_id':query.idCompany},todo,
             {new:true},function (err,obj){
