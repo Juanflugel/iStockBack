@@ -10,10 +10,12 @@ var express = require('express'),
 	Bill = require('./models/app_DB_Schema_Bills.js'),
 	Item = require('./models/app_DB_Schema_Items.js'),
 	Company = require('./models/app_DB_Schema_Companies.js'),
+	Project = require('./models/app_DB_Schema_Projects.js'),
 	// Cargo las rutas de la AP
 	bills = require('./routes/bills.js'),
 	items = require('./routes/items.js'),
-	companies = require('./routes/companies.js');
+	companies = require('./routes/companies.js'),
+	projects = require('./routes/projects.js');
 	
 
 mongoose.connect('mongodb://localhost/istockDB');
@@ -33,6 +35,7 @@ app.use(cors());
 bills(app,Bill);
 items(app,Item,io);
 companies(app,Company);
+projects(app,Project);
 
 
 
