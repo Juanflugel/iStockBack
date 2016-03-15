@@ -35,6 +35,7 @@ var mongoose = require('mongoose'),
 
     	function itemToProject (req,res) {
     		var query = req.query;
+            req.body.itemAssemblyTime = new Date();
     		var item = req.body;
 	    	Project.findOneAndUpdate( {'projectNumber':query.projectNumber},
 	    							  {$push:{projectItems:item}},

@@ -9,7 +9,7 @@ function items (app,Item,io){
     app.post('/items',postItemOrCollection);
     app.put('/items',updateAmountOrEveryThing);
 
-    function getItem (req,res){
+    function getItem (req,res){ // get items by Code, all items in collection and items with amount 0
 
         console.log(req.query);
 
@@ -52,27 +52,20 @@ function items (app,Item,io){
 
     function postItemOrCollection (req,res){
         
-        function insertCollection (){
-            var d ;
-
+        function insertCollection (){ // insert a collection of Documents
             //Item.collection.insert
             Item.create(req.body,function (err,array){
-                console.log(array);
-                var fo = {};
-                fo.arr = array
-                res.json(fo);               
-            });
-            
-            io.emit('newCollection',req.body);
-
-            
+                res.json(array);               
+            });            
+            //io.emit('newCollection',req.body);            
         }
 
-        function insertItem (){
-            console.log(req.body);
+        function insertItem (){ // create just one Document in the collection
+            // console.log(req.body);
             Item.create(req.body,function (err,array){
                 res.json(array);
-            }).then(io.emit('newItem',req.body));           
+            });
+            //then(io.emit('newItem',req.body));           
         }
 
         if (Array.isArray(req.body)){
@@ -83,26 +76,22 @@ function items (app,Item,io){
         }
     }
 
-    function stringToNumber (){ // funcion de una locura que estaba probando
-
-        Item.find( { 'itemAmount' : { $type : 2 } } ).forEach( function (x) {   
-              x.itemAmount = parseInt(x.bad); // convert string to number
-              Item.save(x);
-            });
-    }
-
     function updateAmountOrEveryThing (req,res){ // to update just the amount or the whole Document
         var query = req.query;
         var todo = req.body;
+        todo.itemLastDate = new Date();
 
         function updateAmount (){
-            Item.findOneAndUpdate({'itemCode':query.idCode},{'itemAmount':todo.itemAmount},
-            {new:true},function (err,obj){
-                res.json(obj);
-                if (err){
-                    res.json(err);
-                }
-            });
+            Item.findOneAndUpdate(  {'itemCode':query.idCode},
+                                    {'itemAmount':todo.itemAmount,
+                                     'itemLastDate':todo.itemLastDate
+                                    },{new:true},function (err,obj){
+                                                res.json(obj);
+                                                if (err){
+                                                    res.json(err);
+                                                }
+                                            }
+                                );
         }
 
         function updateDocument (){
