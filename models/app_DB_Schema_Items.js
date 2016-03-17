@@ -18,7 +18,10 @@ var itemSchema = new Schema({
     itemCategorie:String, // Buateile,Normteile,Kaufteile,Brennteile
     itemLocation:String,
     companyId:String,
-    itemLastPerson:String,
+    itemLastPerson:{
+        userName:String,
+        userId:String
+    },
     itemLastDate:Date,
     itemMaterial:String,
     itemRawMaterial:String

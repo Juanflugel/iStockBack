@@ -5,6 +5,7 @@ var ProjectSchema = new Schema({
   
     projectNumber:String,
     projectName:String,
+    projectType:String, // werkzeug orde maschine
     companyId:String,
     openDate:Date,
     deadLine:Date,

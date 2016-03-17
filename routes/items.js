@@ -84,7 +84,8 @@ function items (app,Item,io){
         function updateAmount (){
             Item.findOneAndUpdate(  {'itemCode':query.idCode},
                                     {'itemAmount':todo.itemAmount,
-                                     'itemLastDate':todo.itemLastDate
+                                     'itemLastDate':todo.itemLastDate,
+                                     'itemLastPerson':todo.itemLastPerson
                                     },{new:true},function (err,obj){
                                                 res.json(obj);
                                                 if (err){
@@ -114,5 +115,3 @@ function items (app,Item,io){
 }
 
 module.exports = items;
-
-//{'itemAmount':amount}
