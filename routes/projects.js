@@ -28,7 +28,7 @@ var mongoose = require('mongoose'),
     	function updateProject (req,res){
     		var todo = req.body;
     		var query = req.query;
-    		Project.findOneAndUpdate({'projectNumber':query.projectNumber},todo,function (err,obj){
+    		Project.findOneAndUpdate({'_id':query.idDocument},todo,function (err,obj){
     			res.json(obj);
     		});
     	}

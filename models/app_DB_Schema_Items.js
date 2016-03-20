@@ -24,7 +24,8 @@ var itemSchema = new Schema({
     },
     itemLastDate:Date,
     itemMaterial:String,
-    itemRawMaterial:String
+    itemRawMaterialProfil:String,
+    itemRawMaterialDimensions:String
 
 
 });
