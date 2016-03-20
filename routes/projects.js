@@ -28,16 +28,17 @@ var mongoose = require('mongoose'),
     	function updateProject (req,res){
     		var todo = req.body;
     		var query = req.query;
-    		Project.findOneAndUpdate({'_id':query.idDocument},todo,function (err,obj){
+    		Project.findOneAndUpdate(query,todo,function (err,obj){
     			res.json(obj);
     		});
     	}
 
     	function itemToProject (req,res) {
-    		var query = req.query;
-            req.body.itemAssemblyTime = new Date();
-    		var item = req.body;
-	    	Project.findOneAndUpdate( {'projectNumber':query.projectNumber},
+    		var query = req.query; //{projectNumber:number}
+            var item = req.body;
+            item.itemAssemblyTime = new Date();
+    		
+	    	Project.findOneAndUpdate( query,// {projectNumber: 123455}
 	    							  {$push:{projectItems:item}},
 	    							  {new:true},function (error,obj){
 	    							  		res.json(obj);

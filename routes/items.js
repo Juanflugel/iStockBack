@@ -12,10 +12,11 @@ function items (app,Item,io){
     function getItem (req,res){ // get items by Code, all items in collection and items with amount 0
 
         console.log(req.query);
+        var query = req.query;
 
         function findByCode () { // Find a Document by Bar Code Number
-            var idCode = req.query.idCode;
-            Item.find({'itemCode':idCode},function (err,array){
+             // query {'itemCode':code}
+            Item.find(query,function (err,array){
                 res.json(array);
                 if (err){
                     res.json(err);
@@ -29,10 +30,9 @@ function items (app,Item,io){
             });
         }
 
-        function findRunOut () { // Find all the documents with Amount = 0 
-            var cero = req.query.cant;
-            console.log(cero);
-            Item.find({'itemAmount':cero},function (err,array){
+        function findRunOut () { // Find all the documents with Amount = 0
+         // query {'itemAmount':0}       
+            Item.find(query,function (err,array){
                 res.json(array);
             });
         }
@@ -40,10 +40,10 @@ function items (app,Item,io){
         if (Object.keys(req.query).length === 0){
             findAll();
         }
-        else if(req.query.idCode) {
+        else if(query.itemCode) {
             findByCode();
         }
-        else if (req.query.cant){
+        else if (query.itemAmount){
             findRunOut();
         }
 
@@ -81,12 +81,11 @@ function items (app,Item,io){
         var todo = req.body;
         todo.itemLastDate = new Date();
 
-        function updateAmount (){
-            Item.findOneAndUpdate(  {'itemCode':query.idCode},
-                                    {'itemAmount':todo.itemAmount,
-                                     'itemLastDate':todo.itemLastDate,
-                                     'itemLastPerson':todo.itemLastPerson
-                                    },{new:true},function (err,obj){
+        function updateAmount (){ // query {'itemCode':code}
+            Item.findOneAndUpdate(query,{'itemAmount':todo.itemAmount,
+                                         'itemLastDate':todo.itemLastDate,
+                                         'itemLastPerson':todo.itemLastPerson
+                                        },{new:true},function (err,obj){
                                                 res.json(obj);
                                                 if (err){
                                                     res.json(err);
@@ -95,18 +94,18 @@ function items (app,Item,io){
                                 );
         }
 
-        function updateDocument (){
-            Item.findOneAndUpdate({'_id':query.idDocument},todo,
+        function updateDocument (){ // query {'_id':mongoid}
+            Item.findOneAndUpdate(query,todo,
             {new:true},function (err,obj){
                 res.json(obj);
             });
         }   
 
-        if (query.hasOwnProperty('idCode')){
+        if (query.itemCode){
             updateAmount();            
         }
 
-        else if (query.hasOwnProperty('idDocument')){
+        else if (query._id){
            updateDocument();
         }
     }
