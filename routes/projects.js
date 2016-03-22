@@ -42,8 +42,8 @@ var mongoose = require('mongoose'),
 	    							  {$push:{projectItems:item}},
 	    							  {new:true},function (error,obj){
 	    							  		res.json(obj);
-	    								 }
-    		);
+	    								 
+                                    });
     	}
 
     }

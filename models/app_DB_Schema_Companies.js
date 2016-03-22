@@ -7,9 +7,10 @@ var companySchema = new Schema({
     companyId:String,
     companyZipCode:String,
     companyUsers:[{
-        userName:String,
-        userId:String
-    }],
+                    realName:String,
+                    userName:String,
+                    userId:String
+                }],
     companyLocations:[{
     	locationId:String,
     	locationName:String

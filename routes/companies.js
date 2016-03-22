@@ -10,7 +10,8 @@ function companies (app,Company){
 	app.put('/company',updateCompany);
 
 	function findCompany (req,res){
-		Company.find({},function (err,array){
+		var query = req.query;
+		Company.find(query,function (err,array){
 			console.log(array);
 			res.json(array);
 
@@ -24,13 +25,41 @@ function companies (app,Company){
 	}
 
 	function updateCompany (req,res){
-		var query = req.query;
-		var todo = req.body;
-            Company.findOneAndUpdate({'_id':query.idCompany},todo,
-            {new:true},function (err,obj){
-                res.json(obj);
-            });
-        }   
+			var query = req.query;
+			var todo = req.body;
+			console.log(query,todo);
+
+			function newUser (){ // todo._id === undefined and query {companyId:code}
+				Company.findOneAndUpdate( query,// {projectNumber: 123455}
+	    							  {$push:{companyUsers:todo}},
+	    							  {new:true},function (error,obj){
+	    							  		res.json(obj);
+	    							});
+			}
+
+			function updateUser(){
+				Company.findOneAndUpdate(query,
+										{$set:{'companyUsers.$':todo}},
+										{new:true},function (err,obj){
+											res.json(obj);
+										});
+			}
+
+			if(todo._id === undefined){
+				newUser();
+			}
+			else if (query['companyUsers._id']){// se usa esta notacion para que mongo pueda entnder la variable query
+				updateUser();
+			}
+			else {
+				console.log('pailas primo');
+			}
+
+			
+
+
+
+    }   
 
 
 }
