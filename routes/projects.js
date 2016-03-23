@@ -9,6 +9,20 @@ var mongoose = require('mongoose'),
     	app.post('/projects',newProject);
     	app.put('/projects',updateProject);
     	app.put('/itemToProject',itemToProject);
+        app.delete('/projects', deleteProject);
+        app.get('/j', pruebaProject);
+
+        function pruebaProject(req,res){
+            Project.aggregate( [ { $unwind : "$projectItems" },
+                                 {$project:{d:'$projectItems'}},
+                                 {$group:{_id:{code:'$d.itemCode'},
+                                          total:{$sum:'$d.itemAmount'}
+                                         }}
+                                          ],function (err,obj){
+                res.json(obj);
+            });
+            // res.json('colombia y su maldita madre');
+        }
 
     	function getCompanyProjects (req,res) {
 
@@ -16,6 +30,8 @@ var mongoose = require('mongoose'),
     		Project.find(query.companyId,function (err,array){
     			res.json(array);
     		});
+
+
     	}
 
     	function newProject (req,res) {
@@ -45,6 +61,13 @@ var mongoose = require('mongoose'),
 	    								 
                                     });
     	}
+
+        function deleteProject (req,res){
+            var query = req.query;
+            Project.findOneAndRemove(query,function (err,obj){
+                res.json(obj);
+            });
+        }
 
     }
 

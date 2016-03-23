@@ -29,8 +29,8 @@ function companies (app,Company){
 			var todo = req.body;
 			console.log(query,todo);
 
-			function newUser (){ // todo._id === undefined and query {companyId:code}
-				Company.findOneAndUpdate( query,// {projectNumber: 123455}
+			function newUser (){ // todo._id === undefined 
+				Company.findOneAndUpdate( query,//query {companyId:code}
 	    							  {$push:{companyUsers:todo}},
 	    							  {new:true},function (error,obj){
 	    							  		res.json(obj);
@@ -38,7 +38,7 @@ function companies (app,Company){
 			}
 
 			function updateUser(){
-				Company.findOneAndUpdate(query,
+				Company.findOneAndUpdate(query, //{companyId:code,'companyUsers._id':_id@user}
 										{$set:{'companyUsers.$':todo}},
 										{new:true},function (err,obj){
 											res.json(obj);
@@ -54,10 +54,6 @@ function companies (app,Company){
 			else {
 				console.log('pailas primo');
 			}
-
-			
-
-
 
     }   
 
