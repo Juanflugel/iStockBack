@@ -14,10 +14,21 @@ var mongoose = require('mongoose'),
 
         function pruebaProject(req,res){
             Project.aggregate( [ { $unwind : "$projectItems" },
-                                 {$project:{d:'$projectItems'}},
-                                 {$group:{_id:{code:'$d.itemCode'},
-                                          total:{$sum:'$d.itemAmount'}
-                                         }}
+                                 {$project:{ projectNumber:1,projectName:1,projectType:1,deadLine:1,itemName:'$projectItems.itemName',
+                                             itemPrice:'$projectItems.itemBuyPrice',itemAmount:'$projectItems.itemAmount',
+                                             itemTotalCost :{$multiply:['$projectItems.itemAmount','$projectItems.itemBuyPrice']}
+                                           }
+                                 },
+                                 {$group:{_id:{projectNumber:'$projectNumber',projectName:'$projectName',deadLine:'$deadLine'},
+                                          totalProjectCost:{$sum:'$itemTotalCost'}
+                                      }                                         
+                                 }
+                                 // {$group:{_id:{code:'$d.itemCode'},
+                                 //          total:{$sum:'$d.itemAmount'},
+                                 //          uPrice:{$avg:'$d.itemBuyPrice'}
+                                 //         }
+                                 // },
+                                 // {$project:{total:1,cost:{$multiply:['$total','$uPrice']}}}
                                           ],function (err,obj){
                 res.json(obj);
             });
