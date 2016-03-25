@@ -10,28 +10,26 @@ var mongoose = require('mongoose'),
     	app.put('/projects',updateProject);
     	app.put('/itemToProject',itemToProject);
         app.delete('/projects', deleteProject);
-        app.get('/j', pruebaProject);
+        app.get('/projectGeneralView', pruebaProject);
 
         function pruebaProject(req,res){
-            Project.aggregate( [ { $unwind : "$projectItems" },
+            var query = req.query;
+            console.log(query);
+            
+            Project.aggregate( [ {$match: query},
+                                 {$project:{projectNumber:1,projectName:1,projectType:1,projectItems:1,deadLine:1}},
+                                 { $unwind : "$projectItems" },
                                  {$project:{ projectNumber:1,projectName:1,projectType:1,deadLine:1,itemName:'$projectItems.itemName',
                                              itemPrice:'$projectItems.itemBuyPrice',itemAmount:'$projectItems.itemAmount',
                                              itemTotalCost :{$multiply:['$projectItems.itemAmount','$projectItems.itemBuyPrice']}
                                            }
                                  },
-                                 {$group:{_id:{projectNumber:'$projectNumber',projectName:'$projectName',deadLine:'$deadLine'},
+                                 {$group:{_id:{_id:'$_id',projectNumber:'$projectNumber',projectName:'$projectName',deadLine:'$deadLine',projectType:'$projectType'},
                                           totalProjectCost:{$sum:'$itemTotalCost'}
                                       }                                         
-                                 }
-                                 // {$group:{_id:{code:'$d.itemCode'},
-                                 //          total:{$sum:'$d.itemAmount'},
-                                 //          uPrice:{$avg:'$d.itemBuyPrice'}
-                                 //         }
-                                 // },
-                                 // {$project:{total:1,cost:{$multiply:['$total','$uPrice']}}}
-                                          ],function (err,obj){
-                res.json(obj);
-            });
+                                 }],function (err,obj){
+                                        res.json(obj);
+                            });
             // res.json('colombia y su maldita madre');
         }
 

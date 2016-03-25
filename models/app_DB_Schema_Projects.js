@@ -17,7 +17,8 @@ var ProjectSchema = new Schema({
         itemBuyPrice:Number,
         itemAssemblyName:String, // BauGruppe Name
         itemAssemblyNumber:String, // BauGruppe nummer
-        itemAssemblyTime:Date     
+        itemAssemblyTime:Date
+
     }]
 
 
