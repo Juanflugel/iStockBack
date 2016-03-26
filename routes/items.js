@@ -46,6 +46,9 @@ function items (app,Item,io){
         else if (query.itemAmount){
             findRunOut();
         }
+        else{
+            findByCode();
+        }
 
    
     }

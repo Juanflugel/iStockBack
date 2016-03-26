@@ -27,7 +27,8 @@ function companies (app,Company){
 	function updateCompany (req,res){
 			var query = req.query;
 			var todo = req.body;
-			console.log(query,todo);
+			console.log(query);
+			// console.log(todo);
 
 			function newUser (){ // todo._id === undefined 
 				Company.findOneAndUpdate( query,//query {companyId:code}
@@ -45,10 +46,26 @@ function companies (app,Company){
 										});
 			}
 
-			if(todo._id === undefined){
+			function deleteUser(){
+				Company.findOneAndUpdate({companyId:query.companyId},//{companyId:code,'userId':_id@user}
+										{$pull:{companyUsers:{_id:query.userId}}},
+										function (err,obj){
+											res.json(obj);
+										});
+
+
+			}
+
+			if (query.userId){
+				console.log('primer paso para eliminar');
+				deleteUser();
+			}
+			else if(Object.keys(todo).length != 0 && todo._id === undefined){
+				console.log('primer paso para nuevo user');
 				newUser();
 			}
-			else if (query['companyUsers._id']){// se usa esta notacion para que mongo pueda entnder la variable query
+			else if (query['companyUsers._id'] && req.body){// se usa esta notacion para que mongo pueda entnder la variable query
+				console.log('primer paso para actualizar');
 				updateUser();
 			}
 			else {
