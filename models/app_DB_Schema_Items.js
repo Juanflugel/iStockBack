@@ -3,29 +3,29 @@ var Schema = mongoose.Schema;
 
 var itemSchema = new Schema({
   
-    itemCode:String,
-    itemCodeType:String,
-    itemName:String,
-    itemType:String, // schraube, zylinder, motor, blech, fertigunsteil
-    itemAssemblyName:String, // BauGruppe Name,General 
+    itemCode:{type:String,uppercase: true},
+    itemCodeType:{type:String,uppercase: true},
+    itemName:{type:String,uppercase: true},
+    itemType:{type:String,uppercase: true}, // schraube, zylinder, motor, blech, fertigunsteil
+    itemAssemblyName:{type:String,uppercase: true}, // BauGruppe Name,General 
     itemAssemblyNumber:String, // BauGruppe nummer, General
     itemAmount:Number,
-    itemUnits:String,
-    itemProvider:String,
-    itemBrand:String,
+    itemUnits:{type:String,uppercase: true},
+    itemProvider:{type:String,uppercase: true},
+    itemBrand:{type:String, uppercase:true,trim:true },
     itemSellPrice:Number,
     itemBuyPrice:Number,
-    itemCategorie:String, // Buateile,Normteile,Kaufteile,Brennteile
-    itemLocation:String,
-    companyId:String,
+    itemCategorie:{type:String,uppercase: true}, // Buateile,Normteile,Kaufteile,Brennteile
+    itemLocation:{type:String,uppercase: true},
+    companyId:{type:String,uppercase: true},
     itemLastPerson:{
-        userName:String,
-        userId:String
+        userName:{type:String,uppercase: true},
+        userId:{type:String,uppercase: true}
     },
     itemLastDate:Date,
-    itemMaterial:String,
-    itemRawMaterialProfil:String,
-    itemRawMaterialDimensions:String
+    itemMaterial:{type:String,uppercase: true},
+    itemRawMaterialProfil:{type:String,uppercase: true},
+    itemRawMaterialDimensions:{type:String,uppercase: true},
 
 
 });

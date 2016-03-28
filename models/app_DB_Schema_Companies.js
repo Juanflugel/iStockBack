@@ -6,6 +6,8 @@ var companySchema = new Schema({
     companyName:String,
     companyId:String,
     companyZipCode:String,
+    companyAddress:String,
+    companyLogo:String,
     companyUsers:[{
                     realName:String,
                     userName:String,

@@ -27,8 +27,15 @@ function companies (app,Company){
 	function updateCompany (req,res){
 			var query = req.query;
 			var todo = req.body;
-			console.log(query);
+			console.log(query,todo);
 			// console.log(todo);
+
+			function updateCompanyInfo(){ // query{_id:as34664} 
+				Company.findOneAndUpdate(query,todo,{new:true},function (err,obj){
+					res.json(obj);
+				});
+
+			}
 
 			function newUser (){ // todo._id === undefined 
 				Company.findOneAndUpdate( query,//query {companyId:code}
@@ -68,8 +75,8 @@ function companies (app,Company){
 				console.log('primer paso para actualizar');
 				updateUser();
 			}
-			else {
-				console.log('pailas primo');
+			else if (query._id == todo._id) {
+				updateCompanyInfo();
 			}
 
     }   
