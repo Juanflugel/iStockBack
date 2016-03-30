@@ -8,6 +8,7 @@ function items (app,Item,io){
     app.get('/items',getItem);
     app.post('/items',postItemOrCollection);
     app.put('/items',updateAmountOrEveryThing);
+    app.put('/itemsMultipleAmount',updateMultipleAmount);
 
     function getItem (req,res){ // get items by Code, all items in collection and items with amount 0
 
@@ -36,6 +37,15 @@ function items (app,Item,io){
                 res.json(array);
             });
         }
+
+        function findForAssembley(){
+            console.log(query.array)
+            console.log('todo bien mijo');
+            Item.find({'itemCode':{$in:query.array}},function (err,array){
+                console.log(array)
+                res.json(array);
+            });
+        }
         
         if (Object.keys(req.query).length === 0){
             findAll();
@@ -45,6 +55,9 @@ function items (app,Item,io){
         }
         else if (query.itemAmount){
             findRunOut();
+        }
+        else if (query.array){
+            findForAssembley();
         }
         else{
             findByCode();
@@ -111,6 +124,39 @@ function items (app,Item,io){
         else if (query._id){
            updateDocument();
         }
+    }
+
+    function updateMultipleAmount (req,res){
+        var start = new Date();
+        var answer = [];
+        var query = {};
+        var group = req.body;
+        var l = group.length;
+        for (i=0;i<l;i++){
+            var item = group[i];
+            query.itemCode = item[0];
+            var currentAmount = item[1];
+
+            Item.findOneAndUpdate(query,{'itemAmount':currentAmount},
+                                     {new:true},function (err,obj){
+                                                // answer.push(res.json(obj));
+                                                console.log(obj);
+                                                return answer.push(obj);
+                                                if (err){
+                                                    res.json(err);
+                                                }
+                                            }
+                                );
+
+        }
+
+        var t = new Date() - start;
+        res.json(['listo',t,answer]);
+
+
+         
+
+
     }
 
     

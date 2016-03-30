@@ -5,11 +5,12 @@ var ProjectSchema = new Schema({
   
     projectNumber:String,
     projectName:String,
-    projectType:String, // werkzeug orde maschine
+    projectType:String, // Werkzeuge,Maschine,Subassembly
     companyId:String,
     openDate:Date,
     deadLine:Date,
     projectState:String,
+    isSubAssembly:Number,
     projectItems:[{
         itemCode:String,
         itemName:String,

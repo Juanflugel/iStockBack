@@ -17,14 +17,14 @@ var mongoose = require('mongoose'),
 			console.log(query);
 			
 			Project.aggregate( [ {$match: query},
-								 {$project:{projectNumber:1,projectName:1,projectType:1,projectItems:1,deadLine:1}},
+								 {$project:{projectNumber:1,projectName:1,projectType:1,projectItems:1,deadLine:1,isSubAssembly:1}},
 								 { $unwind : "$projectItems" },
-								 {$project:{ projectNumber:1,projectName:1,projectType:1,deadLine:1,itemName:'$projectItems.itemName',
+								 {$project:{ projectNumber:1,projectName:1,projectType:1,deadLine:1,isSubAssembly:1,itemName:'$projectItems.itemName',
 											 itemPrice:'$projectItems.itemBuyPrice',itemAmount:'$projectItems.itemAmount',
 											 itemTotalCost :{$multiply:['$projectItems.itemAmount','$projectItems.itemBuyPrice']}
 										   }
 								 },
-								 {$group:{_id:{_id:'$_id',projectNumber:'$projectNumber',projectName:'$projectName',deadLine:'$deadLine',projectType:'$projectType'},
+								 {$group:{_id:{_id:'$_id',projectNumber:'$projectNumber',projectName:'$projectName',deadLine:'$deadLine',projectType:'$projectType',isSubAssembly:'$isSubAssembly'},
 										  totalProjectCost:{$sum:'$itemTotalCost'}
 									  }                                         
 								 }],function (err,obj){

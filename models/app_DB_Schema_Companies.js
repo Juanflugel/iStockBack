@@ -8,6 +8,7 @@ var companySchema = new Schema({
     companyZipCode:String,
     companyAddress:String,
     companyLogo:String,
+    companyProjectsType:[String], // WERKZEUGE,MASCHINE,MOLD
     companyUsers:[{
                     realName:String,
                     userName:String,
