@@ -9,7 +9,7 @@ var ProjectSchema = new Schema({
     companyId:String,
     openDate:Date,
     deadLine:Date,
-    projectState:String,
+    projectState:String,// open or closed
     isSubAssembly:Number,
     projectItems:[{
         itemCode:String,

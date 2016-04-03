@@ -36,7 +36,7 @@ var mongoose = require('mongoose'),
 		function getCompanyProjects (req,res) {
 
 			var query = req.query;
-			Project.find(query.companyId,function (err,array){
+			Project.find(query,function (err,array){
 				res.json(array);
 			});
 
@@ -60,14 +60,14 @@ var mongoose = require('mongoose'),
 
 		function itemToProject (req,res) {
 			var query = req.query; //{projectNumber:number}
-			var item = req.body;
-			
+			var item = req.body; // can be just an Object or a Collection			
 
 			if (Array.isArray(item)){ // insert a complete collection 
 				item[0].itemAssemblyTime = new Date();
 				Project.findOneAndUpdate( query,// {projectNumber: 123455}
 									  {$push:{projectItems:{$each:item}}},
 									  {new:true},function (error,obj){
+									  	console.log('se metieron varios items');
 											res.json(obj);
 				});
 			}
