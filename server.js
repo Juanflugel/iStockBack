@@ -2,6 +2,7 @@ var express = require('express'),
 	app = express(),
 	server = require('http').createServer(app),
 	io = require('socket.io')(server),
+	bodyParser = require('body-parser'),
 	mongoose = require('mongoose'),
 	db = mongoose.connection,
 	cors = require('cors'),
@@ -31,7 +32,9 @@ db.once('open', function (callback) {
 
 // Configuration
 app.use(cors());
-// route have to accept app and model
+app.use(bodyParser.json({limit: '50mb'}));
+app.use(bodyParser.urlencoded({limit: '50mb',extended: true}));
+// route have to accept app and model,
 bills(app,Bill);
 items(app,Item,io);
 companies(app,Company);

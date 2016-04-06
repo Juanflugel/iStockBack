@@ -135,11 +135,13 @@ function items (app,Item,io){
 
 
 		 for (i=0;i<l;i++){
+
 		 	var item = group[i];
             query.itemCode = item[0];
             var currentAmount = item[1];
 
-            Item.findOneAndUpdate(query,{'itemAmount':currentAmount}, {new:true},function (err,obj){
+            Item.findOneAndUpdate(query,{'itemAmount':currentAmount},
+            					  {new:true},function (err,obj){
 												if (err) {
 													res.json(err);
 												} 
