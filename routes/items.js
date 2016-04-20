@@ -9,6 +9,7 @@ function items (app,Item,io){
 	app.post('/items',postItemOrCollection);
 	app.put('/items',updateAmountOrEveryThing);
 	app.put('/itemsMultipleAmount',updateMultipleAmount);
+	app.delete('/items',deleteItem);
 
 	function getItem (req,res){ // get items by Code, all items in collection and items with amount 0
 
@@ -156,11 +157,13 @@ function items (app,Item,io){
 
 
 		 }
+	}
 
-		
-
-			
-
+	function deleteItem (req,res){
+		var query = req.query;
+			Item.findOneAndRemove(query,function (err,obj){
+				res.json(obj);
+			});
 
 	}
 
