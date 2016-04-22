@@ -24,8 +24,10 @@ var itemSchema = new Schema({
     },
     itemLastDate:Date,
     itemMaterial:{type:String,uppercase: true},
-    itemRawMaterialProfil:{type:String,uppercase: true},
-    itemRawMaterialDimensions:{type:String,uppercase: true},
+    itemRawMaterialProfil:{type:String,uppercase: true}, // round, squar
+    itemRawMaterialDimensions:{type:String,uppercase: true}, // hxwxl
+    itemDeliveryTime:{amount:Number,units:String} // 1 dia, 2 semanas, 3 meses
+
 
 
 });

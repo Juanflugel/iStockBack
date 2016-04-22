@@ -8,6 +8,7 @@ function companies (app,Company){
 	app.get('/company',findCompany);
 	app.post('/company',newCompany);
 	app.put('/company',updateCompany);
+	app.delete('/company',deleteCompany);
 
 	function findCompany (req,res){
 		var query = req.query;
@@ -79,6 +80,13 @@ function companies (app,Company){
 				updateCompanyInfo();
 			}
 
+    }
+
+    function deleteCompany (req,res){
+    	var query = req.query;
+			Company.findOneAndRemove(query,function (err,obj){
+				res.json(obj);
+			});
     }   
 
 

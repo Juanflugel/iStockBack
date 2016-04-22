@@ -9,17 +9,14 @@ var companySchema = new Schema({
     companyAddress:String,
     companyLogo:String,
     companyProjectsType:[String], // WERKZEUGE,MASCHINE,MOLD
-    companyUsers:[{
-                    realName:String,
-                    userName:String,
-                    userId:String
-                }],
-    companyLocations:[{
-    	locationId:String,
-    	locationName:String
-    }]
-    
-
+    // filter Collection to filter items
+    companyItemFilters:[{tagToShow:String,queryObjKey:String,array:[String]}],
+    // company users collection
+    companyUsers:[{realName:String,userName:String,userId:String}],
+    // items' locations collection
+    companyLocations:[{locationId:String,locationName:String}],
+    // company providers collection
+    companyProviders:[{providerName:String,providerTel:String}]
 
 });
 
