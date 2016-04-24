@@ -28,7 +28,7 @@ function companies (app,Company){
 	function updateCompany (req,res){
 			var query = req.query;
 			var todo = req.body;
-			console.log(query,todo);
+			console.log(query,todo.providerName,todo._id);
 			// console.log(todo);
 
 			function updateCompanyInfo(){ // query{_id:as34664} 
@@ -37,8 +37,8 @@ function companies (app,Company){
 				});
 
 			}
-
-			function newUser (){ // todo._id === undefined 
+			// user related CRUD
+			function newUser (){ // todo.userName === undefined 
 				Company.findOneAndUpdate( query,//query {companyId:code}
 	    							  {$push:{companyUsers:todo}},
 	    							  {new:true},function (error,obj){
@@ -60,15 +60,37 @@ function companies (app,Company){
 										function (err,obj){
 											res.json(obj);
 										});
+			}
+			// user related CRUD
+			// provider related CRUD
+			function newProvider (){
+				Company.findOneAndUpdate( query,//query {companyId:code}
+	    							  {$push:{companyProviders:todo}},
+	    							  {new:true},function (error,obj){
+	    							  		res.json(obj);
+	    							});
 
-
+			}
+			function updateProvider(){
+				Company.findOneAndUpdate(query, //{companyId:code,'companyUsers._id':_id@user}
+										{$set:{'companyProviders.$':todo}},
+										{new:true},function (err,obj){
+											res.json(obj);
+										});
+			}
+			function deleteProvider(){
+				Company.findOneAndUpdate({companyId:query.companyId},//{companyId:code,'userId':_id@user}
+										{$pull:{companyProviders:{_id:query.providerId}}},
+										function (err,obj){
+											res.json(obj);
+										});
 			}
 
 			if (query.userId){
 				console.log('primer paso para eliminar');
 				deleteUser();
 			}
-			else if(Object.keys(todo).length != 0 && todo._id === undefined){
+			else if(Object.keys(todo).length != 0 && todo.userName && todo._id === undefined){
 				console.log('primer paso para nuevo user');
 				newUser();
 			}
@@ -76,8 +98,20 @@ function companies (app,Company){
 				console.log('primer paso para actualizar');
 				updateUser();
 			}
-			else if (query._id == todo._id) {
+			else if (query._id == todo._id && todo._id != undefined) {
 				updateCompanyInfo();
+			}
+			else if(Object.keys(todo).length != 0 && todo.providerName && todo._id === undefined){
+				console.log('entro en nuevo proveedor');
+				newProvider();
+			}
+			else if (query['companyProviders._id'] && req.body){// se usa esta notacion para que mongo pueda entnder la variable query
+				console.log('primer paso para actualizar provider');
+				updateProvider();
+			}
+			else if (query.providerId){
+				console.log('primer paso para eliminar proveedor');
+				deleteProvider();
 			}
 
     }
