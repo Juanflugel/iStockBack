@@ -8,6 +8,7 @@ function companies (app,Company){
 	app.get('/company',findCompany);
 	app.post('/company',newCompany);
 	app.put('/company',updateCompany);
+	app.put('/companyFilters',updateCompanyFilters);
 	app.delete('/company',deleteCompany);
 
 	function findCompany (req,res){
@@ -24,7 +25,7 @@ function companies (app,Company){
 			res.json(obj);
 		});
 	}
-
+	// CRUD company - CRUD User - CRUD Providers
 	function updateCompany (req,res){
 			var query = req.query;
 			var todo = req.body;
@@ -114,6 +115,37 @@ function companies (app,Company){
 				deleteProvider();
 			}
 
+    }
+
+    function updateCompanyFilters (req,res){
+
+    	var query = req.query;
+    	
+    	function newFilterTag (){
+    		Company.findOneAndUpdate(query,//{companyId:RMB01,companyItemFilters.queryObjKey}
+    								{$push:{'companyItemFilters.$.array':req.body.cuerpo}},
+    								{new:true},function (err,obj){
+    									res.json(obj);
+    								}	
+    			)
+    	}
+
+    	function deleteFilterTag (){
+    		Company.findOneAndUpdate(query,//{companyId:RMB01,companyItemFilters.queryObjKey}
+    								{$pull:{'companyItemFilters.$.array':req.body.tagToRemove}},
+    								{new:true},function (err,obj){
+    									res.json(obj);
+    								}
+    			)
+    	}
+
+    	if(req.body.tagToRemove){
+    		console.log(query);
+    		deleteFilterTag();
+    	}
+    	else {
+    		newFilterTag();
+    	}
     }
 
     function deleteCompany (req,res){
