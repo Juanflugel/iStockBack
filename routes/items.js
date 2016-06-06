@@ -6,6 +6,7 @@ function items (app,Item,io){
 	app.use(bodyParser.json());
 
 	app.get('/items',getItem);
+	app.get('/itemsCode',getByItemsCode);// regular expression para el front
 	app.post('/items',postItemOrCollection);
 	app.put('/items',updateAmountOrEveryThing);
 	app.put('/itemsMultipleAmount',updateMultipleAmount);
@@ -29,6 +30,9 @@ function items (app,Item,io){
 		function findAll () { // Show all the Documents in the collection
 			Item.find({},function (err,array){
 				res.json(array);
+				if (err){
+					res.json(err);
+				}
 			});
 		}
 
@@ -36,6 +40,9 @@ function items (app,Item,io){
 		 // query {'itemAmount':0}       
 			Item.find(query,function (err,array){
 				res.json(array);
+				if (err){
+					res.json(err);
+				}
 			});
 		}
 
@@ -66,6 +73,19 @@ function items (app,Item,io){
 
    
 	}
+
+	// prueba de regular expressions
+
+	function getByItemsCode(req,res){
+		var codeToSearch = req.query.itemCode;
+		Item.find({ itemCode: new RegExp(codeToSearch,"i") },function (err,array){
+			if (err){
+					res.json(err);
+				}
+			res.json(array);
+		});
+	}
+	// prueba de regular expression
 
 	function postItemOrCollection (req,res){
 		
