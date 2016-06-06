@@ -74,11 +74,11 @@ function items (app,Item,io){
    
 	}
 
-	// prueba de regular expressions
+	// prueba de regular expressions, esto hay que mejoralo pero por ahora bien
 
 	function getByItemsCode(req,res){
 		var codeToSearch = req.query.itemCode;
-		Item.find({ itemCode: new RegExp(codeToSearch,"i") },function (err,array){
+		Item.find({ itemCode: new RegExp(codeToSearch,"i"),companyId:req.query.companyId},function (err,array){
 			if (err){
 					res.json(err);
 				}
