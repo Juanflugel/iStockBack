@@ -20,7 +20,8 @@ var itemSchema = new Schema({
     companyId:{type:String,uppercase: true},
     itemLastPerson:{
         userName:{type:String,uppercase: true},
-        userId:{type:String,uppercase: true}
+        userId:{type:String,uppercase: true},
+        insertedAmount:Number
     },
     itemLastDate:Date,
     itemMaterial:{type:String,uppercase: true},
