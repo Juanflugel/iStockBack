@@ -11,11 +11,14 @@ var express = require('express'),
 	Bill = require('./models/app_DB_Schema_Bills.js'),
 	Item = require('./models/app_DB_Schema_Items.js'),
 	Company = require('./models/app_DB_Schema_Companies.js'),
+	Assembly = require('./models/app_DB_Schema_Assemblies.js'),
 	Project = require('./models/app_DB_Schema_Projects.js'),
+
 	// Cargo las rutas de la AP
 	bills = require('./routes/bills.js'),
 	items = require('./routes/items.js'),
 	companies = require('./routes/companies.js'),
+	assemblies = require('./routes/assemblies.js'),
 	projects = require('./routes/projects.js');
 	
 
@@ -38,6 +41,7 @@ app.use(bodyParser.urlencoded({limit: '50mb',extended: true}));
 bills(app,Bill);
 items(app,Item,io);
 companies(app,Company);
+assemblies(app,Assembly);
 projects(app,Project);
 
 
