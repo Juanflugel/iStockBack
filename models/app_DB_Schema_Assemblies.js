@@ -6,7 +6,6 @@ var AssemblySchema = new Schema({
     assemblyNumber:String,
     assemblyName:String,
     companyId:String,
-    isSubAssembly:Number,
     assemblyItems:[{
         itemCode:String,
         itemName:String,

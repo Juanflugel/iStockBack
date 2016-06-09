@@ -5,8 +5,9 @@ function assemblies (app,Assembly){
 
 	app.use(bodyParser.json());
 
-	app.get('/monda',prueba);
+	app.get('/assemblies',prueba);
 	app.post('/assemblies',newAssembly);
+	app.delete('/assemblies',deleteAssembly);
 
 	function prueba (req,res){
 		Assembly.find({},function (err,array){
@@ -20,6 +21,13 @@ function assemblies (app,Assembly){
 				res.json(obj);
 			});
 	}
+
+	 function deleteAssembly(req,res){
+    	var query = req.query;
+			Assembly.findOneAndRemove(query,function (err,obj){
+				res.json(obj);
+			});
+    }
 
 
 }
