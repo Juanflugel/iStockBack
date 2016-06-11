@@ -116,13 +116,14 @@
     "itemCode": "KK4S-10E",
     "itemCodeType": "QR_CODE",
     "itemName": "S-KUPPLUNG BUCHSE",
-    "itemType": "FERTIGUNGSTEILE",
+    "itemType": "KAUFTEILE",
     "itemAmount": 2,
     "itemProvider": "SMC",
     "companyId": "RMB01",
     "itemAssemblyName": "VERKLEIDUNG",
     "itemAssemblyNumber": "22.403.00.00.00-C",
-    "": ""
+    "": "",
+    "itemLastDate": "2016-06-08T15:46:53.555Z"
   },
   {
     
@@ -130,13 +131,17 @@
     "itemCodeType": "QR_CODE",
     "itemName": "EXCENTER FÜR TÜR",
     "itemType": "FERTIGUNGSTEILE",
-    "itemAmount": 3,
+    "itemAmount": 9,
     "itemProvider": "",
     "companyId": "RMB01",
     "itemAssemblyName": "VERKLEIDUNG",
     "itemAssemblyNumber": "22.403.00.00.00-C",
     "": "",
-    "itemLastDate": "2016-06-02T06:46:14.589Z"
+    "itemLastDate": "2016-06-03T10:12:52.212Z",
+    "itemLastPerson": {
+      "userId": "LW01",
+      "userName": "Lars"
+    }
   },
   {
     
@@ -516,74 +521,9 @@
   },
   {
     
-    "itemCode": "KQ2S12-04AS",
-    "itemCodeType": "QR_CODE",
-    "itemName": "STECKVERSCHRAUBUNG, GERADE",
-    "itemType": "FERTIGUNGSTEILE",
-    "itemAmount": 3,
-    "itemProvider": "SMC",
-    "companyId": "RMB01",
-    "itemAssemblyName": "VERKLEIDUNG",
-    "itemAssemblyNumber": "22.403.00.00.00-C",
-    "": ""
-  },
-  {
-    
-    "itemCode": "KQ2L06-01AS",
-    "itemCodeType": "QR_CODE",
-    "itemName": "WINKEL-STECKVERBINDUNG",
-    "itemType": "FERTIGUNGSTEILE",
-    "itemAmount": 2,
-    "itemProvider": "SMC",
-    "companyId": "RMB01",
-    "itemAssemblyName": "VERKLEIDUNG",
-    "itemAssemblyNumber": "22.403.00.00.00-C",
-    "": ""
-  },
-  {
-    
     "itemCode": "KQ2R06-10A",
     "itemCodeType": "QR_CODE",
     "itemName": "STECKVERBINDUNG, REDUZIERT",
-    "itemType": "FERTIGUNGSTEILE",
-    "itemAmount": 2,
-    "itemProvider": "SMC",
-    "companyId": "RMB01",
-    "itemAssemblyName": "VERKLEIDUNG",
-    "itemAssemblyNumber": "22.403.00.00.00-C",
-    "": ""
-  },
-  {
-    
-    "itemCode": "KQ2T06-00A",
-    "itemCodeType": "QR_CODE",
-    "itemName": "STECKVERBINDUNG",
-    "itemType": "FERTIGUNGSTEILE",
-    "itemAmount": 1,
-    "itemProvider": "SMC",
-    "companyId": "RMB01",
-    "itemAssemblyName": "VERKLEIDUNG",
-    "itemAssemblyNumber": "22.403.00.00.00-C",
-    "": ""
-  },
-  {
-    
-    "itemCode": "KQ2T12-10A",
-    "itemCodeType": "QR_CODE",
-    "itemName": "T-STECKVERBINDER",
-    "itemType": "FERTIGUNGSTEILE",
-    "itemAmount": 2,
-    "itemProvider": "SMC",
-    "companyId": "RMB01",
-    "itemAssemblyName": "VERKLEIDUNG",
-    "itemAssemblyNumber": "22.403.00.00.00-C",
-    "": ""
-  },
-  {
-    
-    "itemCode": "KQ2S06-02AS",
-    "itemCodeType": "QR_CODE",
-    "itemName": "STECKVERSCHRAUBUNG, GERADE",
     "itemType": "FERTIGUNGSTEILE",
     "itemAmount": 2,
     "itemProvider": "SMC",
@@ -782,14 +722,15 @@
     
     "itemCode": "AN40-04",
     "itemCodeType": "QR_CODE",
-    "itemName": "SCHALLDﾎMPFER",
+    "itemName": "SCHALLDÄMPFER",
     "itemType": "FERTIGUNGSTEILE",
     "itemAmount": 1,
     "itemProvider": "SMC",
     "companyId": "RMB01",
     "itemAssemblyName": "VERKLEIDUNG",
     "itemAssemblyNumber": "22.403.00.00.00-C",
-    "": ""
+    "": "",
+    "itemLastDate": "2016-06-08T17:10:06.018Z"
   },
   {
     
@@ -857,32 +798,6 @@
     "": "",
     "itemCategorie": "KAUFTEILE",
     "itemLastDate": "2016-06-03T09:40:00.285Z"
-  },
-  {
-    
-    "itemCode": "KQ2T10-00A",
-    "itemCodeType": "QR_CODE",
-    "itemName": "T-STECKVERBINDUNG",
-    "itemType": "FERTIGUNGSTEILE",
-    "itemAmount": 2,
-    "itemProvider": "SMC",
-    "companyId": "RMB01",
-    "itemAssemblyName": "VERKLEIDUNG",
-    "itemAssemblyNumber": "22.403.00.00.00-C",
-    "": ""
-  },
-  {
-    
-    "itemCode": "KQ2S10-04AS",
-    "itemCodeType": "QR_CODE",
-    "itemName": "STECKVERSCHRAUBUNG, GERADE",
-    "itemType": "FERTIGUNGSTEILE",
-    "itemAmount": 2,
-    "itemProvider": "SMC",
-    "companyId": "RMB01",
-    "itemAssemblyName": "VERKLEIDUNG",
-    "itemAssemblyNumber": "22.403.00.00.00-C",
-    "": ""
   },
   {
     
@@ -1077,12 +992,17 @@
     "itemCodeType": "QR_CODE",
     "itemName": "VERKLEIDUNG FSSE",
     "itemType": "FERTIGUNGSTEILE",
-    "itemAmount": 6,
+    "itemAmount": 8,
     "itemProvider": "",
     "companyId": "RMB01",
     "itemAssemblyName": "VERKLEIDUNG",
     "itemAssemblyNumber": "22.403.00.00.00-C",
-    "": ""
+    "": "",
+    "itemLastDate": "2016-06-06T13:21:40.229Z",
+    "itemLastPerson": {
+      "userId": "MH01",
+      "userName": "Martin"
+    }
   },
   {
     
@@ -1513,12 +1433,18 @@
     "itemCodeType": "QR_CODE",
     "itemName": "ROLLE, 600MM",
     "itemType": "FERTIGUNGSTEILE",
-    "itemAmount": null,
+    "itemAmount": 5,
     "itemProvider": "",
     "companyId": "RMB01",
     "itemAssemblyName": "VORHEIZUNG",
     "itemAssemblyNumber": "00.110.00.00.00",
-    "": ""
+    "": "",
+    "itemLastDate": "2016-06-09T04:48:58.823Z",
+    "itemLastPerson": {
+      "insertedAmount": 5,
+      "userName": "Darek",
+      "userId": "DK01"
+    }
   },
   {
     
@@ -2029,16 +1955,17 @@
   },
   {
     
-    "itemCode": "DIN 913 - M12 X 16",
+    "itemCode": "DIN 913 M12X16",
     "itemCodeType": "QR_CODE",
     "itemName": "GEWINDESTIFT MIT INNENSECHSKANT",
-    "itemType": "FERTIGUNGSTEILE",
-    "itemAmount": null,
+    "itemType": "KAUFTEILE",
+    "itemAmount": 0,
     "itemProvider": "",
     "companyId": "RMB01",
     "itemAssemblyName": "VORHEIZUNG",
     "itemAssemblyNumber": "00.110.00.00.00",
-    "": ""
+    "": "",
+    "itemLastDate": "2016-06-08T08:58:26.540Z"
   },
   {
     
@@ -2407,62 +2334,9 @@
   },
   {
     
-    "itemCode": "AN10-01",
-    "itemCodeType": "QR_CODE",
-    "itemName": "SCHALLDﾎMPFER",
-    "itemType": "FERTIGUNGSTEILE",
-    "itemAmount": null,
-    "itemProvider": "SMC",
-    "companyId": "RMB01",
-    "itemAssemblyName": "VORHEIZUNG",
-    "itemAssemblyNumber": "00.110.00.00.00",
-    "": ""
-  },
-  {
-    
-    "itemCode": "AS2002F-06",
-    "itemCodeType": "QR_CODE",
-    "itemName": "DROSSELRÜCKSCHLAGVENTIL",
-    "itemType": "FERTIGUNGSTEILE",
-    "itemAmount": null,
-    "itemProvider": "SMC",
-    "companyId": "RMB01",
-    "itemAssemblyName": "VORHEIZUNG",
-    "itemAssemblyNumber": "00.110.00.00.00",
-    "": "",
-    "itemLastDate": "2016-06-02T07:35:59.532Z"
-  },
-  {
-    
     "itemCode": "CP96SB32-50",
     "itemCodeType": "QR_CODE",
     "itemName": " NORMZYLINDER (ISO 15552)",
-    "itemType": "FERTIGUNGSTEILE",
-    "itemAmount": null,
-    "itemProvider": "SMC",
-    "companyId": "RMB01",
-    "itemAssemblyName": "VORHEIZUNG",
-    "itemAssemblyNumber": "00.110.00.00.00",
-    "": ""
-  },
-  {
-    
-    "itemCode": "KQ2L06-01AS",
-    "itemCodeType": "QR_CODE",
-    "itemName": " WINKEL-STECKVERBINDUNG",
-    "itemType": "FERTIGUNGSTEILE",
-    "itemAmount": null,
-    "itemProvider": "SMC",
-    "companyId": "RMB01",
-    "itemAssemblyName": "VORHEIZUNG",
-    "itemAssemblyNumber": "00.110.00.00.00",
-    "": ""
-  },
-  {
-    
-    "itemCode": "KQ2L08-01AS",
-    "itemCodeType": "QR_CODE",
-    "itemName": "WINKEL-STECKVERBINDUNG",
     "itemType": "FERTIGUNGSTEILE",
     "itemAmount": null,
     "itemProvider": "SMC",
@@ -2780,7 +2654,7 @@
     "itemMaterial": "MESSING",
     "itemAssemblyName": "STAPELWAGEN AJOVER",
     "itemAssemblyNumber": "23.405.00.00.00-A",
-    "itemAmount": 4,
+    "itemAmount": 3,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -2788,12 +2662,12 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": "2016-05-17T11:02:41.271Z",
+    "itemLastDate": "2016-06-06T13:27:20.706Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": {
-      "userId": "LW01",
-      "userName": "Lars"
+      "userName": "Lars",
+      "userId": "LW01"
     }
   },
   {
@@ -2806,14 +2680,14 @@
     "itemMaterial": "S235 JR",
     "itemAssemblyName": "STAPELWAGEN AJOVER",
     "itemAssemblyNumber": "23.405.00.00.00-A",
-    "itemAmount": 1,
+    "itemAmount": 3,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
     "itemSellPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-06T13:26:41.174Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -2828,7 +2702,7 @@
     "itemMaterial": "S235 JR",
     "itemAssemblyName": "STAPELWAGEN AJOVER",
     "itemAssemblyNumber": "23.405.00.00.00-A",
-    "itemAmount": 4,
+    "itemAmount": 3,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -2836,12 +2710,12 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": "2016-05-31T05:47:22.651Z",
+    "itemLastDate": "2016-06-06T13:27:02.024Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": {
-      "userId": "MH01",
-      "userName": "Martin"
+      "userName": "Martin",
+      "userId": "MH01"
     }
   },
   {
@@ -2854,14 +2728,14 @@
     "itemMaterial": "S235 JR",
     "itemAssemblyName": "STAPELWAGEN AJOVER",
     "itemAssemblyNumber": "23.405.00.00.00-A",
-    "itemAmount": 1,
+    "itemAmount": 3,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
     "itemSellPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-06T13:26:51.142Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -2902,7 +2776,7 @@
     "itemMaterial": "MAKROLON",
     "itemAssemblyName": "STAPELWAGEN AJOVER",
     "itemAssemblyNumber": "23.405.00.00.00-A",
-    "itemAmount": 1,
+    "itemAmount": 0,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -2910,7 +2784,7 @@
     "itemBuyPrice": 86,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-06T13:27:37.997Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -2925,14 +2799,14 @@
     "itemMaterial": "MAKROLON",
     "itemAssemblyName": "STAPELWAGEN AJOVER",
     "itemAssemblyNumber": "23.405.00.00.00-A",
-    "itemAmount": 1,
+    "itemAmount": 0,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
     "itemSellPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-06T13:27:30.383Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -2970,7 +2844,7 @@
     "itemMaterial": "AL MG SI 1",
     "itemAssemblyName": "STAPELWAGEN AJOVER",
     "itemAssemblyNumber": "23.405.00.00.00-A",
-    "itemAmount": 8,
+    "itemAmount": 6,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -2978,12 +2852,12 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": "2016-05-30T06:57:22.763Z",
+    "itemLastDate": "2016-06-06T13:28:22.349Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": {
-      "userId": "LW01",
-      "userName": "Lars"
+      "userName": "Lars",
+      "userId": "LW01"
     }
   },
   {
@@ -2996,7 +2870,7 @@
     "itemMaterial": "AL MG SI 1",
     "itemAssemblyName": "STAPELWAGEN AJOVER",
     "itemAssemblyNumber": "23.405.00.00.00-A",
-    "itemAmount": 8,
+    "itemAmount": 6,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -3004,12 +2878,12 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": "2016-05-30T06:56:46.417Z",
+    "itemLastDate": "2016-06-06T13:27:57.517Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": {
-      "userId": "LW01",
-      "userName": "Lars"
+      "userName": "Lars",
+      "userId": "LW01"
     }
   },
   {
@@ -3066,19 +2940,19 @@
     "itemMaterial": "POM",
     "itemAssemblyName": "STAPELWAGEN AJOVER",
     "itemAssemblyNumber": "23.405.00.00.00-A",
-    "itemAmount": 6,
+    "itemAmount": 7,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
     "itemSellPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": "2016-05-04T04:04:56.583Z",
+    "itemLastDate": "2016-06-06T13:28:38.881Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": {
-      "userId": "LW01",
-      "userName": "Lars"
+      "userName": "Lars",
+      "userId": "LW01"
     }
   },
   {
@@ -3187,7 +3061,7 @@
     "itemMaterial": "S235 JR",
     "itemAssemblyName": "STAPELWAGEN AJOVER",
     "itemAssemblyNumber": "23.405.00.00.00-A",
-    "itemAmount": 4,
+    "itemAmount": 3,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -3195,12 +3069,12 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": "2016-05-31T11:28:58.606Z",
+    "itemLastDate": "2016-06-06T13:29:30.862Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": {
-      "userId": "LW01",
-      "userName": "Lars"
+      "userName": "Lars",
+      "userId": "LW01"
     }
   },
   {
@@ -3213,7 +3087,7 @@
     "itemMaterial": "AL MG SI 1",
     "itemAssemblyName": "STAPELWAGEN AJOVER",
     "itemAssemblyNumber": "23.405.00.00.00-A",
-    "itemAmount": 4,
+    "itemAmount": 3,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -3221,12 +3095,12 @@
     "itemBuyPrice": 60,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": "2016-05-25T10:58:51.505Z",
+    "itemLastDate": "2016-06-06T13:29:51.740Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": {
-      "userId": "HH01",
-      "userName": "Henning"
+      "userName": "Henning",
+      "userId": "HH01"
     }
   },
   {
@@ -3239,7 +3113,7 @@
     "itemMaterial": "S235JR + C",
     "itemAssemblyName": "STAPELWAGEN AJOVER",
     "itemAssemblyNumber": "23.405.00.00.00-A",
-    "itemAmount": 2,
+    "itemAmount": 4,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -3247,7 +3121,7 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-06T13:30:37.979Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -3262,7 +3136,7 @@
     "itemMaterial": "1,4301",
     "itemAssemblyName": "STAPELWAGEN AJOVER",
     "itemAssemblyNumber": "23.405.00.00.00-A",
-    "itemAmount": 2,
+    "itemAmount": 4,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -3270,10 +3144,13 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-07T05:14:51.202Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
-    "itemLastPerson": ""
+    "itemLastPerson": {
+      "userId": "MH01",
+      "userName": "Martin"
+    }
   },
   {
     
@@ -3311,7 +3188,7 @@
     "itemMaterial": "AL MG SI 1",
     "itemAssemblyName": "STAPELWAGEN AJOVER",
     "itemAssemblyNumber": "23.405.00.00.00-A",
-    "itemAmount": 1,
+    "itemAmount": 3,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -3319,10 +3196,13 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-07T05:59:16.586Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
-    "itemLastPerson": ""
+    "itemLastPerson": {
+      "userId": "MH01",
+      "userName": "Martin"
+    }
   },
   {
     
@@ -3334,14 +3214,14 @@
     "itemMaterial": "INA-WELLE",
     "itemAssemblyName": "STAPELWAGEN AJOVER",
     "itemAssemblyNumber": "23.405.00.00.00-A",
-    "itemAmount": 0,
+    "itemAmount": 6,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
     "itemSellPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": "2016-04-18T12:47:55.214Z",
+    "itemLastDate": "2016-06-06T13:30:27.923Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -3356,14 +3236,14 @@
     "itemMaterial": "AL MG SI 1",
     "itemAssemblyName": "STAPELWAGEN AJOVER",
     "itemAssemblyNumber": "23.405.00.00.00-A",
-    "itemAmount": 1,
+    "itemAmount": 3,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
     "itemSellPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-06T13:30:13.055Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -3378,14 +3258,14 @@
     "itemMaterial": "S235 JR",
     "itemAssemblyName": "STAPELWAGEN AJOVER",
     "itemAssemblyNumber": "23.405.00.00.00-A",
-    "itemAmount": 2,
+    "itemAmount": 6,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
     "itemSellPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-06T13:30:55.023Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -3425,7 +3305,7 @@
     "itemMaterial": "S235 JR",
     "itemAssemblyName": "STAPELWAGEN AJOVER",
     "itemAssemblyNumber": "23.405.00.00.00-A",
-    "itemAmount": 1,
+    "itemAmount": 3,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -3433,7 +3313,7 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-06T13:31:18.991Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -3470,14 +3350,14 @@
     "itemMaterial": "C 45 H6",
     "itemAssemblyName": "STAPELWAGEN AJOVER",
     "itemAssemblyNumber": "23.405.00.00.00-A",
-    "itemAmount": 2,
+    "itemAmount": 6,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
     "itemSellPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-06T13:28:10.580Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -3559,7 +3439,7 @@
     "itemMaterial": "S235JR + C",
     "itemAssemblyName": "STAPELWAGEN AJOVER",
     "itemAssemblyNumber": "23.405.00.00.00-A",
-    "itemAmount": 1,
+    "itemAmount": 3,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -3567,7 +3447,7 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-06T13:31:08.684Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -3818,7 +3698,7 @@
     "itemMaterial": "S235 JR",
     "itemAssemblyName": "SERVOVORSTRECKER",
     "itemAssemblyNumber": "19.402.00.00.00-A",
-    "itemAmount": 1,
+    "itemAmount": 0,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -3826,7 +3706,7 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-03T14:10:52.147Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -3916,7 +3796,7 @@
     "itemMaterial": "S235 JR",
     "itemAssemblyName": "SERVOVORSTRECKER",
     "itemAssemblyNumber": "19.402.00.00.00-A",
-    "itemAmount": 2,
+    "itemAmount": 6,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -3924,7 +3804,7 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": "2016-04-14T16:23:38.748Z",
+    "itemLastDate": "2016-06-03T14:11:43.494Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -3939,7 +3819,7 @@
     "itemMaterial": "PUR",
     "itemAssemblyName": "SERVOVORSTRECKER",
     "itemAssemblyNumber": "19.402.00.00.00-A",
-    "itemAmount": 6,
+    "itemAmount": 7,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -3947,12 +3827,12 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": "2016-04-18T11:54:16.246Z",
+    "itemLastDate": "2016-06-03T14:11:15.357Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": {
-      "userName": "Juan Garcia",
-      "userId": "JG01"
+      "userId": "JG01",
+      "userName": "Juan Garcia"
     }
   },
   {
@@ -4055,7 +3935,7 @@
     "itemMaterial": "S235 JR",
     "itemAssemblyName": "SERVOVORSTRECKER",
     "itemAssemblyNumber": "19.402.00.00.00-A",
-    "itemAmount": 1,
+    "itemAmount": 3,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -4063,7 +3943,7 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-03T14:11:57.702Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -4078,7 +3958,7 @@
     "itemMaterial": "PUR",
     "itemAssemblyName": "SERVOVORSTRECKER",
     "itemAssemblyNumber": "19.402.00.00.00-A",
-    "itemAmount": 6,
+    "itemAmount": 7,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -4086,12 +3966,12 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": "2016-04-18T11:53:41.462Z",
+    "itemLastDate": "2016-06-03T14:11:24.880Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": {
-      "userName": "Juan Garcia",
-      "userId": "JG01"
+      "userId": "JG01",
+      "userName": "Juan Garcia"
     }
   },
   {
@@ -4104,7 +3984,7 @@
     "itemMaterial": "S235 JR",
     "itemAssemblyName": "HEIZUNG",
     "itemAssemblyNumber": "18.400.00.00.00-C",
-    "itemAmount": 3,
+    "itemAmount": 4,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -4112,12 +3992,12 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "HEIZUNG PALETTE",
-    "itemLastDate": "2016-06-02T12:09:42.740Z",
+    "itemLastDate": "2016-06-07T04:48:58.763Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": {
-      "userId": "LW01",
-      "userName": "Lars"
+      "userName": "Lars",
+      "userId": "LW01"
     }
   },
   {
@@ -4152,17 +4032,21 @@
     "itemMaterial": "S235 JR",
     "itemAssemblyName": "HEIZUNG",
     "itemAssemblyNumber": "18.400.00.00.00-C",
-    "itemAmount": 1,
+    "itemAmount": 3,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
     "itemSellPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-10T08:36:17.184Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
-    "itemLastPerson": ""
+    "itemLastPerson": {
+      "insertedAmount": 2,
+      "userId": "CN03",
+      "userName": "Christian Noel"
+    }
   },
   {
     
@@ -4174,17 +4058,21 @@
     "itemMaterial": "S235 JR",
     "itemAssemblyName": "HEIZUNG",
     "itemAssemblyNumber": "18.400.00.00.00-C",
-    "itemAmount": 1,
+    "itemAmount": 3,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
     "itemSellPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-10T08:35:46.413Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
-    "itemLastPerson": ""
+    "itemLastPerson": {
+      "insertedAmount": 2,
+      "userId": "CN03",
+      "userName": "Christian Noel"
+    }
   },
   {
     
@@ -4219,7 +4107,7 @@
     "itemMaterial": "1,4301",
     "itemAssemblyName": "HEIZUNG",
     "itemAssemblyNumber": "18.400.00.00.00-C",
-    "itemAmount": 30,
+    "itemAmount": 38,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -4227,12 +4115,12 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": "2016-06-02T12:55:10.558Z",
+    "itemLastDate": "2016-06-06T12:03:06.267Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": {
-      "userName": "Juan Garcia",
-      "userId": "JG01"
+      "userId": "JG01",
+      "userName": "Juan Garcia"
     }
   },
   {
@@ -4320,10 +4208,13 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-07T11:30:59.414Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
-    "itemLastPerson": ""
+    "itemLastPerson": {
+      "userId": "MH01",
+      "userName": "Martin"
+    }
   },
   {
     
@@ -4381,7 +4272,7 @@
     "itemMaterial": "GEWINDESTANGE M10",
     "itemAssemblyName": "HEIZUNG",
     "itemAssemblyNumber": "18.400.00.00.00-C",
-    "itemAmount": 4,
+    "itemAmount": 8,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -4389,10 +4280,13 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-07T13:11:01.501Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
-    "itemLastPerson": ""
+    "itemLastPerson": {
+      "userId": "MH01",
+      "userName": "Martin"
+    }
   },
   {
     
@@ -4404,7 +4298,7 @@
     "itemMaterial": "1,4305",
     "itemAssemblyName": "HEIZUNG",
     "itemAssemblyNumber": "18.400.00.00.00-C",
-    "itemAmount": 4,
+    "itemAmount": 8,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -4412,10 +4306,13 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-07T13:10:44.292Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
-    "itemLastPerson": ""
+    "itemLastPerson": {
+      "userId": "MH01",
+      "userName": "Martin"
+    }
   },
   {
     
@@ -4427,7 +4324,7 @@
     "itemMaterial": "S235JR + C",
     "itemAssemblyName": "HEIZUNG",
     "itemAssemblyNumber": "18.400.00.00.00-C",
-    "itemAmount": 1,
+    "itemAmount": 2,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -4435,10 +4332,13 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-07T12:13:58.719Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
-    "itemLastPerson": ""
+    "itemLastPerson": {
+      "userId": "MH01",
+      "userName": "Martin"
+    }
   },
   {
     
@@ -4982,7 +4882,7 @@
     "itemMaterial": "1,4301",
     "itemAssemblyName": "HEIZUNG",
     "itemAssemblyNumber": "18.400.00.00.00-C",
-    "itemAmount": 12,
+    "itemAmount": 0,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -4990,7 +4890,7 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-06T12:04:10.139Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -5184,7 +5084,7 @@
     "itemMaterial": "1,4301",
     "itemAssemblyName": "HEIZUNG",
     "itemAssemblyNumber": "18.400.00.00.00-C",
-    "itemAmount": 20,
+    "itemAmount": 61,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -5192,7 +5092,7 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-06T12:05:30.422Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -5253,7 +5153,7 @@
     "itemMaterial": "S235 JR",
     "itemAssemblyName": "HEIZUNG",
     "itemAssemblyNumber": "18.400.00.00.00-C",
-    "itemAmount": 2,
+    "itemAmount": 6,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -5261,10 +5161,13 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-06T11:10:41.213Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
-    "itemLastPerson": ""
+    "itemLastPerson": {
+      "userId": "LW01",
+      "userName": "Lars"
+    }
   },
   {
     
@@ -5321,7 +5224,7 @@
     "itemMaterial": "S235JR + C",
     "itemAssemblyName": "HEIZUNG",
     "itemAssemblyNumber": "18.400.00.00.00-C",
-    "itemAmount": 4,
+    "itemAmount": 8,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -5329,10 +5232,13 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-07T09:08:37.829Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
-    "itemLastPerson": ""
+    "itemLastPerson": {
+      "userId": "MH01",
+      "userName": "Martin"
+    }
   },
   {
     
@@ -5467,14 +5373,14 @@
     "itemMaterial": "AL",
     "itemAssemblyName": "ABFALLAUFWICKLUNG",
     "itemAssemblyNumber": "17.402.00.00.00-B",
-    "itemAmount": 0,
+    "itemAmount": 1,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
     "itemSellPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": "2016-04-14T18:00:47.739Z",
+    "itemLastDate": "2016-06-06T09:20:18.035Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -5537,7 +5443,7 @@
     "itemMaterial": "S235JR + C",
     "itemAssemblyName": "ABFALLAUFWICKLUNG",
     "itemAssemblyNumber": "17.402.00.00.00-B",
-    "itemAmount": 24,
+    "itemAmount": 25,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -5545,12 +5451,12 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": "2016-04-25T09:27:51.199Z",
+    "itemLastDate": "2016-06-06T09:19:34.023Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": {
-      "userId": "DK01",
-      "userName": "Darek"
+      "userName": "Darek",
+      "userId": "DK01"
     }
   },
   {
@@ -5563,7 +5469,7 @@
     "itemMaterial": "S235 JR",
     "itemAssemblyName": "ABFALLAUFWICKLUNG",
     "itemAssemblyNumber": "17.402.00.00.00-B",
-    "itemAmount": 1,
+    "itemAmount": 3,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -5571,7 +5477,7 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-06T09:20:38.342Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -5586,19 +5492,19 @@
     "itemMaterial": "C 45",
     "itemAssemblyName": "ABFALLAUFWICKLUNG",
     "itemAssemblyNumber": "17.402.00.00.00-B",
-    "itemAmount": 6,
+    "itemAmount": 4,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
     "itemSellPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": "2016-04-25T09:02:21.855Z",
+    "itemLastDate": "2016-06-06T09:21:17.639Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": {
-      "userId": "DK01",
-      "userName": "Darek"
+      "userName": "Darek",
+      "userId": "DK01"
     }
   },
   {
@@ -5633,14 +5539,14 @@
     "itemMaterial": "C 45",
     "itemAssemblyName": "ABFALLAUFWICKLUNG",
     "itemAssemblyNumber": "17.402.00.00.00-B",
-    "itemAmount": 2,
+    "itemAmount": 4,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
     "itemSellPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-06T09:21:38.021Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -5655,7 +5561,7 @@
     "itemMaterial": "S235 JR",
     "itemAssemblyName": "ABFALLAUFWICKLUNG",
     "itemAssemblyNumber": "17.402.00.00.00-B",
-    "itemAmount": 5,
+    "itemAmount": 3,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -5663,12 +5569,12 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": "2016-04-25T08:59:40.927Z",
+    "itemLastDate": "2016-06-06T09:21:00.060Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": {
-      "userId": "DK01",
-      "userName": "Darek"
+      "userName": "Darek",
+      "userId": "DK01"
     }
   },
   {
@@ -5681,17 +5587,20 @@
     "itemMaterial": "AL MG SI 1",
     "itemAssemblyName": "ABFALLAUFWICKLUNG",
     "itemAssemblyNumber": "17.402.00.00.00-B",
-    "itemAmount": 1,
+    "itemAmount": 3,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
     "itemSellPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-06T12:06:19.305Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
-    "itemLastPerson": ""
+    "itemLastPerson": {
+      "userName": "Henning",
+      "userId": "HH01"
+    }
   },
   {
     
@@ -5772,17 +5681,20 @@
     "itemMaterial": "AL MG SI 1",
     "itemAssemblyName": "ABFALLAUFWICKLUNG",
     "itemAssemblyNumber": "17.402.00.00.00-B",
-    "itemAmount": 1,
+    "itemAmount": 3,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
     "itemSellPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-06T12:07:11.898Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
-    "itemLastPerson": ""
+    "itemLastPerson": {
+      "userName": "Henning",
+      "userId": "HH01"
+    }
   },
   {
     
@@ -5794,17 +5706,21 @@
     "itemMaterial": "S235JR + C",
     "itemAssemblyName": "ABFALLAUFWICKLUNG",
     "itemAssemblyNumber": "17.402.00.00.00-B",
-    "itemAmount": 1,
+    "itemAmount": 3,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
     "itemSellPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-10T04:57:09.034Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
-    "itemLastPerson": ""
+    "itemLastPerson": {
+      "insertedAmount": 2,
+      "userName": "Lars",
+      "userId": "LW01"
+    }
   },
   {
     
@@ -5816,17 +5732,21 @@
     "itemMaterial": "S235JR + C",
     "itemAssemblyName": "ABFALLAUFWICKLUNG",
     "itemAssemblyNumber": "17.402.00.00.00-B",
-    "itemAmount": 1,
+    "itemAmount": 3,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
     "itemSellPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-10T07:07:15.197Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
-    "itemLastPerson": ""
+    "itemLastPerson": {
+      "insertedAmount": 2,
+      "userName": "Lars",
+      "userId": "LW01"
+    }
   },
   {
     
@@ -6101,7 +6021,7 @@
     "itemMaterial": "1,4301",
     "itemAssemblyName": "ABROLLBOCK",
     "itemAssemblyNumber": "16.402.00.00.00",
-    "itemAmount": 3,
+    "itemAmount": 7,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -6109,10 +6029,14 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": "2016-04-26T11:39:03.147Z",
+    "itemLastDate": "2016-06-09T04:29:30.536Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
-    "itemLastPerson": ""
+    "itemLastPerson": {
+      "insertedAmount": 4,
+      "userName": "Darek",
+      "userId": "DK01"
+    }
   },
   {
     
@@ -6173,7 +6097,7 @@
     "itemMaterial": "1,4305",
     "itemAssemblyName": "ABROLLBOCK",
     "itemAssemblyNumber": "16.402.00.00.00",
-    "itemAmount": 12,
+    "itemAmount": 16,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -6181,12 +6105,12 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": "2016-06-02T12:38:01.475Z",
+    "itemLastDate": "2016-06-06T08:42:54.938Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": {
-      "userName": "Juan Garcia",
-      "userId": "JG01"
+      "userId": "JG01",
+      "userName": "Juan Garcia"
     }
   },
   {
@@ -6383,7 +6307,7 @@
     "itemMaterial": "S235 JR",
     "itemAssemblyName": "ABROLLBOCK",
     "itemAssemblyNumber": "16.402.00.00.00",
-    "itemAmount": 1,
+    "itemAmount": 7,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -6391,7 +6315,7 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-06T08:43:27.285Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -6406,7 +6330,7 @@
     "itemMaterial": "S235 JR",
     "itemAssemblyName": "ABROLLBOCK",
     "itemAssemblyNumber": "16.402.00.00.00",
-    "itemAmount": 2,
+    "itemAmount": 14,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -6414,7 +6338,7 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-06T08:43:43.052Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -6452,7 +6376,7 @@
     "itemMaterial": "S235 JR",
     "itemAssemblyName": "ABROLLBOCK",
     "itemAssemblyNumber": "16.402.00.00.00",
-    "itemAmount": 2,
+    "itemAmount": 14,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -6460,7 +6384,7 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-06T08:44:00.942Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -6475,7 +6399,7 @@
     "itemMaterial": "S235JR + C",
     "itemAssemblyName": "ABROLLBOCK",
     "itemAssemblyNumber": "16.402.00.00.00",
-    "itemAmount": 6,
+    "itemAmount": 8,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -6483,12 +6407,12 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": "2016-06-02T07:02:07.045Z",
+    "itemLastDate": "2016-06-06T08:44:14.682Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": {
-      "userName": "Lars",
-      "userId": "LW01"
+      "userId": "LW01",
+      "userName": "Lars"
     }
   },
   {
@@ -6501,7 +6425,7 @@
     "itemMaterial": "S235 JR",
     "itemAssemblyName": "ABROLLBOCK",
     "itemAssemblyNumber": "16.402.00.00.00",
-    "itemAmount": 1,
+    "itemAmount": 7,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -6509,7 +6433,7 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-06T08:43:52.067Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -6550,7 +6474,7 @@
     "itemMaterial": "1,4301",
     "itemAssemblyName": "ABROLLBOCK",
     "itemAssemblyNumber": "16.402.00.00.00",
-    "itemAmount": 0,
+    "itemAmount": 3,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -6558,10 +6482,14 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": "2016-04-14T17:52:07.352Z",
+    "itemLastDate": "2016-06-08T12:30:24.950Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
-    "itemLastPerson": ""
+    "itemLastPerson": {
+      "insertedAmount": 3,
+      "userName": "Darek",
+      "userId": "DK01"
+    }
   },
   {
     
@@ -6644,7 +6572,7 @@
     "itemMaterial": "S235JR + C",
     "itemAssemblyName": "FOLIENTRANSPORT",
     "itemAssemblyNumber": "14.401.00.00.00",
-    "itemAmount": 12,
+    "itemAmount": 14,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -6652,12 +6580,12 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": "2016-05-13T12:03:01.387Z",
+    "itemLastDate": "2016-06-06T06:23:12.535Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": {
-      "userId": "LW01",
-      "userName": "Lars"
+      "userName": "Lars",
+      "userId": "LW01"
     }
   },
   {
@@ -6693,7 +6621,7 @@
     "itemMaterial": "S235 JR",
     "itemAssemblyName": "FOLIENTRANSPORT",
     "itemAssemblyNumber": "14.401.00.00.00",
-    "itemAmount": 119,
+    "itemAmount": 139,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -6701,12 +6629,12 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": "2016-04-26T14:06:38.270Z",
+    "itemLastDate": "2016-06-06T06:23:34.395Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": {
-      "userName": "Juan Garcia",
-      "userId": "JG01"
+      "userId": "JG01",
+      "userName": "Juan Garcia"
     }
   },
   {
@@ -6719,7 +6647,7 @@
     "itemMaterial": "S235 JR",
     "itemAssemblyName": "FOLIENTRANSPORT",
     "itemAssemblyNumber": "14.401.00.00.00",
-    "itemAmount": 10,
+    "itemAmount": 5,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -6727,7 +6655,7 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": "2016-04-25T08:31:08.339Z",
+    "itemLastDate": "2016-06-06T07:55:22.566Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -6904,7 +6832,7 @@
     "itemMaterial": "C 35 K",
     "itemAssemblyName": "FOLIENTRANSPORT",
     "itemAssemblyNumber": "14.401.00.00.00",
-    "itemAmount": 1,
+    "itemAmount": 3,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -6912,10 +6840,14 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-10T08:33:41.299Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
-    "itemLastPerson": ""
+    "itemLastPerson": {
+      "insertedAmount": 2,
+      "userId": "CN03",
+      "userName": "Christian Noel"
+    }
   },
   {
     
@@ -6927,7 +6859,7 @@
     "itemMaterial": "C 35 K",
     "itemAssemblyName": "FOLIENTRANSPORT",
     "itemAssemblyNumber": "14.401.00.00.00",
-    "itemAmount": 1,
+    "itemAmount": 3,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -6935,10 +6867,14 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-10T08:34:17.720Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
-    "itemLastPerson": ""
+    "itemLastPerson": {
+      "insertedAmount": 2,
+      "userId": "CN03",
+      "userName": "Christian Noel"
+    }
   },
   {
     
@@ -6994,17 +6930,21 @@
     "itemMaterial": "S235JR + C",
     "itemAssemblyName": "FOLIENTRANSPORT",
     "itemAssemblyNumber": "14.401.00.00.00",
-    "itemAmount": 2,
+    "itemAmount": 6,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
     "itemSellPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-10T08:34:58.472Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
-    "itemLastPerson": ""
+    "itemLastPerson": {
+      "insertedAmount": 4,
+      "userId": "CN03",
+      "userName": "Christian Noel"
+    }
   },
   {
     
@@ -7262,19 +7202,19 @@
     "itemMaterial": "9SMN28K",
     "itemAssemblyName": "FOLIENTRANSPORT",
     "itemAssemblyNumber": "14.401.00.00.00",
-    "itemAmount": 4,
+    "itemAmount": 6,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
     "itemSellPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": "2016-06-01T06:30:47.261Z",
+    "itemLastDate": "2016-06-06T07:56:19.487Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": {
-      "userId": "MH01",
-      "userName": "Martin"
+      "userName": "Martin",
+      "userId": "MH01"
     }
   },
   {
@@ -7287,7 +7227,7 @@
     "itemMaterial": "S235 JR",
     "itemAssemblyName": "FOLIENTRANSPORT",
     "itemAssemblyNumber": "14.401.00.00.00",
-    "itemAmount": 8,
+    "itemAmount": 9,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -7295,7 +7235,7 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": "2016-04-25T08:30:28.721Z",
+    "itemLastDate": "2016-06-06T07:56:43.240Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -7310,7 +7250,7 @@
     "itemMaterial": "1,4301",
     "itemAssemblyName": "FOLIENTRANSPORT",
     "itemAssemblyNumber": "14.401.00.00.00",
-    "itemAmount": 1,
+    "itemAmount": 3,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -7318,10 +7258,14 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-09T04:48:10.747Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
-    "itemLastPerson": ""
+    "itemLastPerson": {
+      "insertedAmount": 2,
+      "userName": "Darek",
+      "userId": "DK01"
+    }
   },
   {
     
@@ -7407,17 +7351,20 @@
     "itemMaterial": "MESSING",
     "itemAssemblyName": "FOLIENTRANSPORT",
     "itemAssemblyNumber": "14.401.00.00.00",
-    "itemAmount": 2,
+    "itemAmount": 6,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
     "itemSellPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-06T11:15:10.648Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
-    "itemLastPerson": ""
+    "itemLastPerson": {
+      "userId": "MH01",
+      "userName": "Martin"
+    }
   },
   {
     
@@ -7481,14 +7428,14 @@
     "itemMaterial": "S235JR + C",
     "itemAssemblyName": "FOLIENTRANSPORT",
     "itemAssemblyNumber": "14.401.00.00.00",
-    "itemAmount": 6,
+    "itemAmount": 4,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
     "itemSellPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": "2016-04-18T10:06:57.639Z",
+    "itemLastDate": "2016-06-06T07:57:30.654Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -7526,7 +7473,7 @@
     "itemMaterial": "1,4301",
     "itemAssemblyName": "FOLIENTRANSPORT",
     "itemAssemblyNumber": "14.401.00.00.00",
-    "itemAmount": 2,
+    "itemAmount": 6,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -7534,7 +7481,7 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-06T07:57:51.607Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -7549,7 +7496,7 @@
     "itemMaterial": "1,4301",
     "itemAssemblyName": "FOLIENTRANSPORT",
     "itemAssemblyNumber": "14.401.00.00.00",
-    "itemAmount": 2,
+    "itemAmount": 8,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -7557,7 +7504,7 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-06T07:58:20.789Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -7572,7 +7519,7 @@
     "itemMaterial": "1,4301",
     "itemAssemblyName": "FOLIENTRANSPORT",
     "itemAssemblyNumber": "14.401.00.00.00",
-    "itemAmount": 2,
+    "itemAmount": 8,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -7580,7 +7527,7 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-06T07:58:31.992Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -7595,7 +7542,7 @@
     "itemMaterial": "1,4301",
     "itemAssemblyName": "FOLIENTRANSPORT",
     "itemAssemblyNumber": "14.401.00.00.00",
-    "itemAmount": 2,
+    "itemAmount": 6,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -7603,7 +7550,7 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-06T07:58:50.017Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -7618,14 +7565,14 @@
     "itemMaterial": "S235 JR DIN 1017",
     "itemAssemblyName": "FOLIENTRANSPORT",
     "itemAssemblyNumber": "14.401.00.00.00",
-    "itemAmount": 2,
+    "itemAmount": 6,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
     "itemSellPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-06T07:59:19.378Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -7663,19 +7610,19 @@
     "itemMaterial": "POM",
     "itemAssemblyName": "FOLIENTRANSPORT",
     "itemAssemblyNumber": "14.401.00.00.00",
-    "itemAmount": 2,
+    "itemAmount": 3,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
     "itemSellPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": "2016-06-02T12:28:22.100Z",
+    "itemLastDate": "2016-06-06T08:00:24.747Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": {
-      "userName": "Juan Garcia",
-      "userId": "JG01"
+      "userId": "JG01",
+      "userName": "Juan Garcia"
     }
   },
   {
@@ -7714,14 +7661,14 @@
     "itemMaterial": "S235 JR DIN 1017",
     "itemAssemblyName": "FOLIENTRANSPORT",
     "itemAssemblyNumber": "14.401.00.00.00",
-    "itemAmount": 1,
+    "itemAmount": 2,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
     "itemSellPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-06T07:59:48.022Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -7736,14 +7683,14 @@
     "itemMaterial": "S235 JR DIN 1017",
     "itemAssemblyName": "FOLIENTRANSPORT",
     "itemAssemblyNumber": "14.401.00.00.00",
-    "itemAmount": 1,
+    "itemAmount": 2,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
     "itemSellPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-06T07:59:58.399Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -7832,7 +7779,7 @@
     "itemMaterial": "S235JR + C",
     "itemAssemblyName": "FOLIENTRANSPORT",
     "itemAssemblyNumber": "14.401.00.00.00",
-    "itemAmount": 1,
+    "itemAmount": 3,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -7840,7 +7787,7 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-06T08:00:54.551Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -7855,14 +7802,14 @@
     "itemMaterial": "S235 JR",
     "itemAssemblyName": "FOLIENTRANSPORT",
     "itemAssemblyNumber": "14.401.00.00.00",
-    "itemAmount": 2,
+    "itemAmount": 6,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
     "itemSellPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-06T07:59:29.049Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -8080,7 +8027,7 @@
     "itemMaterial": "POM",
     "itemAssemblyName": "FOLIENTRANSPORT",
     "itemAssemblyNumber": "14.401.00.00.00",
-    "itemAmount": 2,
+    "itemAmount": 4,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -8088,7 +8035,7 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": "2016-04-25T14:13:25.330Z",
+    "itemLastDate": "2016-06-06T08:01:46.963Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -8148,7 +8095,7 @@
     "itemMaterial": "ISO 4032 - M16",
     "itemAssemblyName": "FOLIENTRANSPORT",
     "itemAssemblyNumber": "14.401.00.00.00",
-    "itemAmount": 2,
+    "itemAmount": 3,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -8156,12 +8103,12 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": "2016-06-02T12:46:16.492Z",
+    "itemLastDate": "2016-06-06T08:01:30.205Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": {
-      "userName": "Juan Garcia",
-      "userId": "JG01"
+      "userId": "JG01",
+      "userName": "Juan Garcia"
     }
   },
   {
@@ -8242,14 +8189,14 @@
     "itemMaterial": "S235 JR DIN 1017",
     "itemAssemblyName": "FOLIENTRANSPORT",
     "itemAssemblyNumber": "14.401.00.00.00",
-    "itemAmount": 2,
+    "itemAmount": 6,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
     "itemSellPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-06T07:59:38.097Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -8518,17 +8465,20 @@
     "itemMaterial": "S235 JR",
     "itemAssemblyName": "FOLIENTRANSPORT",
     "itemAssemblyNumber": "14.401.00.00.00",
-    "itemAmount": 2,
+    "itemAmount": 6,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
     "itemSellPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-03T10:12:22.047Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
-    "itemLastPerson": ""
+    "itemLastPerson": {
+      "userId": "LW01",
+      "userName": "Lars"
+    }
   },
   {
     
@@ -8613,7 +8563,7 @@
     "itemMaterial": "S235 JR",
     "itemAssemblyName": "FORMSTATION MIT HEBELANTRIEB",
     "itemAssemblyNumber": "11.401.00.00.00-D",
-    "itemAmount": 2,
+    "itemAmount": 6,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -8621,7 +8571,7 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": "2016-04-13T15:16:10.634Z",
+    "itemLastDate": "2016-06-06T13:55:19.850Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -8662,7 +8612,7 @@
     "itemMaterial": "S235 JR",
     "itemAssemblyName": "FORMSTATION MIT HEBELANTRIEB",
     "itemAssemblyNumber": "11.401.00.00.00-D",
-    "itemAmount": 2,
+    "itemAmount": 6,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -8670,7 +8620,7 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-06T13:55:30.689Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -8780,7 +8730,7 @@
     "itemMaterial": "E295",
     "itemAssemblyName": "FORMSTATION MIT HEBELANTRIEB",
     "itemAssemblyNumber": "11.401.00.00.00-D",
-    "itemAmount": 6,
+    "itemAmount": 5,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -8788,7 +8738,7 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": "2016-04-13T15:19:56.481Z",
+    "itemLastDate": "2016-06-06T13:55:46.195Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -8849,19 +8799,20 @@
     "itemMaterial": "C 45 H6",
     "itemAssemblyName": "FORMSTATION MIT HEBELANTRIEB",
     "itemAssemblyNumber": "11.401.00.00.00-D",
-    "itemAmount": 4,
+    "itemAmount": 18,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
     "itemSellPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": "2016-06-01T06:39:10.326Z",
+    "itemLastDate": "2016-06-10T12:45:49.393Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": {
-      "userId": "CN03",
-      "userName": "Christian Noel"
+      "userName": "Martin",
+      "userId": "MH01",
+      "insertedAmount": 0
     }
   },
   {
@@ -9120,14 +9071,14 @@
     "itemMaterial": "1,2379",
     "itemAssemblyName": "FORMSTATION MIT HEBELANTRIEB",
     "itemAssemblyNumber": "11.401.00.00.00-D",
-    "itemAmount": 1,
+    "itemAmount": 3,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
     "itemSellPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-07T13:14:09.364Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -9165,7 +9116,7 @@
     "itemMaterial": "S235JR + C",
     "itemAssemblyName": "FORMSTATION MIT HEBELANTRIEB",
     "itemAssemblyNumber": "11.401.00.00.00-D",
-    "itemAmount": 0,
+    "itemAmount": 1,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -9173,7 +9124,7 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": "2016-04-13T16:14:34.329Z",
+    "itemLastDate": "2016-06-07T13:13:39.284Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -9188,7 +9139,7 @@
     "itemMaterial": "S235 JR",
     "itemAssemblyName": "FORMSTATION MIT HEBELANTRIEB",
     "itemAssemblyNumber": "11.401.00.00.00-D",
-    "itemAmount": 8,
+    "itemAmount": 4,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -9196,7 +9147,7 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": "2016-04-13T15:32:59.255Z",
+    "itemLastDate": "2016-06-07T13:13:50.389Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -9234,7 +9185,7 @@
     "itemMaterial": "S355J2G3",
     "itemAssemblyName": "FORMSTATION MIT HEBELANTRIEB",
     "itemAssemblyNumber": "11.401.00.00.00-D",
-    "itemAmount": 4,
+    "itemAmount": 6,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -9242,12 +9193,12 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": "2016-04-18T11:38:27.267Z",
+    "itemLastDate": "2016-06-07T13:11:22.046Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": {
-      "userName": "Juan Garcia",
-      "userId": "JG01"
+      "userId": "JG01",
+      "userName": "Juan Garcia"
     }
   },
   {
@@ -9260,7 +9211,7 @@
     "itemMaterial": "S235 JR",
     "itemAssemblyName": "FORMSTATION MIT HEBELANTRIEB",
     "itemAssemblyNumber": "11.401.00.00.00-D",
-    "itemAmount": 5,
+    "itemAmount": 3,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -9268,12 +9219,12 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": "2016-04-14T07:46:43.010Z",
+    "itemLastDate": "2016-06-07T13:11:41.232Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": {
-      "userId": "JG01",
-      "userName": "Juan Garcia"
+      "userName": "Juan Garcia",
+      "userId": "JG01"
     }
   },
   {
@@ -9286,7 +9237,7 @@
     "itemMaterial": "S235 JR",
     "itemAssemblyName": "FORMSTATION MIT HEBELANTRIEB",
     "itemAssemblyNumber": "11.401.00.00.00-D",
-    "itemAmount": 1,
+    "itemAmount": 3,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -9294,7 +9245,7 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-07T13:12:00.954Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -9309,7 +9260,7 @@
     "itemMaterial": "S235 JR",
     "itemAssemblyName": "FORMSTATION MIT HEBELANTRIEB",
     "itemAssemblyNumber": "11.401.00.00.00-D",
-    "itemAmount": 1,
+    "itemAmount": 3,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -9317,7 +9268,7 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-07T13:12:35.340Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -9332,7 +9283,7 @@
     "itemMaterial": "S235 JR",
     "itemAssemblyName": "FORMSTATION MIT HEBELANTRIEB",
     "itemAssemblyNumber": "11.401.00.00.00-D",
-    "itemAmount": 2,
+    "itemAmount": 3,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -9340,7 +9291,7 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-07T13:12:21.329Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -9355,7 +9306,7 @@
     "itemMaterial": "S235 JR",
     "itemAssemblyName": "FORMSTATION MIT HEBELANTRIEB",
     "itemAssemblyNumber": "11.401.00.00.00-D",
-    "itemAmount": 1,
+    "itemAmount": 3,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -9363,7 +9314,7 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-07T13:12:55.170Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -9378,7 +9329,7 @@
     "itemMaterial": "S235 JR",
     "itemAssemblyName": "FORMSTATION MIT HEBELANTRIEB",
     "itemAssemblyNumber": "11.401.00.00.00-D",
-    "itemAmount": 1,
+    "itemAmount": 3,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -9386,7 +9337,7 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-07T13:13:11.002Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -9471,14 +9422,14 @@
     "itemMaterial": "C 45 H6",
     "itemAssemblyName": "FORMSTATION MIT HEBELANTRIEB",
     "itemAssemblyNumber": "11.401.00.00.00-D",
-    "itemAmount": 6,
+    "itemAmount": 4,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
     "itemSellPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": "2016-04-13T15:41:17.982Z",
+    "itemLastDate": "2016-06-07T13:10:42.757Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -9640,7 +9591,7 @@
     "itemMaterial": "S235 JR",
     "itemAssemblyName": "FORMSTATION MIT HEBELANTRIEB",
     "itemAssemblyNumber": "11.401.00.00.00-D",
-    "itemAmount": 1,
+    "itemAmount": 3,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -9648,7 +9599,7 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-07T13:12:45.044Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -9753,7 +9704,7 @@
     "itemMaterial": "S235 JR",
     "itemAssemblyName": "FORMSTATION MIT HEBELANTRIEB",
     "itemAssemblyNumber": "11.401.00.00.00-D",
-    "itemAmount": 2,
+    "itemAmount": 3,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -9761,7 +9712,7 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": "2016-04-13T15:49:01.461Z",
+    "itemLastDate": "2016-06-07T13:09:51.317Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -10033,7 +9984,7 @@
     "itemMaterial": "S235 JR",
     "itemAssemblyName": "FORMSTATION MIT HEBELANTRIEB",
     "itemAssemblyNumber": "11.401.00.00.00-D",
-    "itemAmount": 1,
+    "itemAmount": 3,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -10041,7 +9992,7 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-07T13:13:02.526Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -10274,7 +10225,7 @@
     "itemMaterial": "S235 JR",
     "itemAssemblyName": "OBERJOCHVERSTELLUNG",
     "itemAssemblyNumber": "11.300.02.00.00-A",
-    "itemAmount": 2,
+    "itemAmount": 6,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -10282,12 +10233,12 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": "2016-04-18T05:34:28.751Z",
+    "itemLastDate": "2016-06-03T14:05:20.979Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": {
-      "userName": "Juan Garcia",
-      "userId": "JG01"
+      "userId": "JG01",
+      "userName": "Juan Garcia"
     }
   },
   {
@@ -10325,7 +10276,7 @@
     "itemMaterial": "S235 JR",
     "itemAssemblyName": "OBERJOCHVERSTELLUNG",
     "itemAssemblyNumber": "11.300.02.00.00-A",
-    "itemAmount": 2,
+    "itemAmount": 6,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -10333,7 +10284,7 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": "2016-04-12T13:17:44.316Z",
+    "itemLastDate": "2016-06-03T14:05:27.767Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -10763,7 +10714,7 @@
     "itemMaterial": "S235 JR",
     "itemAssemblyName": "OBERJOCHVERSTELLUNG",
     "itemAssemblyNumber": "11.300.02.00.00-A",
-    "itemAmount": 4,
+    "itemAmount": 6,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -10771,7 +10722,7 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": "2016-04-12T15:26:08.327Z",
+    "itemLastDate": "2016-06-03T14:06:26.687Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -10899,17 +10850,21 @@
     "itemMaterial": "S235JR + C",
     "itemAssemblyName": "GRUNDRAHMEN",
     "itemAssemblyNumber": "10.401.00.00.00-C",
-    "itemAmount": 1,
+    "itemAmount": 3,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
     "itemSellPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": "2016-05-02T18:46:17.859Z",
+    "itemLastDate": "2016-06-10T08:25:06.233Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
-    "itemLastPerson": ""
+    "itemLastPerson": {
+      "insertedAmount": 2,
+      "userId": "CN03",
+      "userName": "Christian Noel"
+    }
   },
   {
     
@@ -10921,17 +10876,21 @@
     "itemMaterial": "S235JR + C",
     "itemAssemblyName": "GRUNDRAHMEN",
     "itemAssemblyNumber": "10.401.00.00.00-C",
-    "itemAmount": 1,
+    "itemAmount": 3,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
     "itemSellPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": "2016-05-02T18:46:26.257Z",
+    "itemLastDate": "2016-06-10T08:25:26.929Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
-    "itemLastPerson": ""
+    "itemLastPerson": {
+      "insertedAmount": 2,
+      "userId": "CN03",
+      "userName": "Christian Noel"
+    }
   },
   {
     
@@ -10943,17 +10902,21 @@
     "itemMaterial": "S235JR + C",
     "itemAssemblyName": "GRUNDRAHMEN",
     "itemAssemblyNumber": "10.401.00.00.00-C",
-    "itemAmount": 2,
+    "itemAmount": 6,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
     "itemSellPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": "2016-05-02T18:46:51.869Z",
+    "itemLastDate": "2016-06-09T08:58:13.205Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
-    "itemLastPerson": ""
+    "itemLastPerson": {
+      "insertedAmount": 4,
+      "userName": "Lars",
+      "userId": "LW01"
+    }
   },
   {
     
@@ -10965,17 +10928,21 @@
     "itemMaterial": "S235JR + C",
     "itemAssemblyName": "GRUNDRAHMEN",
     "itemAssemblyNumber": "10.401.00.00.00-C",
-    "itemAmount": 2,
+    "itemAmount": 6,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
     "itemSellPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": "2016-05-02T18:47:57.688Z",
+    "itemLastDate": "2016-06-09T08:28:13.623Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
-    "itemLastPerson": ""
+    "itemLastPerson": {
+      "insertedAmount": 4,
+      "userName": "Lars",
+      "userId": "LW01"
+    }
   },
   {
     
@@ -11013,17 +10980,21 @@
     "itemMaterial": "S235JR + C",
     "itemAssemblyName": "GRUNDRAHMEN",
     "itemAssemblyNumber": "10.401.00.00.00-C",
-    "itemAmount": 1,
+    "itemAmount": 3,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
     "itemSellPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": "2016-05-02T18:48:25.325Z",
+    "itemLastDate": "2016-06-10T08:27:10.857Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
-    "itemLastPerson": ""
+    "itemLastPerson": {
+      "insertedAmount": 2,
+      "userId": "CN03",
+      "userName": "Christian Noel"
+    }
   },
   {
     
@@ -11035,17 +11006,21 @@
     "itemMaterial": "S235JR + C",
     "itemAssemblyName": "GRUNDRAHMEN",
     "itemAssemblyNumber": "10.401.00.00.00-C",
-    "itemAmount": 1,
+    "itemAmount": 3,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
     "itemSellPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": "2016-05-02T18:48:35.895Z",
+    "itemLastDate": "2016-06-10T08:28:06.156Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
-    "itemLastPerson": ""
+    "itemLastPerson": {
+      "insertedAmount": 2,
+      "userId": "CN03",
+      "userName": "Christian Noel"
+    }
   },
   {
     
@@ -11232,17 +11207,20 @@
     "itemMaterial": "S235JR + C",
     "itemAssemblyName": "GRUNDRAHMEN",
     "itemAssemblyNumber": "10.401.00.00.00-C",
-    "itemAmount": 1,
+    "itemAmount": 3,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
     "itemSellPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-06T12:05:05.852Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
-    "itemLastPerson": ""
+    "itemLastPerson": {
+      "userId": "LW01",
+      "userName": "Lars"
+    }
   },
   {
     
@@ -11254,19 +11232,19 @@
     "itemMaterial": "S235JR + C",
     "itemAssemblyName": "GRUNDRAHMEN",
     "itemAssemblyNumber": "10.401.00.00.00-C",
-    "itemAmount": 4,
+    "itemAmount": 5,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
     "itemSellPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": "2016-04-25T07:59:29.449Z",
+    "itemLastDate": "2016-06-03T14:08:12.828Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": {
-      "userId": "LW01",
-      "userName": "Lars"
+      "userName": "Lars",
+      "userId": "LW01"
     }
   },
   {
@@ -11279,17 +11257,21 @@
     "itemMaterial": "S235JR + C",
     "itemAssemblyName": "GRUNDRAHMEN",
     "itemAssemblyNumber": "10.401.00.00.00-C",
-    "itemAmount": 1,
+    "itemAmount": 3,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
     "itemSellPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-10T08:22:37.144Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
-    "itemLastPerson": ""
+    "itemLastPerson": {
+      "insertedAmount": 2,
+      "userId": "CN03",
+      "userName": "Christian Noel"
+    }
   },
   {
     
@@ -11301,17 +11283,20 @@
     "itemMaterial": "S235JR + C",
     "itemAssemblyName": "GRUNDRAHMEN",
     "itemAssemblyNumber": "10.401.00.00.00-C",
-    "itemAmount": 1,
+    "itemAmount": 3,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
     "itemSellPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-06T11:11:21.249Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
-    "itemLastPerson": ""
+    "itemLastPerson": {
+      "userId": "LW01",
+      "userName": "Lars"
+    }
   },
   {
     
@@ -11349,7 +11334,7 @@
     "itemMaterial": "S235 JR",
     "itemAssemblyName": "GRUNDRAHMEN",
     "itemAssemblyNumber": "10.401.00.00.00-C",
-    "itemAmount": 8,
+    "itemAmount": 12,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -11357,12 +11342,12 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": "2016-04-21T13:59:22.044Z",
+    "itemLastDate": "2016-06-03T12:33:36.122Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": {
-      "userName": "Juan Garcia",
-      "userId": "JG01"
+      "userName": "Christian Noel",
+      "userId": "CN03"
     }
   },
   {
@@ -11401,17 +11386,21 @@
     "itemMaterial": "S235JR + C",
     "itemAssemblyName": "GRUNDRAHMEN",
     "itemAssemblyNumber": "10.401.00.00.00-C",
-    "itemAmount": 1,
+    "itemAmount": 3,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
     "itemSellPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-10T08:22:09.368Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
-    "itemLastPerson": ""
+    "itemLastPerson": {
+      "insertedAmount": 2,
+      "userId": "CN03",
+      "userName": "Christian Noel"
+    }
   },
   {
     
@@ -11448,7 +11437,7 @@
     "itemMaterial": "GEWINDESTANGE M12 - 10.9",
     "itemAssemblyName": "GRUNDRAHMEN",
     "itemAssemblyNumber": "10.401.00.00.00-C",
-    "itemAmount": 6,
+    "itemAmount": 0,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -11456,7 +11445,7 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-03T14:07:44.242Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -11497,17 +11486,20 @@
     "itemMaterial": "S235 JR",
     "itemAssemblyName": "GRUNDRAHMEN",
     "itemAssemblyNumber": "10.401.00.00.00-C",
-    "itemAmount": 2,
+    "itemAmount": 6,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
     "itemSellPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-06T11:11:02.940Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
-    "itemLastPerson": ""
+    "itemLastPerson": {
+      "userId": "LW01",
+      "userName": "Lars"
+    }
   },
   {
     
@@ -11545,7 +11537,7 @@
     "itemMaterial": "S235JR + C",
     "itemAssemblyName": "GRUNDRAHMEN",
     "itemAssemblyNumber": "10.401.00.00.00-C",
-    "itemAmount": 2,
+    "itemAmount": 6,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -11553,7 +11545,7 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-10T09:09:43.412Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -12038,7 +12030,7 @@
     "itemMaterial": "S235 JR",
     "itemAssemblyName": "ABFALLAUFWICKLUNG",
     "itemAssemblyNumber": "17.402.00.00.00-B",
-    "itemAmount": 2,
+    "itemAmount": 4,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -12046,7 +12038,7 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": "2016-04-14T18:02:10.709Z",
+    "itemLastDate": "2016-06-06T09:21:55.022Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "itemLastPerson": ""
@@ -12107,7 +12099,7 @@
     "itemMaterial": "",
     "itemAssemblyName": "HEIZUNG",
     "itemAssemblyNumber": "18.400.00.00.00-C",
-    "itemAmount": 8,
+    "itemAmount": 10,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -12115,10 +12107,15 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": "2016-04-12T13:40:57.800Z",
+    "itemLastDate": "2016-06-10T08:21:31.991Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
-    "__v": 0
+    "__v": 0,
+    "itemLastPerson": {
+      "insertedAmount": 2,
+      "userId": "CN03",
+      "userName": "Christian Noel"
+    }
   },
   {
     
@@ -12762,7 +12759,7 @@
     "itemCodeType": "QR_CODE",
     "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
     "itemAssemblyName": "",
-    "itemAmount": 100,
+    "itemAmount": 6,
     "itemUnits": "",
     "itemProvider": "SCHRAUBEN KÖHLER",
     "itemBrand": "",
@@ -12774,7 +12771,13 @@
     "itemType": "SCHRAUBE",
     "itemAssemblyNumber": "",
     "itemMaterial": "",
-    "__v": 0
+    "__v": 0,
+    "itemLastDate": "2016-06-08T05:46:28.861Z",
+    "itemLastPerson": {
+      "userId": "JG01",
+      "userName": "Juan Garcia",
+      "insertedAmount": 6
+    }
   },
   {
     
@@ -12802,7 +12805,7 @@
     "itemCodeType": "QR_CODE",
     "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
     "itemAssemblyName": "",
-    "itemAmount": 100,
+    "itemAmount": 25,
     "itemUnits": "",
     "itemProvider": "SCHRAUBEN KÖHLER",
     "itemBrand": "",
@@ -12814,7 +12817,8 @@
     "itemType": "SCHRAUBE",
     "itemAssemblyNumber": "",
     "itemMaterial": "",
-    "__v": 0
+    "__v": 0,
+    "itemLastDate": "2016-06-08T05:46:41.976Z"
   },
   {
     
@@ -13607,7 +13611,7 @@
     "itemCodeType": "QR_CODE",
     "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
     "itemAssemblyName": "",
-    "itemAmount": 100,
+    "itemAmount": 50,
     "itemUnits": "",
     "itemProvider": "SCHRAUBEN KÖHLER",
     "itemBrand": "",
@@ -13619,7 +13623,13 @@
     "itemType": "SCHRAUBE",
     "itemAssemblyNumber": "",
     "itemMaterial": "",
-    "__v": 0
+    "__v": 0,
+    "itemLastDate": "2016-06-10T05:20:42.065Z",
+    "itemLastPerson": {
+      "userId": "JG01",
+      "userName": "Juan Garcia",
+      "insertedAmount": 50
+    }
   },
   {
     
@@ -14599,7 +14609,13 @@
     "itemType": "SCHRAUBE",
     "itemAssemblyNumber": "",
     "itemMaterial": "",
-    "__v": 0
+    "__v": 0,
+    "itemLastDate": "2016-06-08T06:06:40.845Z",
+    "itemLastPerson": {
+      "insertedAmount": 0,
+      "userName": "Juan Garcia",
+      "userId": "JG01"
+    }
   },
   {
     
@@ -14886,85 +14902,23 @@
     "itemCode": "4012802361827",
     "itemCodeType": "EAN_13",
     "itemName": "6001-C-2HRS",
-    "itemAmount": 10,
+    "itemAmount": 9,
     "itemProvider": "INA FAG",
     "__v": 0,
-    "itemLastDate": "2016-06-03T06:04:12.763Z",
+    "itemLastDate": "2016-06-10T05:46:27.893Z",
     "companyId": "RMB01",
     "itemLocation": "LAGER-BOX",
-    "itemType": "LAGER"
-  },
-  {
-    
-    "itemCode": "AN10-01",
-    "itemCodeType": "",
-    "itemName": "SCHALLDÄMPFER",
-    "itemType": "",
-    "itemProvider": "SMC",
-    "itemMaterial": "",
-    "itemAssemblyName": "STAPELWAGEN AJOVER",
-    "itemAssemblyNumber": "23.405.00.00.00-A",
-    "itemAmount": 2,
-    "itemUnits": "",
-    "companyId": "RMB01",
-    "itemBrand": "",
-    "itemSellPrice": null,
-    "itemCategorie": "",
-    "itemLocation": "",
-    "itemLastDate": null,
-    "itemRawMaterialProfil": "",
-    "itemRawMaterialDimensions": "",
-    "__v": 0
+    "itemType": "LAGER",
+    "itemLastPerson": {
+      "userId": "DN04",
+      "userName": "Daniel"
+    }
   },
   {
     
     "itemCode": "D-M9PL",
     "itemCodeType": "",
     "itemName": "ELEKTRONISCHER SIGNALGEBER",
-    "itemType": "",
-    "itemProvider": "SMC",
-    "itemMaterial": "",
-    "itemAssemblyName": "STAPELWAGEN AJOVER",
-    "itemAssemblyNumber": "23.405.00.00.00-A",
-    "itemAmount": 2,
-    "itemUnits": "",
-    "companyId": "RMB01",
-    "itemBrand": "",
-    "itemSellPrice": null,
-    "itemCategorie": "",
-    "itemLocation": "",
-    "itemLastDate": null,
-    "itemRawMaterialProfil": "",
-    "itemRawMaterialDimensions": "",
-    "__v": 0
-  },
-  {
-    
-    "itemCode": "KQ2S10-01AS",
-    "itemCodeType": "",
-    "itemName": "STECKVERSCHRAUBUNG MIT INNENSECHSKANT",
-    "itemType": "",
-    "itemProvider": "SMC",
-    "itemMaterial": "",
-    "itemAssemblyName": "STAPELWAGEN AJOVER",
-    "itemAssemblyNumber": "23.405.00.00.00-A",
-    "itemAmount": 1,
-    "itemUnits": "",
-    "companyId": "RMB01",
-    "itemBrand": "",
-    "itemSellPrice": null,
-    "itemCategorie": "",
-    "itemLocation": "",
-    "itemLastDate": null,
-    "itemRawMaterialProfil": "",
-    "itemRawMaterialDimensions": "",
-    "__v": 0
-  },
-  {
-    
-    "itemCode": "KQ2T06-00A",
-    "itemCodeType": "",
-    "itemName": "STECKVERBINDUNG",
     "itemType": "",
     "itemProvider": "SMC",
     "itemMaterial": "",
@@ -15050,72 +15004,6 @@
   },
   {
     
-    "itemCode": "KQ2L06-01AS",
-    "itemCodeType": "",
-    "itemName": "WINKEL-STECKVERBINDUNG",
-    "itemType": "",
-    "itemProvider": "SMC",
-    "itemMaterial": "",
-    "itemAssemblyName": "HEIZUNG",
-    "itemAssemblyNumber": "18.400.00.00.00-C",
-    "itemAmount": 14,
-    "itemUnits": "",
-    "companyId": "RMB01",
-    "itemBrand": "",
-    "itemSellPrice": null,
-    "itemCategorie": "",
-    "itemLocation": "",
-    "itemLastDate": null,
-    "itemRawMaterialProfil": "",
-    "itemRawMaterialDimensions": "",
-    "__v": 0
-  },
-  {
-    
-    "itemCode": "KQ2S06-01AS",
-    "itemCodeType": "",
-    "itemName": "STECKVERSCHRAUBUNG MIT INNENSECHSKANT",
-    "itemType": "",
-    "itemProvider": "SMC",
-    "itemMaterial": "",
-    "itemAssemblyName": "HEIZUNG",
-    "itemAssemblyNumber": "18.400.00.00.00-C",
-    "itemAmount": 2,
-    "itemUnits": "",
-    "companyId": "RMB01",
-    "itemBrand": "",
-    "itemSellPrice": null,
-    "itemCategorie": "",
-    "itemLocation": "",
-    "itemLastDate": null,
-    "itemRawMaterialProfil": "",
-    "itemRawMaterialDimensions": "",
-    "__v": 0
-  },
-  {
-    
-    "itemCode": "KQ2L06-01AS",
-    "itemCodeType": "",
-    "itemName": "WINKEL-STECKVERBINDUNG",
-    "itemType": "",
-    "itemProvider": "SMC",
-    "itemMaterial": "",
-    "itemAssemblyName": "STAPELWAGEN AJOVER",
-    "itemAssemblyNumber": "23.405.00.00.00-A",
-    "itemAmount": 8,
-    "itemUnits": "",
-    "companyId": "RMB01",
-    "itemBrand": "",
-    "itemSellPrice": null,
-    "itemCategorie": "",
-    "itemLocation": "",
-    "itemLastDate": null,
-    "itemRawMaterialProfil": "",
-    "itemRawMaterialDimensions": "",
-    "__v": 0
-  },
-  {
-    
     "itemCode": "AS3201F-03-10SA",
     "itemCodeType": "",
     "itemName": "DROSSELRÜCKSCHLAGVENTIL, EINSCHRAUBBAR",
@@ -15182,75 +15070,9 @@
   },
   {
     
-    "itemCode": "KQ2L06-02AS",
-    "itemCodeType": "",
-    "itemName": "WINKEL-STECKVERBINDUNG",
-    "itemType": "",
-    "itemProvider": "SMC",
-    "itemMaterial": "",
-    "itemAssemblyName": "ABFALLAUFWICKLUNG",
-    "itemAssemblyNumber": "17.402.00.00.00-B",
-    "itemAmount": 1,
-    "itemUnits": "",
-    "companyId": "RMB01",
-    "itemBrand": "",
-    "itemSellPrice": null,
-    "itemCategorie": "",
-    "itemLocation": "",
-    "itemLastDate": null,
-    "itemRawMaterialProfil": "",
-    "itemRawMaterialDimensions": "",
-    "__v": 0
-  },
-  {
-    
     "itemCode": "KQ2L06-03AS",
     "itemCodeType": "",
     "itemName": "WINKELSTECKVERSCHRAUBUNG",
-    "itemType": "",
-    "itemProvider": "SMC",
-    "itemMaterial": "",
-    "itemAssemblyName": "ABFALLAUFWICKLUNG",
-    "itemAssemblyNumber": "17.402.00.00.00-B",
-    "itemAmount": 1,
-    "itemUnits": "",
-    "companyId": "RMB01",
-    "itemBrand": "",
-    "itemSellPrice": null,
-    "itemCategorie": "",
-    "itemLocation": "",
-    "itemLastDate": null,
-    "itemRawMaterialProfil": "",
-    "itemRawMaterialDimensions": "",
-    "__v": 0
-  },
-  {
-    
-    "itemCode": "KQ2S06-01AS",
-    "itemCodeType": "",
-    "itemName": "STECKVERSCHRAUBUNG MIT INNENSECHSKANT",
-    "itemType": "",
-    "itemProvider": "SMC",
-    "itemMaterial": "",
-    "itemAssemblyName": "ABFALLAUFWICKLUNG",
-    "itemAssemblyNumber": "17.402.00.00.00-B",
-    "itemAmount": 2,
-    "itemUnits": "",
-    "companyId": "RMB01",
-    "itemBrand": "",
-    "itemSellPrice": null,
-    "itemCategorie": "",
-    "itemLocation": "",
-    "itemLastDate": null,
-    "itemRawMaterialProfil": "",
-    "itemRawMaterialDimensions": "",
-    "__v": 0
-  },
-  {
-    
-    "itemCode": "KQ2L10-02AS",
-    "itemCodeType": "",
-    "itemName": "WINKEL-STECKVERBINDUNG",
     "itemType": "",
     "itemProvider": "SMC",
     "itemMaterial": "",
@@ -15305,29 +15127,6 @@
     "companyId": "RMB01",
     "itemBrand": "",
     "itemSellPrice": null,
-    "itemCategorie": "",
-    "itemLocation": "",
-    "itemLastDate": null,
-    "itemRawMaterialProfil": "",
-    "itemRawMaterialDimensions": "",
-    "__v": 0
-  },
-  {
-    
-    "itemCode": "AN10-01",
-    "itemCodeType": "",
-    "itemName": "SCHALLDÄMPFER",
-    "itemType": "",
-    "itemProvider": "SMC",
-    "itemMaterial": "",
-    "itemAssemblyName": "ABROLLBOCK",
-    "itemAssemblyNumber": "16.402.00.00.00",
-    "itemAmount": 2,
-    "itemUnits": "",
-    "companyId": "RMB01",
-    "itemBrand": "",
-    "itemSellPrice": null,
-    "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
     "itemLastDate": null,
@@ -15475,52 +15274,6 @@
   },
   {
     
-    "itemCode": "KQ2L06-01AS",
-    "itemCodeType": "",
-    "itemName": "WINKEL-STECKVERBINDUNG",
-    "itemType": "",
-    "itemProvider": "SMC",
-    "itemMaterial": "",
-    "itemAssemblyName": "ABROLLBOCK",
-    "itemAssemblyNumber": "16.402.00.00.00",
-    "itemAmount": 8,
-    "itemUnits": "",
-    "companyId": "RMB01",
-    "itemBrand": "",
-    "itemSellPrice": null,
-    "itemBuyPrice": null,
-    "itemCategorie": "",
-    "itemLocation": "",
-    "itemLastDate": null,
-    "itemRawMaterialProfil": "",
-    "itemRawMaterialDimensions": "",
-    "__v": 0
-  },
-  {
-    
-    "itemCode": "KQ2L06-02AS",
-    "itemCodeType": "",
-    "itemName": "WINKEL-STECKVERBINDUNG",
-    "itemType": "",
-    "itemProvider": "SMC",
-    "itemMaterial": "",
-    "itemAssemblyName": "ABROLLBOCK",
-    "itemAssemblyNumber": "16.402.00.00.00",
-    "itemAmount": 4,
-    "itemUnits": "",
-    "companyId": "RMB01",
-    "itemBrand": "",
-    "itemSellPrice": null,
-    "itemBuyPrice": null,
-    "itemCategorie": "",
-    "itemLocation": "",
-    "itemLastDate": null,
-    "itemRawMaterialProfil": "",
-    "itemRawMaterialDimensions": "",
-    "__v": 0
-  },
-  {
-    
     "itemCode": "KQ2L08-01AS",
     "itemCodeType": "",
     "itemName": "WINKEL-STECKVERBINDUNG",
@@ -15567,75 +15320,6 @@
   },
   {
     
-    "itemCode": "KQ2S06-01AS",
-    "itemCodeType": "",
-    "itemName": "STECKVERSCHRAUBUNG MIT INNENSECHSKANT",
-    "itemType": "",
-    "itemProvider": "SMC",
-    "itemMaterial": "",
-    "itemAssemblyName": "ABROLLBOCK",
-    "itemAssemblyNumber": "16.402.00.00.00",
-    "itemAmount": 2,
-    "itemUnits": "",
-    "companyId": "RMB01",
-    "itemBrand": "",
-    "itemSellPrice": null,
-    "itemBuyPrice": null,
-    "itemCategorie": "",
-    "itemLocation": "",
-    "itemLastDate": null,
-    "itemRawMaterialProfil": "",
-    "itemRawMaterialDimensions": "",
-    "__v": 0
-  },
-  {
-    
-    "itemCode": "KQ2S10-02AS",
-    "itemCodeType": "",
-    "itemName": "STECKVERSCHRAUBUNG, GERADE MIT INNENSECHSKANT",
-    "itemType": "",
-    "itemProvider": "SMC",
-    "itemMaterial": "",
-    "itemAssemblyName": "ABROLLBOCK",
-    "itemAssemblyNumber": "16.402.00.00.00",
-    "itemAmount": 4,
-    "itemUnits": "",
-    "companyId": "RMB01",
-    "itemBrand": "",
-    "itemSellPrice": null,
-    "itemBuyPrice": null,
-    "itemCategorie": "",
-    "itemLocation": "",
-    "itemLastDate": null,
-    "itemRawMaterialProfil": "",
-    "itemRawMaterialDimensions": "",
-    "__v": 0
-  },
-  {
-    
-    "itemCode": "KQ2T06-00A",
-    "itemCodeType": "",
-    "itemName": "STECKVERBINDUNG",
-    "itemType": "",
-    "itemProvider": "SMC",
-    "itemMaterial": "",
-    "itemAssemblyName": "ABROLLBOCK",
-    "itemAssemblyNumber": "16.402.00.00.00",
-    "itemAmount": 2,
-    "itemUnits": "",
-    "companyId": "RMB01",
-    "itemBrand": "",
-    "itemSellPrice": null,
-    "itemBuyPrice": null,
-    "itemCategorie": "",
-    "itemLocation": "",
-    "itemLastDate": null,
-    "itemRawMaterialProfil": "",
-    "itemRawMaterialDimensions": "",
-    "__v": 0
-  },
-  {
-    
     "itemCode": "KQ2T08-00A",
     "itemCodeType": "",
     "itemName": "T-STECKVERBINDUNG",
@@ -15668,29 +15352,6 @@
     "itemAssemblyName": "ABROLLBOCK",
     "itemAssemblyNumber": "16.402.00.00.00",
     "itemAmount": 6,
-    "itemUnits": "",
-    "companyId": "RMB01",
-    "itemBrand": "",
-    "itemSellPrice": null,
-    "itemBuyPrice": null,
-    "itemCategorie": "",
-    "itemLocation": "",
-    "itemLastDate": null,
-    "itemRawMaterialProfil": "",
-    "itemRawMaterialDimensions": "",
-    "__v": 0
-  },
-  {
-    
-    "itemCode": "KQ2T10-00A",
-    "itemCodeType": "",
-    "itemName": "T-STECKVERBINDUNG",
-    "itemType": "",
-    "itemProvider": "SMC",
-    "itemMaterial": "",
-    "itemAssemblyName": "ABROLLBOCK",
-    "itemAssemblyNumber": "16.402.00.00.00",
-    "itemAmount": 2,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -15758,50 +15419,6 @@
     "itemAssemblyName": "FOLIENTRANSPORT",
     "itemAssemblyNumber": "14.401.00.00.00",
     "itemAmount": 4,
-    "itemUnits": "",
-    "companyId": "RMB01",
-    "itemBrand": "",
-    "itemSellPrice": null,
-    "itemCategorie": "",
-    "itemLocation": "",
-    "itemLastDate": null,
-    "itemRawMaterialProfil": "",
-    "itemRawMaterialDimensions": "",
-    "__v": 0
-  },
-  {
-    
-    "itemCode": "KQ2T06-00A",
-    "itemCodeType": "",
-    "itemName": "STECKVERBINDUNG",
-    "itemType": "",
-    "itemProvider": "SMC",
-    "itemMaterial": "",
-    "itemAssemblyName": "FOLIENTRANSPORT",
-    "itemAssemblyNumber": "14.401.00.00.00",
-    "itemAmount": 2,
-    "itemUnits": "",
-    "companyId": "RMB01",
-    "itemBrand": "",
-    "itemSellPrice": null,
-    "itemCategorie": "",
-    "itemLocation": "",
-    "itemLastDate": null,
-    "itemRawMaterialProfil": "",
-    "itemRawMaterialDimensions": "",
-    "__v": 0
-  },
-  {
-    
-    "itemCode": "AN20-02",
-    "itemCodeType": "",
-    "itemName": "SMC; SCHALLDÄMPFER",
-    "itemType": "",
-    "itemProvider": "SMC",
-    "itemMaterial": "",
-    "itemAssemblyName": "FORMSTATION MIT HEBELANTRIEB",
-    "itemAssemblyNumber": "11.401.00.00.00-D",
-    "itemAmount": 3,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -15949,28 +15566,6 @@
   },
   {
     
-    "itemCode": "KQ2S10-02AS",
-    "itemCodeType": "",
-    "itemName": "STECKVERSCHRAUBUNG, GERADE MIT INNENSECHSKANT",
-    "itemType": "",
-    "itemProvider": "SMC",
-    "itemMaterial": "",
-    "itemAssemblyName": "FORMSTATION MIT HEBELANTRIEB",
-    "itemAssemblyNumber": "11.401.00.00.00-D",
-    "itemAmount": 12,
-    "itemUnits": "",
-    "companyId": "RMB01",
-    "itemBrand": "",
-    "itemSellPrice": null,
-    "itemCategorie": "",
-    "itemLocation": "",
-    "itemLastDate": null,
-    "itemRawMaterialProfil": "",
-    "itemRawMaterialDimensions": "",
-    "__v": 0
-  },
-  {
-    
     "itemCode": "KK6S-04MS",
     "itemCodeType": "",
     "itemName": "S-KUPPLUNG BUCHSE",
@@ -15980,28 +15575,6 @@
     "itemAssemblyName": "FORMSTATION MIT HEBELANTRIEB",
     "itemAssemblyNumber": "11.401.00.00.00-D",
     "itemAmount": 6,
-    "itemUnits": "",
-    "companyId": "RMB01",
-    "itemBrand": "",
-    "itemSellPrice": null,
-    "itemCategorie": "",
-    "itemLocation": "",
-    "itemLastDate": null,
-    "itemRawMaterialProfil": "",
-    "itemRawMaterialDimensions": "",
-    "__v": 0
-  },
-  {
-    
-    "itemCode": "VF5123-5YZD1-02F",
-    "itemCodeType": "",
-    "itemName": "5-2-WEGE VENTIL",
-    "itemType": "",
-    "itemProvider": "SMC",
-    "itemMaterial": "",
-    "itemAssemblyName": "FORMSTATION MIT HEBELANTRIEB",
-    "itemAssemblyNumber": "11.401.00.00.00-D",
-    "itemAmount": 1,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -16081,97 +15654,9 @@
   },
   {
     
-    "itemCode": "KQ2L06-01AS",
-    "itemCodeType": "",
-    "itemName": "WINKEL-STECKVERBINDUNG",
-    "itemType": "",
-    "itemProvider": "SMC",
-    "itemMaterial": "",
-    "itemAssemblyName": "OBERJOCHVERSTELLUNG",
-    "itemAssemblyNumber": "11.300.02.00.00-A",
-    "itemAmount": 1,
-    "itemUnits": "",
-    "companyId": "RMB01",
-    "itemBrand": "",
-    "itemSellPrice": null,
-    "itemCategorie": "",
-    "itemLocation": "",
-    "itemLastDate": null,
-    "itemRawMaterialProfil": "",
-    "itemRawMaterialDimensions": "",
-    "__v": 0
-  },
-  {
-    
-    "itemCode": "KQ2T06-00A",
-    "itemCodeType": "",
-    "itemName": "STECKVERBINDUNG",
-    "itemType": "",
-    "itemProvider": "SMC",
-    "itemMaterial": "",
-    "itemAssemblyName": "OBERJOCHVERSTELLUNG",
-    "itemAssemblyNumber": "11.300.02.00.00-A",
-    "itemAmount": 1,
-    "itemUnits": "",
-    "companyId": "RMB01",
-    "itemBrand": "",
-    "itemSellPrice": null,
-    "itemCategorie": "",
-    "itemLocation": "",
-    "itemLastDate": null,
-    "itemRawMaterialProfil": "",
-    "itemRawMaterialDimensions": "",
-    "__v": 0
-  },
-  {
-    
-    "itemCode": "KQ2S06-02AS",
-    "itemCodeType": "",
-    "itemName": "STECKVERSCHRAUBUNG, GERADE MIT INNENSECHSKANT",
-    "itemType": "",
-    "itemProvider": "SMC",
-    "itemMaterial": "",
-    "itemAssemblyName": "OBERJOCHVERSTELLUNG",
-    "itemAssemblyNumber": "11.300.02.00.00-A",
-    "itemAmount": 3,
-    "itemUnits": "",
-    "companyId": "RMB01",
-    "itemBrand": "",
-    "itemSellPrice": null,
-    "itemCategorie": "",
-    "itemLocation": "",
-    "itemLastDate": null,
-    "itemRawMaterialProfil": "",
-    "itemRawMaterialDimensions": "",
-    "__v": 0
-  },
-  {
-    
     "itemCode": "KQ2VF06-01AS",
     "itemCodeType": "",
     "itemName": "EINSCHRAUBWINKEL MIT INNENGEWINDE",
-    "itemType": "",
-    "itemProvider": "SMC",
-    "itemMaterial": "",
-    "itemAssemblyName": "OBERJOCHVERSTELLUNG",
-    "itemAssemblyNumber": "11.300.02.00.00-A",
-    "itemAmount": 1,
-    "itemUnits": "",
-    "companyId": "RMB01",
-    "itemBrand": "",
-    "itemSellPrice": null,
-    "itemCategorie": "",
-    "itemLocation": "",
-    "itemLastDate": null,
-    "itemRawMaterialProfil": "",
-    "itemRawMaterialDimensions": "",
-    "__v": 0
-  },
-  {
-    
-    "itemCode": "VF3133-5YZD1-02F",
-    "itemCodeType": "",
-    "itemName": "5-2-WEGE VENTIL",
     "itemType": "",
     "itemProvider": "SMC",
     "itemMaterial": "",
@@ -16200,28 +15685,6 @@
     "itemAssemblyName": "OBERJOCHVERSTELLUNG",
     "itemAssemblyNumber": "11.300.02.00.00-A",
     "itemAmount": 1,
-    "itemUnits": "",
-    "companyId": "RMB01",
-    "itemBrand": "",
-    "itemSellPrice": null,
-    "itemCategorie": "",
-    "itemLocation": "",
-    "itemLastDate": null,
-    "itemRawMaterialProfil": "",
-    "itemRawMaterialDimensions": "",
-    "__v": 0
-  },
-  {
-    
-    "itemCode": "AN10-01",
-    "itemCodeType": "",
-    "itemName": "SCHALLDÄMPFER",
-    "itemType": "",
-    "itemProvider": "SMC",
-    "itemMaterial": "",
-    "itemAssemblyName": "OBERJOCHVERSTELLUNG",
-    "itemAssemblyNumber": "11.300.02.00.00-A",
-    "itemAmount": 2,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
@@ -17334,7 +16797,7 @@
   },
   {
     
-    "itemCode": "ISO 4032 - M10",
+    "itemCode": "ISO 4032 M10",
     "itemCodeType": "",
     "itemName": "SECHSKANTMUTTER",
     "itemType": "MUTTER",
@@ -17350,14 +16813,14 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-11T07:35:56.290Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "__v": 0
   },
   {
     
-    "itemCode": "ISO 4032 - M6 - V2A",
+    "itemCode": "ISO 4032 M6-V2A",
     "itemCodeType": "",
     "itemName": "SECHSKANTMUTTER, NICHTROSTEND",
     "itemType": "MUTTER",
@@ -17373,7 +16836,7 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-11T07:36:16.887Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "__v": 0
@@ -17725,7 +17188,7 @@
   },
   {
     
-    "itemCode": "DIN 125 - A 21",
+    "itemCode": "DIN 125-A-21",
     "itemCodeType": "",
     "itemName": "SCHEIBE",
     "itemType": "SCHEIBE",
@@ -17741,14 +17204,14 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-11T06:16:16.877Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "__v": 0
   },
   {
     
-    "itemCode": "DIN 125 - A 8.4",
+    "itemCode": "DIN 125-A-8.4",
     "itemCodeType": "",
     "itemName": "SCHEIBE",
     "itemType": "SCHEIBE",
@@ -17764,14 +17227,14 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-11T06:16:36.627Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "__v": 0
   },
   {
     
-    "itemCode": "DIN 125 - A 10.5",
+    "itemCode": "DIN 125-A-10.5",
     "itemCodeType": "",
     "itemName": "SCHEIBE",
     "itemType": "SCHEIBE",
@@ -17787,14 +17250,14 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-11T06:16:49.304Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "__v": 0
   },
   {
     
-    "itemCode": "DIN 125 - A 4.3 - V2A",
+    "itemCode": "DIN 125-A-4.3-V2A",
     "itemCodeType": "",
     "itemName": "SCHEIBE, NICHTROSTEND",
     "itemType": "SCHEIBE",
@@ -17810,14 +17273,14 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-11T06:17:05.172Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "__v": 0
   },
   {
     
-    "itemCode": "DIN 125 - A 6.4 - V2A",
+    "itemCode": "DIN 125-A-6.4-V2A",
     "itemCodeType": "",
     "itemName": "SCHEIBE, NICHTROSTEND",
     "itemType": "SCHEIBE",
@@ -17833,14 +17296,14 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-11T06:18:26.768Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "__v": 0
   },
   {
     
-    "itemCode": "DIN 125 - A 6.4",
+    "itemCode": "DIN 125-A-6.4",
     "itemCodeType": "",
     "itemName": "SCHEIBE",
     "itemType": "SCHEIBE",
@@ -17856,60 +17319,14 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-11T06:18:39.569Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "__v": 0
   },
   {
     
-    "itemCode": "DIN 125 - A 8.4",
-    "itemCodeType": "",
-    "itemName": "SCHEIBE",
-    "itemType": "SCHEIBE",
-    "itemProvider": "",
-    "itemMaterial": "",
-    "itemAssemblyName": "HEIZUNG",
-    "itemAssemblyNumber": "18.400.00.00.00-C",
-    "itemAmount": 2,
-    "itemUnits": "",
-    "companyId": "RMB01",
-    "itemBrand": "",
-    "itemSellPrice": null,
-    "itemBuyPrice": null,
-    "itemCategorie": "",
-    "itemLocation": "",
-    "itemLastDate": null,
-    "itemRawMaterialProfil": "",
-    "itemRawMaterialDimensions": "",
-    "__v": 0
-  },
-  {
-    
-    "itemCode": "DIN 125 - A 10.5",
-    "itemCodeType": "",
-    "itemName": "SCHEIBE",
-    "itemType": "SCHEIBE",
-    "itemProvider": "",
-    "itemMaterial": "",
-    "itemAssemblyName": "HEIZUNG",
-    "itemAssemblyNumber": "18.400.00.00.00-C",
-    "itemAmount": 26,
-    "itemUnits": "",
-    "companyId": "RMB01",
-    "itemBrand": "",
-    "itemSellPrice": null,
-    "itemBuyPrice": null,
-    "itemCategorie": "",
-    "itemLocation": "",
-    "itemLastDate": null,
-    "itemRawMaterialProfil": "",
-    "itemRawMaterialDimensions": "",
-    "__v": 0
-  },
-  {
-    
-    "itemCode": "DIN 125 - A 13",
+    "itemCode": "DIN 125-A-13",
     "itemCodeType": "",
     "itemName": "SCHEIBE",
     "itemType": "SCHEIBE",
@@ -17925,14 +17342,14 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-11T06:18:54.004Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "__v": 0
   },
   {
     
-    "itemCode": "DIN 125 - A 4.3",
+    "itemCode": "DIN 125-A-4.3",
     "itemCodeType": "",
     "itemName": "SCHEIBE",
     "itemType": "SCHEIBE",
@@ -17948,37 +17365,14 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-11T06:19:05.789Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "__v": 0
   },
   {
     
-    "itemCode": "DIN 125 - A 8.4",
-    "itemCodeType": "",
-    "itemName": "SCHEIBE",
-    "itemType": "SCHEIBE",
-    "itemProvider": "",
-    "itemMaterial": "",
-    "itemAssemblyName": "ABFALLAUFWICKLUNG",
-    "itemAssemblyNumber": "17.402.00.00.00-B",
-    "itemAmount": 4,
-    "itemUnits": "",
-    "companyId": "RMB01",
-    "itemBrand": "",
-    "itemSellPrice": null,
-    "itemBuyPrice": null,
-    "itemCategorie": "",
-    "itemLocation": "",
-    "itemLastDate": null,
-    "itemRawMaterialProfil": "",
-    "itemRawMaterialDimensions": "",
-    "__v": 0
-  },
-  {
-    
-    "itemCode": "DIN 125 - A 5.3",
+    "itemCode": "DIN 125-A-5.3",
     "itemCodeType": "",
     "itemName": "SCHEIBE",
     "itemType": "SCHEIBE",
@@ -17994,251 +17388,1473 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-11T06:19:23.414Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "__v": 0
   },
   {
     
-    "itemCode": "DIN 125 - A 6.4",
+    "itemCode": "Z81-9XG1_4",
+    "itemName": "WZ ANSCHLUSS",
+    "itemType": "",
+    "itemAmount": 8,
+    "itemProvider": "HASCO",
+    "itemCategorie": "KAUFTEILE",
+    "companyId": "RMB01",
+    "__v": 0,
+    "itemLastDate": "2016-06-08T14:28:41.908Z"
+  },
+  {
+    
+    "itemCode": "11.401.00.00.03-A",
+    "itemName": "KURBELBOLZEN",
+    "itemType": "FERTIGUNGSTEILE",
+    "itemAssemblyName": "FORMSTATION MIT HEBELANTRIEB",
+    "companyId": "RMB01",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 913 M6X6",
+    "itemType": "GEWINDESTIFT",
+    "itemCategorie": "KAUFTEILE",
+    "companyId": "RMB01",
+    "itemCodeType": "QR_CODE",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 913 M6X8",
+    "itemType": "GEWINDESTIFT",
+    "itemCategorie": "KAUFTEILE",
+    "companyId": "RMB01",
+    "itemCodeType": "QR_CODE",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 913 M12X20",
+    "itemType": "GEWINDESTIFT",
+    "itemCategorie": "KAUFTEILE",
+    "companyId": "RMB01",
+    "itemCodeType": "QR_CODE",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 913 M16X25",
+    "itemType": "GEWINDESTIFT",
+    "itemCategorie": "KAUFTEILE",
+    "companyId": "RMB01",
+    "itemCodeType": "QR_CODE",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 913 M6X12",
+    "itemType": "GEWINDESTIFT",
+    "itemCategorie": "KAUFTEILE",
+    "companyId": "RMB01",
+    "itemCodeType": "QR_CODE",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 913 M10X12",
+    "itemType": "GEWINDESTIFT",
+    "itemCategorie": "KAUFTEILE",
+    "companyId": "RMB01",
+    "itemCodeType": "QR_CODE",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 906 R 3_8",
+    "itemType": "VERSCHLUSSSCHRAUBE",
+    "itemCategorie": "KAUFTEILE",
+    "companyId": "RMB01",
+    "itemCodeType": "QR_CODE",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 913 M8X16",
+    "itemType": "GEWINDESTIFT",
+    "itemCategorie": "KAUFTEILE",
+    "companyId": "RMB01",
+    "itemCodeType": "QR_CODE",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 913 M8X12",
+    "itemType": "GEWINDESTIFT",
+    "itemCategorie": "KAUFTEILE",
+    "companyId": "RMB01",
+    "itemCodeType": "QR_CODE",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 906 R 1_8",
+    "itemType": "VERSCHLUSSSCHRAUBE",
+    "itemCategorie": "KAUFTEILE",
+    "companyId": "RMB01",
+    "itemCodeType": "QR_CODE",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 913 M8X10",
+    "itemType": "GEWINDESTIFT",
+    "itemCategorie": "KAUFTEILE",
+    "companyId": "RMB01",
+    "itemCodeType": "QR_CODE",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 913 M20X20",
+    "itemType": "GEWINDESTIFT",
+    "itemCategorie": "KAUFTEILE",
+    "companyId": "RMB01",
+    "itemCodeType": "QR_CODE",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 906 R 1_2",
+    "itemType": "VERSCHLUSSSCHRAUBE",
+    "itemCategorie": "KAUFTEILE",
+    "companyId": "RMB01",
+    "itemCodeType": "QR_CODE",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 913 M12X25",
+    "itemType": "GEWINDESTIFT",
+    "itemCategorie": "KAUFTEILE",
+    "companyId": "RMB01",
+    "itemCodeType": "QR_CODE",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 913 M8X8",
+    "itemType": "GEWINDESTIFT",
+    "itemCategorie": "KAUFTEILE",
+    "companyId": "RMB01",
+    "itemCodeType": "QR_CODE",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 906 R 1_4",
+    "itemType": "VERSCHLUSSSCHRAUBE",
+    "itemCategorie": "KAUFTEILE",
+    "companyId": "RMB01",
+    "itemCodeType": "QR_CODE",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 913 M16X20",
+    "itemType": "GEWINDESTIFT",
+    "itemCategorie": "KAUFTEILE",
+    "companyId": "RMB01",
+    "itemCodeType": "QR_CODE",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 913 M12X16",
+    "itemType": "GEWINDESTIFT",
+    "itemCategorie": "KAUFTEILE",
+    "companyId": "RMB01",
+    "itemCodeType": "QR_CODE",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 913 M8X20",
+    "itemType": "GEWINDESTIFT",
+    "itemCategorie": "KAUFTEILE",
+    "companyId": "RMB01",
+    "itemCodeType": "QR_CODE",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 913 M10X10",
+    "itemType": "GEWINDESTIFT",
+    "itemCategorie": "KAUFTEILE",
+    "companyId": "RMB01",
+    "itemCodeType": "QR_CODE",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 913 M6X20",
+    "itemType": "GEWINDESTIFT",
+    "itemCategorie": "KAUFTEILE",
+    "companyId": "RMB01",
+    "itemCodeType": "QR_CODE",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 913 M8X6",
+    "itemType": "GEWINDESTIFT",
+    "itemCategorie": "KAUFTEILE",
+    "companyId": "RMB01",
+    "itemCodeType": "QR_CODE",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 913 M6X10",
+    "itemType": "GEWINDESTIFT",
+    "itemCategorie": "KAUFTEILE",
+    "companyId": "RMB01",
+    "itemCodeType": "QR_CODE",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 913 M6X16",
+    "itemType": "GEWINDESTIFT",
+    "itemCategorie": "KAUFTEILE",
+    "companyId": "RMB01",
+    "itemCodeType": "QR_CODE",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "101215",
+    "itemType": "BUCHSE",
+    "itemCategorie": "KAUFTEILE",
+    "companyId": "RMB01",
+    "itemCodeType": "QR_CODE",
+    "__v": 0,
+    "itemAmount": 0,
+    "itemLastDate": "2016-06-09T11:12:14.234Z"
+  },
+  {
+    
+    "itemCode": "121412",
+    "itemType": "BUCHSE",
+    "itemCategorie": "KAUFTEILE",
+    "companyId": "RMB01",
+    "itemCodeType": "QR_CODE",
+    "__v": 0,
+    "itemAmount": 0,
+    "itemLastDate": "2016-06-09T11:12:19.311Z"
+  },
+  {
+    
+    "itemCode": "121415",
+    "itemType": "BUCHSE",
+    "itemCategorie": "KAUFTEILE",
+    "companyId": "RMB01",
+    "itemCodeType": "QR_CODE",
+    "__v": 0,
+    "itemAmount": 0,
+    "itemLastDate": "2016-06-09T11:12:22.862Z"
+  },
+  {
+    
+    "itemCode": "121420",
+    "itemType": "BUCHSE",
+    "itemCategorie": "KAUFTEILE",
+    "companyId": "RMB01",
+    "itemCodeType": "QR_CODE",
+    "__v": 0,
+    "itemAmount": 0,
+    "itemLastDate": "2016-06-09T11:12:49.821Z"
+  },
+  {
+    
+    "itemCode": "121420",
+    "itemType": "BUCHSE",
+    "itemCategorie": "KAUFTEILE",
+    "companyId": "RMB01",
+    "itemCodeType": "QR_CODE",
+    "__v": 0,
+    "itemAmount": 0,
+    "itemLastDate": "2016-06-09T11:12:53.187Z"
+  },
+  {
+    
+    "itemCode": "141620",
+    "itemType": "BUCHSE",
+    "itemCategorie": "KAUFTEILE",
+    "companyId": "RMB01",
+    "itemCodeType": "QR_CODE",
+    "__v": 0,
+    "itemAmount": 0,
+    "itemLastDate": "2016-06-09T11:12:56.322Z"
+  },
+  {
+    
+    "itemCode": "151720",
+    "itemType": "BUCHSE",
+    "itemCategorie": "KAUFTEILE",
+    "companyId": "RMB01",
+    "itemCodeType": "QR_CODE",
+    "__v": 0,
+    "itemAmount": 0,
+    "itemLastDate": "2016-06-09T11:13:01.329Z"
+  },
+  {
+    
+    "itemCode": "161815",
+    "itemType": "BUCHSE",
+    "itemCategorie": "KAUFTEILE",
+    "companyId": "RMB01",
+    "itemCodeType": "QR_CODE",
+    "__v": 0,
+    "itemAmount": 0,
+    "itemLastDate": "2016-06-10T04:52:57.413Z"
+  },
+  {
+    
+    "itemCode": "161820",
+    "itemType": "BUCHSE",
+    "itemCategorie": "KAUFTEILE",
+    "companyId": "RMB01",
+    "itemCodeType": "QR_CODE",
+    "__v": 0,
+    "itemLastDate": "2016-06-09T11:12:42.858Z",
+    "itemAmount": 20,
+    "itemLastPerson": {
+      "userId": "JG01",
+      "userName": "Juan Garcia",
+      "insertedAmount": 20
+    }
+  },
+  {
+    
+    "itemCode": "161825",
+    "itemType": "BUCHSE",
+    "itemCategorie": "KAUFTEILE",
+    "companyId": "RMB01",
+    "itemCodeType": "QR_CODE",
+    "__v": 0,
+    "itemAmount": 0,
+    "itemLastDate": "2016-06-10T04:53:03.170Z"
+  },
+  {
+    
+    "itemCode": "202220",
+    "itemType": "BUCHSE",
+    "itemCategorie": "KAUFTEILE",
+    "companyId": "RMB01",
+    "itemCodeType": "QR_CODE",
+    "__v": 0,
+    "itemAmount": 0,
+    "itemLastDate": "2016-06-09T11:13:06.204Z"
+  },
+  {
+    
+    "itemCode": "202225",
+    "itemType": "BUCHSE",
+    "itemCategorie": "KAUFTEILE",
+    "companyId": "RMB01",
+    "itemCodeType": "QR_CODE",
+    "__v": 0,
+    "itemAmount": 0,
+    "itemLastDate": "2016-06-09T11:13:10.855Z"
+  },
+  {
+    
+    "itemCode": "202320",
+    "itemType": "BUCHSE",
+    "itemCategorie": "KAUFTEILE",
+    "companyId": "RMB01",
+    "itemCodeType": "QR_CODE",
+    "__v": 0,
+    "itemAmount": 0,
+    "itemLastDate": "2016-06-09T11:13:14.622Z"
+  },
+  {
+    
+    "itemCode": "202325",
+    "itemType": "BUCHSE",
+    "itemCategorie": "KAUFTEILE",
+    "companyId": "RMB01",
+    "itemCodeType": "QR_CODE",
+    "__v": 0,
+    "itemAmount": 0,
+    "itemLastDate": "2016-06-09T11:13:19.334Z"
+  },
+  {
+    
+    "itemCode": "202330",
+    "itemType": "BUCHSE",
+    "itemCategorie": "KAUFTEILE",
+    "companyId": "RMB01",
+    "itemCodeType": "QR_CODE",
+    "__v": 0,
+    "itemAmount": 0,
+    "itemLastDate": "2016-06-09T11:13:25.987Z"
+  },
+  {
+    
+    "itemCode": "222520",
+    "itemType": "BUCHSE",
+    "itemCategorie": "KAUFTEILE",
+    "companyId": "RMB01",
+    "itemCodeType": "QR_CODE",
+    "__v": 0,
+    "itemAmount": 0,
+    "itemLastDate": "2016-06-09T11:13:30.283Z"
+  },
+  {
+    
+    "itemCode": "242825",
+    "itemType": "BUCHSE",
+    "itemCategorie": "KAUFTEILE",
+    "companyId": "RMB01",
+    "itemCodeType": "QR_CODE",
+    "__v": 0,
+    "itemAmount": 0,
+    "itemLastDate": "2016-06-10T04:53:08.000Z"
+  },
+  {
+    
+    "itemCode": "252825",
+    "itemType": "BUCHSE",
+    "itemCategorie": "KAUFTEILE",
+    "companyId": "RMB01",
+    "itemCodeType": "QR_CODE",
+    "__v": 0,
+    "itemAmount": 0,
+    "itemLastDate": "2016-06-10T04:53:13.973Z"
+  },
+  {
+    
+    "itemCode": "303430",
+    "itemType": "BUCHSE",
+    "itemCategorie": "KAUFTEILE",
+    "companyId": "RMB01",
+    "itemCodeType": "QR_CODE",
+    "__v": 0,
+    "itemAmount": 0,
+    "itemLastDate": "2016-06-10T04:54:56.195Z"
+  },
+  {
+    
+    "itemCode": "404425",
+    "itemType": "BUCHSE",
+    "itemCategorie": "KAUFTEILE",
+    "companyId": "RMB01",
+    "itemCodeType": "QR_CODE",
+    "__v": 0,
+    "itemAmount": 0,
+    "itemLastDate": "2016-06-10T04:55:04.606Z"
+  },
+  {
+    
+    "itemCode": "404440",
+    "itemType": "BUCHSE",
+    "itemCategorie": "KAUFTEILE",
+    "companyId": "RMB01",
+    "itemCodeType": "QR_CODE",
+    "__v": 0,
+    "itemAmount": 0,
+    "itemLastDate": "2016-06-10T04:55:09.627Z"
+  },
+  {
+    
+    "itemCode": "060808",
+    "itemType": "BUCHSE",
+    "itemCategorie": "KAUFTEILE",
+    "companyId": "RMB01",
+    "itemCodeType": "QR_CODE",
+    "__v": 0,
+    "itemAmount": 0,
+    "itemLastDate": "2016-06-10T04:55:24.908Z"
+  },
+  {
+    
+    "itemCode": "060810",
+    "itemType": "BUCHSE",
+    "itemCategorie": "KAUFTEILE",
+    "companyId": "RMB01",
+    "itemCodeType": "QR_CODE",
+    "__v": 0,
+    "itemAmount": 0,
+    "itemLastDate": "2016-06-10T04:55:31.212Z"
+  },
+  {
+    
+    "itemCode": "081010",
+    "itemType": "BUCHSE",
+    "itemCategorie": "KAUFTEILE",
+    "companyId": "RMB01",
+    "itemCodeType": "QR_CODE",
+    "__v": 0,
+    "itemAmount": 0,
+    "itemLastDate": "2016-06-10T04:55:37.072Z"
+  },
+  {
+    
+    "itemCode": "SIB22X28X30",
+    "itemType": "BUCHSE",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "itemName": "BUCHSE",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "SIB20X26X25",
+    "itemType": "BUCHSE",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "itemName": "BUCHSE",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "SIB16X22X25",
+    "itemType": "BUCHSE",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "itemName": "BUCHSE",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 1481 8X50",
+    "itemType": "SPANNSTIFT",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "itemName": "SPANNSTIFT",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 1481 6X30",
+    "itemType": "SPANNSTIFT",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "itemName": "SPANNSTIFT",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 1481 6X24",
+    "itemType": "SPANNSTIFT",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "itemName": "SPANNSTIFT",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 1481 5X26",
+    "itemType": "SPANNSTIFT",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "itemName": "SPANNSTIFT",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 1481 5X24",
+    "itemType": "SPANNSTIFT",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "itemName": "SPANNSTIFT",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 1481 4X18",
+    "itemType": "SPANNSTIFT",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "itemName": "SPANNSTIFT",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 1481 3X20",
+    "itemType": "SPANNSTIFT",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "itemName": "SPANNSTIFT",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 1481 3X16",
+    "itemType": "SPANNSTIFT",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "itemName": "SPANNSTIFT",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 1481 12X30",
+    "itemType": "SPANNSTIFT",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "itemName": "SPANNSTIFT",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 1481 10X36",
+    "itemType": "SPANNSTIFT",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "itemName": "SPANNSTIFT",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 6885 8X7X60",
+    "itemType": "PASSFEDER",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "itemName": "PASSFEDER",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 6885 8X7X28",
+    "itemType": "PASSFEDER",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "itemName": "PASSFEDER",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 6885 8X7X20",
+    "itemType": "PASSFEDER",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "itemName": "PASSFEDER",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 6885 6X6X28",
+    "itemType": "PASSFEDER",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "itemName": "PASSFEDER",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 6885 6X6X25",
+    "itemType": "PASSFEDER",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "itemName": "PASSFEDER",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 6885 5X5X12",
+    "itemType": "PASSFEDER",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "itemName": "PASSFEDER",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 912 M4X6-V2A",
+    "itemType": "SCHRAUBE",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "itemCategorie": "NORMTEILE",
+    "itemProvider": "SCHRAUBEN KÖHLER",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 912 M5X10-V2A",
+    "itemType": "SCHRAUBE",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "itemCategorie": "NORMTEILE",
+    "itemProvider": "SCHRAUBEN KÖHLER",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 912 M5X16-V2A",
+    "itemType": "SCHRAUBE",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "itemCategorie": "NORMTEILE",
+    "itemProvider": "SCHRAUBEN KÖHLER",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 912 M6X55-V2A",
+    "itemType": "SCHRAUBE",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "itemCategorie": "NORMTEILE",
+    "itemProvider": "SCHRAUBEN KÖHLER",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 912 M12X25-V2A",
+    "itemType": "SCHRAUBE",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "itemCategorie": "NORMTEILE",
+    "itemProvider": "SCHRAUBEN KÖHLER",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 912 M6X25-V2A",
+    "itemType": "SCHRAUBE",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "itemCategorie": "NORMTEILE",
+    "itemProvider": "SCHRAUBEN KÖLER",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 912 M8X25-V2A",
+    "itemType": "SCHRAUBE",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "itemCategorie": "NORMTEILE",
+    "itemProvider": "SCHRAUBEN KÖLER",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 912 M6X8-V2A",
+    "itemType": "SCHRAUBE",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "itemCategorie": "NORMTEILE",
+    "itemProvider": "SCHRAUBEN KÖHLER",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 912 M5X30-V2A",
+    "itemType": "SCHRAUBE",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "itemCategorie": "NORMTEILE",
+    "itemProvider": "SCHRAUBEN KÖHLER",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 7380 M6X16-V2A",
+    "itemType": "SCHRAUBE",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "itemCategorie": "NORMTEILE",
+    "itemProvider": "SCHRAUBEN KÖHLER",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 7380 M6X20-V2A",
+    "itemType": "SCHRAUBE",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "itemCategorie": "NORMTEILE",
+    "itemProvider": "SCHRAUBEN KÖHLER",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 7380 M6X40-V2A",
+    "itemType": "SCHRAUBE",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "itemCategorie": "NORMTEILE",
+    "itemProvider": "SCHRAUBEN KÖHLER",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 7380 M5X16-V2A",
+    "itemType": "SCHRAUBE",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "itemCategorie": "NORMTEILE",
+    "itemProvider": "SCHRAUBEN KÖHLER",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 7991 M6X16-V2A",
+    "itemType": "SCHRAUBE",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "itemCategorie": "NORMTEILE",
+    "itemProvider": "SCHRAUBEN KÖHLER",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 7991 M12X20-V2A",
+    "itemType": "SCHRAUBE",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "itemCategorie": "NORMTEILE",
+    "itemProvider": "SCHRAUBEN KÖHLER",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 7991 M8X16-V2A",
+    "itemType": "SCHRAUBE",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "itemCategorie": "NORMTEILE",
+    "itemProvider": "SCHRAUBEN KÖHLER",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 7991 M6X20-V2A",
+    "itemType": "SCHRAUBE",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "itemCategorie": "NORMTEILE",
+    "itemProvider": "SCHRAUBEN KÖHLER",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 7991 M4X30-V2A",
+    "itemType": "SCHRAUBE",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "itemCategorie": "NORMTEILE",
+    "itemProvider": "SCHRAUBEN KÖHLER",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "O-RING 104X2",
+    "itemName": "O-RING",
+    "itemType": "KAUFTEILE",
+    "itemProvider": "KONGSBAK",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "O-RING 108X2",
+    "itemName": "O-RING",
+    "itemType": "KAUFTEILE",
+    "itemProvider": "KONGSBAK",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "O-RING 10X2",
+    "itemName": "O-RING",
+    "itemType": "KAUFTEILE",
+    "itemProvider": "KONGSBAK",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "O-RING 110X1.5",
+    "itemName": "O-RING",
+    "itemType": "KAUFTEILE",
+    "itemProvider": "KONGSBAK",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "O-RING 11X1.5",
+    "itemName": "O-RING",
+    "itemType": "KAUFTEILE",
+    "itemProvider": "KONGSBAK",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "O-RING 122X2",
+    "itemName": "O-RING",
+    "itemType": "KAUFTEILE",
+    "itemProvider": "KONGSBAK",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "O-RING 12X1.5",
+    "itemName": "O-RING",
+    "itemType": "KAUFTEILE",
+    "itemProvider": "KONGSBAK",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "O-RING 12X3",
+    "itemName": "O-RING",
+    "itemType": "KAUFTEILE",
+    "itemProvider": "KONGSBAK",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "O-RING 13X1.5",
+    "itemName": "O-RING",
+    "itemType": "KAUFTEILE",
+    "itemProvider": "KONGSBAK",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "O-RING 140X2",
+    "itemName": "O-RING",
+    "itemType": "KAUFTEILE",
+    "itemProvider": "KONGSBAK",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "O-RING 15X1.5",
+    "itemName": "O-RING",
+    "itemType": "KAUFTEILE",
+    "itemProvider": "KONGSBAK",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "O-RING 15X2",
+    "itemName": "O-RING",
+    "itemType": "KAUFTEILE",
+    "itemProvider": "KONGSBAK",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "O-RING 22X2",
+    "itemName": "O-RING",
+    "itemType": "KAUFTEILE",
+    "itemProvider": "KONGSBAK",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "O-RING 25X2",
+    "itemName": "O-RING",
+    "itemType": "KAUFTEILE",
+    "itemProvider": "KONGSBAK",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "O-RING 28X2",
+    "itemName": "O-RING",
+    "itemType": "KAUFTEILE",
+    "itemProvider": "KONGSBAK",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "O-RING 30X2",
+    "itemName": "O-RING",
+    "itemType": "KAUFTEILE",
+    "itemProvider": "KONGSBAK",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "O-RING 30X3",
+    "itemName": "O-RING",
+    "itemType": "KAUFTEILE",
+    "itemProvider": "KONGSBAK",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "O-RING 34X1.5",
+    "itemName": "O-RING",
+    "itemType": "KAUFTEILE",
+    "itemProvider": "KONGSBAK",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "O-RING 35X2",
+    "itemName": "O-RING",
+    "itemType": "KAUFTEILE",
+    "itemProvider": "KONGSBAK",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "O-RING 44X2",
+    "itemName": "O-RING",
+    "itemType": "KAUFTEILE",
+    "itemProvider": "KONGSBAK",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "O-RING 45X2",
+    "itemName": "O-RING",
+    "itemType": "KAUFTEILE",
+    "itemProvider": "KONGSBAK",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "O-RING 52X1.5",
+    "itemName": "O-RING",
+    "itemType": "KAUFTEILE",
+    "itemProvider": "KONGSBAK",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "O-RING 52X2",
+    "itemName": "O-RING",
+    "itemType": "KAUFTEILE",
+    "itemProvider": "KONGSBAK",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "O-RING 57X1.5",
+    "itemName": "O-RING",
+    "itemType": "KAUFTEILE",
+    "itemProvider": "KONGSBAK",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "O-RING 5X2",
+    "itemName": "O-RING",
+    "itemType": "KAUFTEILE",
+    "itemProvider": "KONGSBAK",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "O-RING 63X2",
+    "itemName": "O-RING",
+    "itemType": "KAUFTEILE",
+    "itemProvider": "KONGSBAK",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "O-RING 65X2",
+    "itemName": "O-RING",
+    "itemType": "KAUFTEILE",
+    "itemProvider": "KONGSBAK",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "O-RING 69X2",
+    "itemName": "O-RING",
+    "itemType": "KAUFTEILE",
+    "itemProvider": "KONGSBAK",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "O-RING 6X2",
+    "itemName": "O-RING",
+    "itemType": "KAUFTEILE",
+    "itemProvider": "KONGSBAK",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "O-RING 6X3",
+    "itemName": "O-RING",
+    "itemType": "KAUFTEILE",
+    "itemProvider": "KONGSBAK",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "O-RING 70X1.5",
+    "itemName": "O-RING",
+    "itemType": "KAUFTEILE",
+    "itemProvider": "KONGSBAK",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "O-RING 77X2",
+    "itemName": "O-RING",
+    "itemType": "KAUFTEILE",
+    "itemProvider": "KONGSBAK",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "O-RING 80X2",
+    "itemName": "O-RING",
+    "itemType": "KAUFTEILE",
+    "itemProvider": "KONGSBAK",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "O-RING 82X2",
+    "itemName": "O-RING",
+    "itemType": "KAUFTEILE",
+    "itemProvider": "KONGSBAK",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "O-RING 84X2",
+    "itemName": "O-RING",
+    "itemType": "KAUFTEILE",
+    "itemProvider": "KONGSBAK",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "O-RING 8X2",
+    "itemName": "O-RING",
+    "itemType": "KAUFTEILE",
+    "itemProvider": "KONGSBAK",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "O-RING 8X3",
+    "itemName": "O-RING",
+    "itemType": "KAUFTEILE",
+    "itemProvider": "KONGSBAK",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "O-RING 90X2",
+    "itemName": "O-RING",
+    "itemType": "KAUFTEILE",
+    "itemProvider": "KONGSBAK",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "O-RING 98X2",
+    "itemName": "O-RING",
+    "itemType": "KAUFTEILE",
+    "itemProvider": "KONGSBAK",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "O-RING 9X1.5",
+    "itemName": "O-RING",
+    "itemType": "KAUFTEILE",
+    "itemProvider": "KONGSBAK",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "Q-RING 10.20X2.62",
+    "itemName": "QUADRAD-RING",
+    "itemType": "KAUFTEILE",
+    "itemProvider": "KONGSBAK",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "Q-RING 12.37X2.62",
+    "itemName": "QUADRAD-RING",
+    "itemType": "KAUFTEILE",
+    "itemProvider": "KONGSBAK",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "Q-RING 14.70X2.72",
+    "itemName": "QUADRAD-RING",
+    "itemType": "KAUFTEILE",
+    "itemProvider": "KONGSBAK",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "Q-RING 15.47X3.53",
+    "itemName": "QUADRAD-RING",
+    "itemType": "KAUFTEILE",
+    "itemProvider": "KONGSBAK",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "Q-RING 18.72X2.62",
+    "itemName": "QUADRAD-RING",
+    "itemType": "KAUFTEILE",
+    "itemProvider": "KONGSBAK",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "Q-RING 20.22X3.53",
+    "itemName": "QUADRAD-RING",
+    "itemType": "KAUFTEILE",
+    "itemProvider": "KONGSBAK",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "Q-RING 34.52X3.53",
+    "itemName": "QUADRAD-RING",
+    "itemType": "KAUFTEILE",
+    "itemProvider": "KONGSBAK",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "Q-RING 37.59X3.53",
+    "itemName": "QUADRAD-RING",
+    "itemType": "KAUFTEILE",
+    "itemProvider": "KONGSBAK",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "Q-RING 72.62X3.53",
+    "itemName": "QUADRAD-RING",
+    "itemType": "KAUFTEILE",
+    "itemProvider": "KONGSBAK",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "Q-RING 91.67X3.53",
+    "itemName": "QUADRAD-RING",
+    "itemType": "KAUFTEILE",
+    "itemProvider": "KONGSBAK",
+    "companyId": "RMB01",
+    "itemAmount": 0,
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 472-90X3",
     "itemCodeType": "",
-    "itemName": "SCHEIBE",
-    "itemType": "SCHEIBE",
+    "itemName": "SICHERUNGSRING",
+    "itemType": "SICHERUNGSRING",
     "itemProvider": "",
     "itemMaterial": "",
-    "itemAssemblyName": "ABROLLBOCK",
-    "itemAssemblyNumber": "16.402.00.00.00",
-    "itemAmount": 2,
+    "itemAssemblyName": "SERVOVORSTRECKER",
+    "itemAssemblyNumber": "19.402.00.00.00-A",
+    "itemAmount": 1,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
     "itemSellPrice": null,
     "itemBuyPrice": null,
-    "itemCategorie": "",
+    "itemCategorie": "KAUFTEILE",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-04-29T16:39:41.184Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "__v": 0
   },
   {
     
-    "itemCode": "DIN 125 - A 10.5",
+    "itemCode": "DIN 471 10X1",
     "itemCodeType": "",
-    "itemName": "SCHEIBE",
-    "itemType": "SCHEIBE",
+    "itemName": "WELLENSICHERUNGSRING",
+    "itemType": "SICHERUNGSRING",
     "itemProvider": "",
     "itemMaterial": "",
-    "itemAssemblyName": "ABROLLBOCK",
-    "itemAssemblyNumber": "16.402.00.00.00",
+    "itemAssemblyName": "ABFALLAUFWICKLUNG",
+    "itemAssemblyNumber": "17.402.00.00.00-B",
     "itemAmount": 16,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
     "itemSellPrice": null,
-    "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-11T08:31:54.167Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "__v": 0
   },
   {
     
-    "itemCode": "DIN 125 - A 13",
+    "itemCode": "DIN 471 12X1",
     "itemCodeType": "",
-    "itemName": "SCHEIBE",
-    "itemType": "SCHEIBE",
+    "itemName": "WELLENSICHERUNGSRING",
+    "itemType": "SICHERUNGSRING",
+    "itemProvider": "",
+    "itemMaterial": "",
+    "itemAssemblyName": "ABFALLAUFWICKLUNG",
+    "itemAssemblyNumber": "17.402.00.00.00-B",
+    "itemAmount": 1,
+    "itemUnits": "",
+    "companyId": "RMB01",
+    "itemBrand": "",
+    "itemSellPrice": null,
+    "itemBuyPrice": null,
+    "itemCategorie": "",
+    "itemLocation": "",
+    "itemLastDate": "2016-06-11T08:32:07.495Z",
+    "itemRawMaterialProfil": "",
+    "itemRawMaterialDimensions": "",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 472 58X2",
+    "itemCodeType": "",
+    "itemName": "SICHERUNGSRING",
+    "itemType": "SICHERUNGSRING",
+    "itemProvider": "",
+    "itemMaterial": "",
+    "itemAssemblyName": "ABFALLAUFWICKLUNG",
+    "itemAssemblyNumber": "17.402.00.00.00-B",
+    "itemAmount": 1,
+    "itemUnits": "",
+    "companyId": "RMB01",
+    "itemBrand": "",
+    "itemSellPrice": null,
+    "itemCategorie": "",
+    "itemLocation": "",
+    "itemLastDate": "2016-06-11T08:32:24.724Z",
+    "itemRawMaterialProfil": "",
+    "itemRawMaterialDimensions": "",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 471 12X1",
+    "itemCodeType": "",
+    "itemName": "WELLENSICHERUNGSRING",
+    "itemType": "SICHERUNGSRING",
     "itemProvider": "",
     "itemMaterial": "",
     "itemAssemblyName": "ABROLLBOCK",
     "itemAssemblyNumber": "16.402.00.00.00",
-    "itemAmount": 8,
-    "itemUnits": "",
-    "companyId": "RMB01",
-    "itemBrand": "",
-    "itemSellPrice": null,
-    "itemBuyPrice": null,
-    "itemCategorie": "",
-    "itemLocation": "",
-    "itemLastDate": null,
-    "itemRawMaterialProfil": "",
-    "itemRawMaterialDimensions": "",
-    "__v": 0
-  },
-  {
-    
-    "itemCode": "DIN 125 - A 21",
-    "itemCodeType": "",
-    "itemName": "SCHEIBE",
-    "itemType": "SCHEIBE",
-    "itemProvider": "",
-    "itemMaterial": "",
-    "itemAssemblyName": "ABROLLBOCK",
-    "itemAssemblyNumber": "16.402.00.00.00",
-    "itemAmount": 6,
-    "itemUnits": "",
-    "companyId": "RMB01",
-    "itemBrand": "",
-    "itemSellPrice": null,
-    "itemBuyPrice": null,
-    "itemCategorie": "",
-    "itemLocation": "",
-    "itemLastDate": null,
-    "itemRawMaterialProfil": "",
-    "itemRawMaterialDimensions": "",
-    "__v": 0
-  },
-  {
-    
-    "itemCode": "DIN 125 - A 6.4",
-    "itemCodeType": "",
-    "itemName": "SCHEIBE",
-    "itemType": "SCHEIBE",
-    "itemProvider": "",
-    "itemMaterial": "",
-    "itemAssemblyName": "FOLIENTRANSPORT",
-    "itemAssemblyNumber": "14.401.00.00.00",
-    "itemAmount": 8,
-    "itemUnits": "",
-    "companyId": "RMB01",
-    "itemBrand": "",
-    "itemSellPrice": null,
-    "itemBuyPrice": null,
-    "itemCategorie": "",
-    "itemLocation": "",
-    "itemLastDate": null,
-    "itemRawMaterialProfil": "",
-    "itemRawMaterialDimensions": "",
-    "__v": 0
-  },
-  {
-    
-    "itemCode": "DIN 125 - A 8.4",
-    "itemCodeType": "",
-    "itemName": "SCHEIBE",
-    "itemType": "SCHEIBE",
-    "itemProvider": "",
-    "itemMaterial": "",
-    "itemAssemblyName": "FOLIENTRANSPORT",
-    "itemAssemblyNumber": "14.401.00.00.00",
-    "itemAmount": 22,
-    "itemUnits": "",
-    "companyId": "RMB01",
-    "itemBrand": "",
-    "itemSellPrice": null,
-    "itemBuyPrice": null,
-    "itemCategorie": "",
-    "itemLocation": "",
-    "itemLastDate": null,
-    "itemRawMaterialProfil": "",
-    "itemRawMaterialDimensions": "",
-    "__v": 0
-  },
-  {
-    
-    "itemCode": "DIN 125 - A 10.5",
-    "itemCodeType": "",
-    "itemName": "SCHEIBE",
-    "itemType": "SCHEIBE",
-    "itemProvider": "",
-    "itemMaterial": "",
-    "itemAssemblyName": "FOLIENTRANSPORT",
-    "itemAssemblyNumber": "14.401.00.00.00",
-    "itemAmount": 6,
-    "itemUnits": "",
-    "companyId": "RMB01",
-    "itemBrand": "",
-    "itemSellPrice": null,
-    "itemBuyPrice": null,
-    "itemCategorie": "",
-    "itemLocation": "",
-    "itemLastDate": null,
-    "itemRawMaterialProfil": "",
-    "itemRawMaterialDimensions": "",
-    "__v": 0
-  },
-  {
-    
-    "itemCode": "DIN 125 - A 21",
-    "itemCodeType": "",
-    "itemName": "SCHEIBE",
-    "itemType": "SCHEIBE",
-    "itemProvider": "",
-    "itemMaterial": "",
-    "itemAssemblyName": "FOLIENTRANSPORT",
-    "itemAssemblyNumber": "14.401.00.00.00",
-    "itemAmount": 2,
-    "itemUnits": "",
-    "companyId": "RMB01",
-    "itemBrand": "",
-    "itemSellPrice": null,
-    "itemBuyPrice": null,
-    "itemCategorie": "",
-    "itemLocation": "",
-    "itemLastDate": null,
-    "itemRawMaterialProfil": "",
-    "itemRawMaterialDimensions": "",
-    "__v": 0
-  },
-  {
-    
-    "itemCode": "DIN 125 - A 13",
-    "itemCodeType": "",
-    "itemName": "SCHEIBE",
-    "itemType": "SCHEIBE",
-    "itemProvider": "",
-    "itemMaterial": "",
-    "itemAssemblyName": "FOLIENTRANSPORT",
-    "itemAssemblyNumber": "14.401.00.00.00",
-    "itemAmount": 10,
-    "itemUnits": "",
-    "companyId": "RMB01",
-    "itemBrand": "",
-    "itemSellPrice": null,
-    "itemBuyPrice": null,
-    "itemCategorie": "",
-    "itemLocation": "",
-    "itemLastDate": null,
-    "itemRawMaterialProfil": "",
-    "itemRawMaterialDimensions": "",
-    "__v": 0
-  },
-  {
-    
-    "itemCode": "DIN 125 - A 4.3",
-    "itemCodeType": "",
-    "itemName": "SCHEIBE",
-    "itemType": "SCHEIBE",
-    "itemProvider": "",
-    "itemMaterial": "",
-    "itemAssemblyName": "FORMSTATION MIT HEBELANTRIEB",
-    "itemAssemblyNumber": "11.401.00.00.00-D",
-    "itemAmount": 3,
-    "itemUnits": "",
-    "companyId": "RMB01",
-    "itemBrand": "",
-    "itemSellPrice": null,
-    "itemBuyPrice": null,
-    "itemCategorie": "",
-    "itemLocation": "",
-    "itemLastDate": null,
-    "itemRawMaterialProfil": "",
-    "itemRawMaterialDimensions": "",
-    "__v": 0
-  },
-  {
-    
-    "itemCode": "DIN 125 - A 10.5",
-    "itemCodeType": "",
-    "itemName": "SCHEIBE",
-    "itemType": "SCHEIBE",
-    "itemProvider": "",
-    "itemMaterial": "",
-    "itemAssemblyName": "FORMSTATION MIT HEBELANTRIEB",
-    "itemAssemblyNumber": "11.401.00.00.00-D",
     "itemAmount": 4,
     "itemUnits": "",
     "companyId": "RMB01",
@@ -18247,17 +18863,174 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-11T07:35:30.120Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "__v": 0
   },
   {
     
-    "itemCode": "DIN 125 - A 6.4",
+    "itemCode": "DIN 471 20X1.2",
     "itemCodeType": "",
-    "itemName": "SCHEIBE",
-    "itemType": "SCHEIBE",
+    "itemName": "WELLENSICHERUNGSRING",
+    "itemType": "SICHERUNGSRING",
+    "itemProvider": "",
+    "itemMaterial": "",
+    "itemAssemblyName": "ABROLLBOCK",
+    "itemAssemblyNumber": "16.402.00.00.00",
+    "itemAmount": 8,
+    "itemUnits": "",
+    "companyId": "RMB01",
+    "itemBrand": "",
+    "itemSellPrice": null,
+    "itemBuyPrice": null,
+    "itemCategorie": "",
+    "itemLocation": "",
+    "itemLastDate": "2016-06-11T07:35:56.722Z",
+    "itemRawMaterialProfil": "",
+    "itemRawMaterialDimensions": "",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 471 20X1.2",
+    "itemCodeType": "",
+    "itemName": "WELLENSICHERUNGSRING",
+    "itemType": "SICHERUNGSRING",
+    "itemProvider": "",
+    "itemMaterial": "",
+    "itemAssemblyName": "FOLIENTRANSPORT",
+    "itemAssemblyNumber": "14.401.00.00.00",
+    "itemAmount": 4,
+    "itemUnits": "",
+    "companyId": "RMB01",
+    "itemBrand": "",
+    "itemSellPrice": null,
+    "itemCategorie": "",
+    "itemLocation": "",
+    "itemLastDate": "2016-06-11T09:07:44.324Z",
+    "itemRawMaterialProfil": "",
+    "itemRawMaterialDimensions": "",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 471 45X1.75",
+    "itemCodeType": "",
+    "itemName": "WELLENSICHERUNGSRING",
+    "itemType": "SICHERUNGSRING",
+    "itemProvider": "",
+    "itemMaterial": "",
+    "itemAssemblyName": "FOLIENTRANSPORT",
+    "itemAssemblyNumber": "14.401.00.00.00",
+    "itemAmount": 2,
+    "itemUnits": "",
+    "companyId": "RMB01",
+    "itemBrand": "",
+    "itemSellPrice": null,
+    "itemBuyPrice": null,
+    "itemCategorie": "",
+    "itemLocation": "",
+    "itemLastDate": "2016-06-11T09:08:05.978Z",
+    "itemRawMaterialProfil": "",
+    "itemRawMaterialDimensions": "",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 471 14X1",
+    "itemCodeType": "",
+    "itemName": "WELLENSICHERUNGSRING",
+    "itemType": "SICHERUNGSRING",
+    "itemProvider": "",
+    "itemMaterial": "",
+    "itemAssemblyName": "FOLIENTRANSPORT",
+    "itemAssemblyNumber": "14.401.00.00.00",
+    "itemAmount": 2,
+    "itemUnits": "",
+    "companyId": "RMB01",
+    "itemBrand": "",
+    "itemSellPrice": null,
+    "itemCategorie": "",
+    "itemLocation": "",
+    "itemLastDate": "2016-06-11T09:08:47.690Z",
+    "itemRawMaterialProfil": "",
+    "itemRawMaterialDimensions": "",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 471 12X1",
+    "itemCodeType": "",
+    "itemName": "WELLENSICHERUNGSRING",
+    "itemType": "SICHERUNGSRING",
+    "itemProvider": "",
+    "itemMaterial": "",
+    "itemAssemblyName": "FOLIENTRANSPORT",
+    "itemAssemblyNumber": "14.401.00.00.00",
+    "itemAmount": 2,
+    "itemUnits": "",
+    "companyId": "RMB01",
+    "itemBrand": "",
+    "itemSellPrice": null,
+    "itemBuyPrice": null,
+    "itemCategorie": "",
+    "itemLocation": "",
+    "itemLastDate": "2016-06-11T09:09:01.608Z",
+    "itemRawMaterialProfil": "",
+    "itemRawMaterialDimensions": "",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 471 17X1",
+    "itemCodeType": "",
+    "itemName": "WELLENSICHERUNGSRING",
+    "itemType": "SICHERUNGSRING",
+    "itemProvider": "",
+    "itemMaterial": "",
+    "itemAssemblyName": "FOLIENTRANSPORT",
+    "itemAssemblyNumber": "14.401.00.00.00",
+    "itemAmount": 2,
+    "itemUnits": "",
+    "companyId": "RMB01",
+    "itemBrand": "",
+    "itemSellPrice": null,
+    "itemCategorie": "",
+    "itemLocation": "",
+    "itemLastDate": "2016-06-11T09:09:16.700Z",
+    "itemRawMaterialProfil": "",
+    "itemRawMaterialDimensions": "",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 471 30X1.5",
+    "itemCodeType": "",
+    "itemName": "WELLENSICHERUNGSRING",
+    "itemType": "SICHERUNGSRING",
+    "itemProvider": "",
+    "itemMaterial": "",
+    "itemAssemblyName": "FORMSTATION MIT HEBELANTRIEB",
+    "itemAssemblyNumber": "11.401.00.00.00-D",
+    "itemAmount": 1,
+    "itemUnits": "",
+    "companyId": "RMB01",
+    "itemBrand": "",
+    "itemSellPrice": null,
+    "itemCategorie": "",
+    "itemLocation": "",
+    "itemLastDate": "2016-06-11T10:15:44.316Z",
+    "itemRawMaterialProfil": "",
+    "itemRawMaterialDimensions": "",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 471 45X2.5",
+    "itemCodeType": "",
+    "itemName": "WELLENSICHERUNGSRING",
+    "itemType": "SICHERUNGSRING",
     "itemProvider": "",
     "itemMaterial": "",
     "itemAssemblyName": "FORMSTATION MIT HEBELANTRIEB",
@@ -18270,53 +19043,117 @@
     "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-11T10:16:49.293Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "__v": 0
   },
   {
     
-    "itemCode": "DIN 125 - A 13",
+    "itemCode": "DIN 471 40X1.75",
     "itemCodeType": "",
-    "itemName": "SCHEIBE",
-    "itemType": "SCHEIBE",
+    "itemName": "WELLENSICHERUNGSRING",
+    "itemType": "SICHERUNGSRING",
     "itemProvider": "",
     "itemMaterial": "",
     "itemAssemblyName": "FORMSTATION MIT HEBELANTRIEB",
     "itemAssemblyNumber": "11.401.00.00.00-D",
-    "itemAmount": 8,
+    "itemAmount": 2,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
     "itemSellPrice": null,
-    "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-11T10:16:34.290Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "__v": 0
   },
   {
     
-    "itemCode": "DIN 125 - A 8.4",
+    "itemCode": "DIN 472 80X2.5",
     "itemCodeType": "",
-    "itemName": "SCHEIBE",
-    "itemType": "SCHEIBE",
+    "itemName": "SICHERUNGSRING",
+    "itemType": "SICHERUNGSRING",
     "itemProvider": "",
     "itemMaterial": "",
     "itemAssemblyName": "FORMSTATION MIT HEBELANTRIEB",
     "itemAssemblyNumber": "11.401.00.00.00-D",
-    "itemAmount": 12,
+    "itemAmount": 2,
     "itemUnits": "",
     "companyId": "RMB01",
     "itemBrand": "",
     "itemSellPrice": null,
-    "itemBuyPrice": null,
     "itemCategorie": "",
     "itemLocation": "",
-    "itemLastDate": null,
+    "itemLastDate": "2016-06-11T10:17:51.886Z",
+    "itemRawMaterialProfil": "",
+    "itemRawMaterialDimensions": "",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 472 100X3",
+    "itemCodeType": "",
+    "itemName": "SICHERUNGSRING",
+    "itemType": "SICHERUNGSRING",
+    "itemProvider": "",
+    "itemMaterial": "",
+    "itemAssemblyName": "FORMSTATION MIT HEBELANTRIEB",
+    "itemAssemblyNumber": "11.401.00.00.00-D",
+    "itemAmount": 2,
+    "itemUnits": "",
+    "companyId": "RMB01",
+    "itemBrand": "",
+    "itemSellPrice": null,
+    "itemCategorie": "",
+    "itemLocation": "",
+    "itemLastDate": "2016-06-11T10:17:09.881Z",
+    "itemRawMaterialProfil": "",
+    "itemRawMaterialDimensions": "",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 472 90X3",
+    "itemCodeType": "",
+    "itemName": "SICHERUNGSRING",
+    "itemType": "SICHERUNGSRING",
+    "itemProvider": "",
+    "itemMaterial": "",
+    "itemAssemblyName": "FORMSTATION MIT HEBELANTRIEB",
+    "itemAssemblyNumber": "11.401.00.00.00-D",
+    "itemAmount": 2,
+    "itemUnits": "",
+    "companyId": "RMB01",
+    "itemBrand": "",
+    "itemSellPrice": null,
+    "itemCategorie": "",
+    "itemLocation": "",
+    "itemLastDate": "2016-06-11T10:17:39.033Z",
+    "itemRawMaterialProfil": "",
+    "itemRawMaterialDimensions": "",
+    "__v": 0
+  },
+  {
+    
+    "itemCode": "DIN 472 110X4",
+    "itemCodeType": "",
+    "itemName": "SICHERUNGSRING",
+    "itemType": "SICHERUNGSRING",
+    "itemProvider": "",
+    "itemMaterial": "",
+    "itemAssemblyName": "FORMSTATION MIT HEBELANTRIEB",
+    "itemAssemblyNumber": "11.401.00.00.00-D",
+    "itemAmount": 2,
+    "itemUnits": "",
+    "companyId": "RMB01",
+    "itemBrand": "",
+    "itemSellPrice": null,
+    "itemCategorie": "",
+    "itemLocation": "",
+    "itemLastDate": "2016-06-11T10:17:24.702Z",
     "itemRawMaterialProfil": "",
     "itemRawMaterialDimensions": "",
     "__v": 0

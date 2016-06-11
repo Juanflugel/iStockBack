@@ -21,7 +21,7 @@ var ProjectSchema = new Schema({
         itemAssemblyTime:Date
 
     }]
-
+ //[{},{},] UN ARRAY CON LOS OBJECTOS ASSEMBLY 
 
 });
 

@@ -1,0 +1,5972 @@
+[
+  {
+    
+    "assemblyName": "OBERJOCHVERSTELLUNG",
+    "assemblyNumber": "11.300.02.00.00-A",
+    "companyId": "RMB01",
+    "__v": 0,
+    "assemblyItems": [
+      {
+        
+        "itemCode": "11.300.02.00.01-A",
+        "itemName": "DECKEL",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.300.02.00.03",
+        "itemName": "STELLRING",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "11.300.02.00.02-A",
+        "itemName": "FÜHRUNGSFLANSCH",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.300.02.00.04-B",
+        "itemName": "ACHSE ZUR VERSTELLUNG, LANG",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.300.02.00.05-A",
+        "itemName": "ACHSE ZUR VERSTELLUNG, KURZ",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.300.02.00.07",
+        "itemName": "GERADSTIRNRAD, MODUL 2, 47 ZÄHNE",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "11.300.02.00.06-A",
+        "itemName": "KETTENRAD DIN 8192 - 13 ZÄHNE, 1/2 X 3/16\"",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "11.300.02.00.10",
+        "itemName": "ACHSE",
+        "itemAmount": 3
+      },
+      {
+        
+        "itemCode": "11.300.02.00.08",
+        "itemName": "GERADSTIRNRAD, MODUL 2, 20 ZÄHNE",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "11.300.02.00.09",
+        "itemName": "KOLBEN",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.300.02.00.13",
+        "itemName": "KETTENSPANNVORRICHTUNG",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.300.02.00.11-A",
+        "itemName": "KETTENRAD DIN 8192 - 9 ZÄHNE, ISO 083-1, 1/2 X 3/16\"",
+        "itemAmount": 4
+      },
+      {
+        
+        "itemCode": "11.300.02.00.12",
+        "itemName": "SPINDELLAGERUNG",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.300.02.00.14",
+        "itemName": "ACHSE FÜR KETTENSPANNER",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.300.02.00.15",
+        "itemName": "UNTERLEGSCHEIBE, ANTRIEBSKETTENRAD",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.400.00.00.39",
+        "itemName": "RING FÜR FÜHRUNGSSÄULE",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.300.02.00.16",
+        "itemName": "UNTERLEGSCHEIBE, UMLENKRAD",
+        "itemAmount": 4,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.400.00.04.01-A",
+        "itemName": "WERKZEUGWECHSELFÜHRUNG, SCHIENE VORNE",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.400.00.04.02-A",
+        "itemName": "WERKZEUGWECHSELFÜHRUNG, SCHIENE HINTEN",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.400.00.04.04",
+        "itemName": "WERKZEUGWECHSELFÜHRUNG, BOLZEN",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "11.400.00.04.05",
+        "itemName": "WERKZEUGWECHSELFÜHRUNG, SCHEIBE",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.400.00.04.06",
+        "itemName": "WERKZEUGWECHSELFÜHRUNG, KUNSTSTOFFSCHEIBE",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.400.00.04.03",
+        "itemName": "WERKZEUGWECHSELFÜHRUNG, HALTERUNG",
+        "itemAmount": 4,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.400.00.07.01-A",
+        "itemName": "WERKZEUGHALTER, HALTER",
+        "itemAmount": 4
+      },
+      {
+        
+        "itemCode": "11.400.00.07.02-B",
+        "itemName": "WERKZEUGHALTER, SCHIENE",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.401.00.01.00",
+        "itemName": "OBERJOCH",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "DIN 125-A-4.3",
+        "itemName": "SCHEIBE",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 125-A-8.4",
+        "itemName": "SCHEIBE",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 471 12X1",
+        "itemName": "WELLENSICHERUNGSRING",
+        "itemAmount": 4,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 440-R-6.6",
+        "itemName": "SCHEIBE",
+        "itemAmount": 4,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 471 30X1.5",
+        "itemName": "WELLENSICHERUNGSRING",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "ISO 4032-M16",
+        "itemName": "SECHSKANTMUTTER",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 6885-A-5X5X12",
+        "itemName": "PASSFEDER",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 8187-ISO 083 1/2X3/16",
+        "itemName": "ROLLENKETTE; 178 GLIEDER INKL. SCHLOSS",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "DIN 9021-6.4",
+        "itemName": "SCHEIBE",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "ISO 8752-5X24",
+        "itemName": "SPANNSTIFT",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 71412 M6X1-SW7",
+        "itemName": "SCHMIERNIPPEL",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "PM 1212",
+        "itemName": "BUCHSE",
+        "itemAmount": 4
+      },
+      {
+        
+        "itemCode": "DIN 71412 M10X1-SW11",
+        "itemName": "KEGELSCHMIERNIPPEL, H1, GERADE",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "PM 1615 DS",
+        "itemName": "PTFE-GLEITLAGERBUCHSE",
+        "itemAmount": 4
+      },
+      {
+        
+        "itemCode": "O-RING 97X2",
+        "itemName": "O-RING",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "O-RING 100X2",
+        "itemName": "O-RING",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "GA36-10-01",
+        "itemName": "MANOMETER",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "KQ2L06-01AS",
+        "itemName": "WINKEL-STECKVERBINDUNG",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "KQ2T06-00A",
+        "itemName": "STECKVERBINDUNG",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "KQ2S06-02AS",
+        "itemName": "STECKVERSCHRAUBUNG, GERADE MIT INNENSECHSKANT",
+        "itemAmount": 3
+      },
+      {
+        
+        "itemCode": "VF3133-5YZD1-02F",
+        "itemName": "5-2-WEGE VENTIL",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "KQ2VF06-01AS",
+        "itemName": "EINSCHRAUBWINKEL MIT INNENGEWINDE",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "8000-016-024",
+        "itemName": "SPANNSATZ",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "VHK3-06F-06FL",
+        "itemName": "3/2-WEGE HANDABSPERRVENTIL",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "11.401.01.00.06-A",
+        "itemName": "FÜHRUNGSSÄULE, LANGE VERSION",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "AN10-01",
+        "itemName": "SCHALLDÄMPFER",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "11.400.00.04.08",
+        "itemName": "WERKZEUGWECHSELFÜHRUNG, HALTEWINKEL",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 912 M6X12",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 4,
+        "itemBuyPrice": 1.6
+      },
+      {
+        
+        "itemCode": "DIN 912 M6X16",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 14,
+        "itemBuyPrice": 1.7
+      },
+      {
+        
+        "itemCode": "DIN 912 M6X25",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 4,
+        "itemBuyPrice": 1.9
+      },
+      {
+        
+        "itemCode": "DIN 912 M8X20",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 2,
+        "itemBuyPrice": 1.23
+      },
+      {
+        
+        "itemCode": "DIN 912 M8X25",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 6,
+        "itemBuyPrice": 1.24
+      },
+      {
+        
+        "itemCode": "DIN 912 M8X35",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 8,
+        "itemBuyPrice": 1.26
+      },
+      {
+        
+        "itemCode": "DIN 912 M8X70",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 8,
+        "itemBuyPrice": 1.32
+      },
+      {
+        
+        "itemCode": "DIN 912 M10X30",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 2,
+        "itemBuyPrice": 1.4
+      },
+      {
+        
+        "itemCode": "DIN 912 M4X35",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 2,
+        "itemBuyPrice": 1109
+      }
+    ]
+  },
+  {
+    
+    "assemblyName": "SERVOVORSTRECKER",
+    "assemblyNumber": "19.402.00.00.00-A",
+    "companyId": "RMB01",
+    "__v": 0,
+    "assemblyItems": [
+      {
+        
+        "itemCode": "19.402.00.00.02",
+        "itemName": "MOTORAUFNAHME",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "19.402.00.00.01",
+        "itemName": "GRUNDPLATTE",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "19.402.00.00.03",
+        "itemName": "SCHRAUBPLATTE",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "19.402.00.00.04",
+        "itemName": "KUGELUMLAUFSPINDEL",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "19.402.00.00.05",
+        "itemName": "FÜHRUNGSSÄULE",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "19.402.00.00.06",
+        "itemName": "ABFANGBUCHSE, BEDIENSEITE",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "19.402.00.00.07",
+        "itemName": "ZAHNRIEMENSCHEIBE",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "19.402.00.00.08",
+        "itemName": "ZAHNRIEMENSCHEIBE",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "19.402.00.00.09",
+        "itemName": "ANSCHLUSSPLATTE",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "19.402.00.00.11",
+        "itemName": "DISTANZLEISTE",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "19.402.00.00.12",
+        "itemName": "ABFANGBUCHSE, RÜCKSEITE",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "19.402.00.00.13-A",
+        "itemName": "HALTER FÜR SENSOR",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "19.402.00.00.10",
+        "itemName": "FÜHRUNGSPLATTE",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "19.402.00.00.14",
+        "itemName": "BETÄTIGUNGSWINKEL",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "19.402.00.00.15-A",
+        "itemName": "SCHALTANSCHLAGSCHEIBE",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "19.402.00.00.16",
+        "itemName": "ANSCHLAGSCHEIBE",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "19.402.00.00.17-A",
+        "itemName": "HALTER, SENSOR ENDPUNKTE",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "19.402.00.00.20",
+        "itemName": "ELASTOMERFEDER",
+        "itemAmount": 4,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "19.402.00.00.22-A",
+        "itemName": "SCHEIBE, ZAHNRIEMENSCHEIBE",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "19.402.00.00.18",
+        "itemName": "ENDLAGENDÄMPFUNG, UNTEN",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "19.402.00.00.26",
+        "itemName": "ROTGUSSFÜHRUNG",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "19.402.01.00.01",
+        "itemName": "LAGERGEHÄUSE",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "19.402.01.00.02-A",
+        "itemName": "GLOCKE MOTORBEFESTIGUNG, UNTEN (OHNE BREMSE)",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "19.402.01.00.05-A",
+        "itemName": "WELLE",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "19.402.00.00.23",
+        "itemName": "VORLEGESCHEIBE KUGELSPINDEL",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 472-90X3",
+        "itemName": "SICHERUNGSRING",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 913 M16X20",
+        "itemName": "GEWINDESTIFT MIT INNENSECHSKANT UND KEGELKUPPE",
+        "itemAmount": 4,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 625 - 6210-2RSR",
+        "itemName": "RILLENKUGELLAGER",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "DIN 625 - 6208.2RSR",
+        "itemName": "RILLENKUGELLAGER",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "ISO 4017 M8X25",
+        "itemName": "SECHSKANTSCHRAUBE",
+        "itemAmount": 4,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "ISO 4017 M8X16",
+        "itemName": "SECHSKANTSCHRAUBE",
+        "itemAmount": 4,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 6885 8X7X20",
+        "itemName": "PASSFEDER",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "ISO 7379 10X25",
+        "itemName": "ZYLINDERSCHRAUBE MIT ZAPFEN",
+        "itemAmount": 4
+      },
+      {
+        
+        "itemCode": "8MR-800-50",
+        "itemName": "ZAHNRIEMEN",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "DIN 6885 8X7X60",
+        "itemName": "PASSFEDER",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "RUNDSCHNUR 12X80",
+        "itemName": "RUNDSCHNUR",
+        "itemAmount": 4,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "MSK071D-0300-NN-M3-UG1-NNNN",
+        "itemName": "SYNCHRON SERVOMOTR INDRADYN",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "550281000002",
+        "itemName": "ROTEX GS28 ZAHNKRANZ 98 SHORE A - GS",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "19.402.00.00.19",
+        "itemName": "ENDLAGENDÄMPFUNG, OBEN",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "19.402.01.00.03-B",
+        "itemName": "GLOCKE MOTORBEFESTIGUNG, OBEN",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "IF5904",
+        "itemName": "INDUKTIVER SENSOR",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "IFS244",
+        "itemName": "INDUKTIVER SENSOR",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "BLR4040 - 3.6UU",
+        "itemName": "ROTATIONSMUTTER",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "7000-12341-6341000",
+        "itemName": "ANSCHLUSSKABEL",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "ROTEX GS28 SPANNRINGNABE 24H7 KUPPLUNG",
+        "itemName": "",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "ROTEX GS28 SPANNRINGNABE 32H7 KUPPLUNG",
+        "itemName": "ROTEX GS28 SPANNRINGNABE Ø32H7",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 912 M6X20",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 4,
+        "itemBuyPrice": 1.8
+      },
+      {
+        
+        "itemCode": "DIN 912 M8X20",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 5,
+        "itemBuyPrice": 1.23
+      },
+      {
+        
+        "itemCode": "DIN 912 M8X25",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 6,
+        "itemBuyPrice": 1.24
+      },
+      {
+        
+        "itemCode": "DIN 912 M8X40",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 1,
+        "itemBuyPrice": 1.27
+      },
+      {
+        
+        "itemCode": "DIN 912 M8X70",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 4,
+        "itemBuyPrice": 1.32
+      },
+      {
+        
+        "itemCode": "DIN 912 M10X20",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 1,
+        "itemBuyPrice": 1.38
+      },
+      {
+        
+        "itemCode": "DIN 912 M10X40",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 2,
+        "itemBuyPrice": 1.43
+      },
+      {
+        
+        "itemCode": "DIN 912 M10X70",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 4,
+        "itemBuyPrice": 1.48
+      },
+      {
+        
+        "itemCode": "DIN 912 M10X55",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 4,
+        "itemBuyPrice": 1.47
+      },
+      {
+        
+        "itemCode": "DIN 912 M12X30",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 2,
+        "itemBuyPrice": 1.56
+      },
+      {
+        
+        "itemCode": "DIN 912 M12X40",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 2,
+        "itemBuyPrice": 1.58
+      },
+      {
+        
+        "itemCode": "DIN 912 M5X12",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 2,
+        "itemBuyPrice": 1115
+      }
+    ]
+  },
+  {
+    
+    "assemblyName": "FOLIENUMLENKUNG",
+    "assemblyNumber": "25.401.00.00.00",
+    "companyId": "RMB01",
+    "__v": 0,
+    "assemblyItems": [
+      {
+        
+        "itemCode": "25.401.00.00.01",
+        "itemName": "ACHSE, 910MM",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "25.401.00.00.04",
+        "itemName": "WINKEL",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "25.401.00.00.07",
+        "itemName": "ROLLE, 1160MM",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "25.401.00.00.05",
+        "itemName": "WINKEL, EINSTELLBAR",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "25.401.00.00.06",
+        "itemName": "ACHSE, 1183MM",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "25.401.00.01.00",
+        "itemName": "STREBE MASCHINENRAHMEN, KURZ",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "25.401.00.00.02",
+        "itemName": "ROLLE, 600MM",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "25.401.00.02.00",
+        "itemName": "STREBE MASCHINENRAHMEN, LANG",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "25.401.00.00.03",
+        "itemName": "LAGERSCHEIBE",
+        "itemAmount": 6,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "25.401.00.03.01",
+        "itemName": "STREBE, VERKLEIDUNG",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "25.401.00.03.02",
+        "itemName": "DISTANZBUCHSE",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "25.401.00.03.03",
+        "itemName": "ACHSE, 640MM",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "DIN 125-A21",
+        "itemName": "SCHEIBE",
+        "itemAmount": 6,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "ISO 4032-M10",
+        "itemName": "SECHSKANTMUTTER",
+        "itemAmount": 6,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 705-A20",
+        "itemName": "STELLRING",
+        "itemAmount": 4
+      },
+      {
+        
+        "itemCode": "DIN 912 M10X25",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 4,
+        "itemBuyPrice": 1.39
+      },
+      {
+        
+        "itemCode": "DIN 912 M10X60",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 6,
+        "itemBuyPrice": 1.46
+      },
+      {
+        
+        "itemCode": "DIN 912 M10X120",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 2,
+        "itemBuyPrice": 1.52
+      },
+      {
+        
+        "itemCode": "DIN 912 M12X70",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 4,
+        "itemBuyPrice": 1.63
+      }
+    ]
+  },
+  {
+    
+    "assemblyName": "GRUNDRAHMEN",
+    "assemblyNumber": "10.401.00.00.00-C",
+    "companyId": "RMB01",
+    "__v": 0,
+    "assemblyItems": [
+      {
+        
+        "itemCode": "10.401.00.00.01",
+        "itemName": "TRÄGER, LINKS",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "10.401.00.00.02",
+        "itemName": "TRÄGER, RECHTS",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "10.401.00.00.03",
+        "itemName": "STREBE",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "10.401.00.00.04",
+        "itemName": "MITTELSTREBE",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "10.401.00.00.05",
+        "itemName": "ABSTANDSHALTER FÜR ROLLBAHN",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "10.401.00.00.06",
+        "itemName": "SPURTRÄGER, RECHTS",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "10.401.00.00.07",
+        "itemName": "SPURTRÄGER, LINKS",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "10.401.00.00.08",
+        "itemName": "DISTANZHÜLSE FÜR MASCHINENFÜßE",
+        "itemAmount": 6,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "10.401.00.00.10",
+        "itemName": "ANSCHLAG, HINTEN",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "10.401.00.00.12",
+        "itemName": "HALTERUNG KABELKANAL",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "10.401.00.00.14",
+        "itemName": "ABSTANDSHALTER FÜR ROLLBAHN",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "10.401.00.00.16",
+        "itemName": "MONTAGEFÜßE",
+        "itemAmount": 6
+      },
+      {
+        
+        "itemCode": "10.401.00.00.13",
+        "itemName": "ABSTANDSHALTER FÜR ROLLBAHN",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "10.401.01.00.02",
+        "itemName": "TRÄGER OBERWAGEN, HINTEN",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "10.401.00.00.15",
+        "itemName": "ANSCHRAUBPLATTE FÜR STECKDOSE",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "10.401.01.00.03",
+        "itemName": "TRÄGER OBERWAGEN, LINKS",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "10.401.01.00.05",
+        "itemName": "TRÄGER OBERWAGEN, VORNE",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "10.401.01.00.08",
+        "itemName": "ROLLENBEFESTIGUNG",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "10.401.01.00.06",
+        "itemName": "STÜTZROLLE",
+        "itemAmount": 4,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "10.401.01.00.07",
+        "itemName": "ABSTANDSBUCHSE STÜTZROLLE",
+        "itemAmount": 4,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "10.401.01.00.04",
+        "itemName": "TRÄGER OBERWAGEN, RECHTS",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "10.401.01.00.09",
+        "itemName": "ACHSBOLZEN",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "10.401.00.00.09",
+        "itemName": "EINSTELLSCHRAUBE FÜR MASCHINENFÜßE",
+        "itemAmount": 6,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "10.401.01.00.10",
+        "itemName": "POM-ROLLE",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "10.401.02.00.01",
+        "itemName": "TRÄGERLEISTE SCHALTSCHRANK",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "10.401.02.00.02",
+        "itemName": "ABSTANDHALTER, LANG",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "10.401.02.00.03",
+        "itemName": "ABSTANDHALTER, KURZ",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "10.401.00.00.11",
+        "itemName": "ANSCHLAG, VORNE",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "DIN 125 - A 4.3",
+        "itemName": "SCHEIBE",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "24.400.00.00.11",
+        "itemName": "KÜHLWASSERVERTEILER (FOLIENTRANSPORT, SCHALTSCHRÄNKE)",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 125 - A 13",
+        "itemName": "SCHEIBE",
+        "itemAmount": 6,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 471 - 28 X 1.5",
+        "itemName": "WELLENSICHERUNGSRING",
+        "itemAmount": 4
+      },
+      {
+        
+        "itemCode": "DIN 472 - 47 X 1.75",
+        "itemName": "SICHERUNGSRING",
+        "itemAmount": 4
+      },
+      {
+        
+        "itemCode": "DIN 625-3 - 4204 - 2RS",
+        "itemName": "RILLENKUGELLAGER, ZWEIREIHIG",
+        "itemAmount": 4
+      },
+      {
+        
+        "itemCode": "DIN 906 - G1/2",
+        "itemName": "VERSCHLUSSSCHRAUBE",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "ISO 4014 M12X120",
+        "itemName": "SECHSKANTSCHRAUBE",
+        "itemAmount": 6,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "ISO 4032 - M12",
+        "itemName": "SECHSKANTMUTTER",
+        "itemAmount": 12,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "ISO 7379 20X40",
+        "itemName": "SCHULTERPASSSCHRAUBE",
+        "itemAmount": 4
+      },
+      {
+        
+        "itemCode": "ISO 7380 M8X12",
+        "itemName": "RUNDKOPFSCHRAUBE",
+        "itemAmount": 4,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 7991 M12X30",
+        "itemName": "SENKSCHRAUBE",
+        "itemAmount": 4,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "EFFBE LM 3-33",
+        "itemName": "LEVELMOUNT MASCHINENLAGERUNG",
+        "itemAmount": 6,
+        "itemBuyPrice": 38
+      },
+      {
+        
+        "itemCode": "160236 - CRVZS-2",
+        "itemName": "DRUCKLUFTSPEICHER",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "226.03-10,0",
+        "itemName": "SICHERHEITSVENTIL",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "KL2 EG 04-202-024",
+        "itemName": "DRUCKLUFTTANK 90L",
+        "itemAmount": 1,
+        "itemBuyPrice": 349
+      },
+      {
+        
+        "itemCode": "10.401.01.00.01",
+        "itemName": "BLECH FÜR RAHMEN",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "AE 1055.500",
+        "itemName": "KOMPAKTSCHALTSCHRANK",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "AN10-01",
+        "itemName": "SCHALLDÄMPFER",
+        "itemAmount": 4
+      },
+      {
+        
+        "itemCode": "KQ2S06-02AS",
+        "itemName": "STECKVERSCHRAUBUNG, GERADE MIT INNENSECHSKANT",
+        "itemAmount": 10
+      },
+      {
+        
+        "itemCode": "AS3002F-10",
+        "itemName": "DROSSELRÜCKSCHLAGVENTIL",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "KQ2S10-02AS",
+        "itemName": "STECKVERSCHRAUBUNG, GERADE MIT INNENSECHSKANT",
+        "itemAmount": 4
+      },
+      {
+        
+        "itemCode": "KQ2S12-04AS",
+        "itemName": "STECKVERSCHRAUBUNG, GERADE MIT INNENSECHSKANT",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "KQ2S10-04AS",
+        "itemName": "STECKVERSCHRAUBUNG, GERADE MIT INNENSECHSKANT",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "KQ2T06-00A",
+        "itemName": "STECKVERBINDUNG",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "KQ2T10-00A",
+        "itemName": "T-STECKVERBINDUNG",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "KQ2T12-10A",
+        "itemName": "T-STECKVERBINDER",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "VF3133-5YZD1-02F",
+        "itemName": "5-2-WEGE VENTIL",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "LKM 60150",
+        "itemName": "KABELKANAL 60X150, L=1500MM",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "LKM 60060",
+        "itemName": "60X60, L=1115MM",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "LKM 60150",
+        "itemName": "KABELKANAL 60X150, L=1500MM",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "LKM 60150",
+        "itemName": "KABELKANAL 60X150, L=830MM",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DN 1212 ST",
+        "itemName": "DOPPELNIPPEL",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "GT 1025 MS",
+        "itemName": "GEWINDETÜLLE",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "RN 20114 K ST",
+        "itemName": "REDUZIERNIPPEL",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "RN 11410 K ST",
+        "itemName": "REDUZIERNIPPEL",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "KH 12",
+        "itemName": "KUGELHAHN 1/2\"",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "VS 14 ST",
+        "itemName": "VERSCHLUSSSTOPFEN",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "VS 20 ST",
+        "itemName": "VERSCHLUSSSTOPFEN",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "WE 12 ST",
+        "itemName": "EINSCHRAUBWINKEL 90° MIT INNEN- UND AUßENGEWINDE",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "10.401.00.00.18",
+        "itemName": "DISTANZHÜLSE FÜR KABELKANAL",
+        "itemAmount": 3
+      },
+      {
+        
+        "itemCode": "DIN 912 M6X12",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 14,
+        "itemBuyPrice": 1.6
+      },
+      {
+        
+        "itemCode": "DIN 912 M6X25",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 2,
+        "itemBuyPrice": 1.9
+      },
+      {
+        
+        "itemCode": "DIN 912 M8X16",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 4,
+        "itemBuyPrice": 1.22
+      },
+      {
+        
+        "itemCode": "DIN 912 M10X25",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 2,
+        "itemBuyPrice": 1.39
+      },
+      {
+        
+        "itemCode": "DIN 912 M12X20",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 4,
+        "itemBuyPrice": 1.54
+      },
+      {
+        
+        "itemCode": "DIN 912 M12X30",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 8,
+        "itemBuyPrice": 1.56
+      },
+      {
+        
+        "itemCode": "DIN 912 M12X40",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 2,
+        "itemBuyPrice": 1.58
+      },
+      {
+        
+        "itemCode": "DIN 912 M12X60",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 14,
+        "itemBuyPrice": 1.62
+      },
+      {
+        
+        "itemCode": "DIN 912 M12X80",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 4,
+        "itemBuyPrice": 1.64
+      },
+      {
+        
+        "itemCode": "DIN 912 M12X110",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 4,
+        "itemBuyPrice": 1.66
+      },
+      {
+        
+        "itemCode": "DIN 912 M20X90",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 4,
+        "itemBuyPrice": 1.75
+      },
+      {
+        
+        "itemCode": "DIN 912 M4X60",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 2,
+        "itemBuyPrice": 1112
+      }
+    ]
+  },
+  {
+    
+    "assemblyName": "ABROLLBOCK",
+    "assemblyNumber": "16.402.00.00.00",
+    "companyId": "RMB01",
+    "__v": 0,
+    "assemblyItems": [
+      {
+        
+        "itemCode": "16.402.00.00.01",
+        "itemName": "HALTELEISTE FÜR LICHTSCHRANKE",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "16.402.01.01.03",
+        "itemName": "SCHWINGE",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "16.402.01.01.01",
+        "itemName": "BOCK",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "16.402.01.01.04",
+        "itemName": "LAGERUNG ABROLLBOCK",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "16.402.01.01.05",
+        "itemName": "GEWINDEEINSATZ M20/M12",
+        "itemAmount": 4,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "16.402.01.01.06",
+        "itemName": "ACHSE FÜR UMLENKROLLE, 910MM LANG",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "16.402.01.01.13",
+        "itemName": "LUFTVERTEILER",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "16.402.01.01.11",
+        "itemName": "ABWICKELWELLE",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "16.402.01.01.16",
+        "itemName": "KLEMMRING",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "16.402.01.01.07",
+        "itemName": "EINLAUFROLLE",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "16.402.02.00.01",
+        "itemName": "GRUNDPLATTE, ABZUG",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "16.402.01.01.17",
+        "itemName": "KONUS Ø75",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "16.402.01.01.18",
+        "itemName": "STANDFUSS",
+        "itemAmount": 4,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "16.402.02.00.02",
+        "itemName": "SEITENWAND, ABZUG",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "16.402.02.00.04",
+        "itemName": "EINLAUF-ABDECKUNG, UNTEN",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "16.402.02.00.07",
+        "itemName": "DECKBLECH",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "16.402.02.00.08",
+        "itemName": "ABDECKHAUBE FÜR KUPPLUNG",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "16.402.02.00.10",
+        "itemName": "WALZENWELLE",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "16.402.02.00.09",
+        "itemName": "WALZENACHSE",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "16.402.02.00.06",
+        "itemName": "ZYLINDERHALTER",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "16.402.01.01.10",
+        "itemName": "ACHSE FÜR UMLENKROLLE, 703MM LANG",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "16.402.02.01.01",
+        "itemName": "WALZE, UNTEN",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "16.402.02.01.02",
+        "itemName": "SPANNSATZSITZ",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "16.402.02.01.03",
+        "itemName": "BELAG, GUMMI",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "16.402.02.02.02",
+        "itemName": "LAGERSITZ, WALZE OBEN",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "16.402.03.02.01",
+        "itemName": "LEISTE",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "16.402.02.02.01",
+        "itemName": "WALZE, OBEN",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "16.402.03.02.02",
+        "itemName": "GEWINDESTANGE M12, L=300MM",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "16.402.03.02.03",
+        "itemName": "ROLLE",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "16.402.03.02.04",
+        "itemName": "GEWINDESTANGE M12, L=750MM",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "21.400.00.02.01",
+        "itemName": "TRÄGERPLATTE FÜR HEBELVENTILE ABROLLBOCK",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 125-A-6.4",
+        "itemName": "SCHEIBE",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 125-A-13",
+        "itemName": "SCHEIBE",
+        "itemAmount": 8,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 125-A-10.5",
+        "itemName": "SCHEIBE",
+        "itemAmount": 16,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 471 12X1",
+        "itemName": "WELLENSICHERUNGSRING",
+        "itemAmount": 4,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 125-A-21",
+        "itemName": "SCHEIBE",
+        "itemAmount": 6,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 625 - 6001.2RSR",
+        "itemName": "RILLENKUGELLAGER",
+        "itemAmount": 6,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 471 20X1.2",
+        "itemName": "WELLENSICHERUNGSRING",
+        "itemAmount": 8,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "ISO 4032 M3",
+        "itemName": "SECHSKANTMUTTER",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "ISO 4032 M10",
+        "itemName": "SECHSKANTMUTTER",
+        "itemAmount": 8,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "ISO 4032 M12",
+        "itemName": "SECHSKANTMUTTER",
+        "itemAmount": 6,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 6885 6X6X28",
+        "itemName": "PASSFEDER",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "HF-14-530",
+        "itemName": "HANDHEBELVENTIL 5-3-WEGE MIT FEDERRÜCKSTELLUNG, MITTELSTELLUNG GESCHLOSSEN",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "HR-18-520",
+        "itemName": "5-2-WEGE HANDHEBELVENTIL, RASTEND",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "1003-020-047",
+        "itemName": "SPANNSATZ",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "OGP280",
+        "itemName": "REFLEKTORLICHTSCHRANKE",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "20246002000",
+        "itemName": "ROTEX24 - NABE 1.0 AL-D Ø20 MIT PASSFEDERNUT UND FESTSTELLGEWINDE",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "PASE25-N",
+        "itemName": "STEHLAGER-GEHÄUSEEINHEIT",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "20241000002",
+        "itemName": "ROTEX 24 ZAHNKRANZ 98 SH-A",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "AN10-01",
+        "itemName": "SCHALLDÄMPFER",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "AN20-02",
+        "itemName": "SCHALLDÄMPFER",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "ASP630F-F04-10S",
+        "itemName": "DROSSELRÜCKSCHLAGVENTIL, ENTSPERRBAR",
+        "itemAmount": 4,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "W30 DT71 D4-P=0.37KW N=71; M=39NM; BAUFORM B3 / A / WELLE KK 180°",
+        "itemName": "SPIROPLAN-GETRIEBEMOTOR",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "CP96SDB100-400C",
+        "itemName": "ISO-ZYLINDER (ISO 15552)",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "CD85N25-10-B",
+        "itemName": "ISO-ZYLINDER (ISO 6432)",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "CS5100",
+        "itemName": "BEFESTIGUNGSELEMENT",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "GKM20-40",
+        "itemName": "GABELGELENK",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "KQ2L06-01AS",
+        "itemName": "WINKEL-STECKVERBINDUNG",
+        "itemAmount": 8,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "KQ2L06-02AS",
+        "itemName": "WINKEL-STECKVERBINDUNG",
+        "itemAmount": 4,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "KQ2L08-01AS",
+        "itemName": "WINKEL-STECKVERBINDUNG",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "KQ2L08-02AS",
+        "itemName": "WINKEL-STECKVERSCHRAUBUNG",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "KQ2S06-01AS",
+        "itemName": "STECKVERSCHRAUBUNG MIT INNENSECHSKANT",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "KQ2S10-02AS",
+        "itemName": "STECKVERSCHRAUBUNG, GERADE MIT INNENSECHSKANT",
+        "itemAmount": 4,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "KQ2T06-00A",
+        "itemName": "STECKVERBINDUNG",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "KQ2T08-00A",
+        "itemName": "T-STECKVERBINDUNG",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "KQ2L10-02AS",
+        "itemName": "WINKEL-STECKVERBINDUNG",
+        "itemAmount": 6,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "KQ2T10-00A",
+        "itemName": "T-STECKVERBINDUNG",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "GM M12X40",
+        "itemName": "GEWINDEMUFFE, SECHSKANT",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "16.402.00.00.02",
+        "itemName": "HALTER FÜR IFM-LICHTSCHRANKE",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "16.402.01.01.08",
+        "itemName": "WINKEL, VORNE FÜR UMLENKROLLE",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "16.402.01.01.09",
+        "itemName": "WINKEL, HINTEN FÜR UMLENKROLLE",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "16.402.02.00.05",
+        "itemName": "EINLAU-ABDECKUNG, OBEN",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "4012802384598",
+        "itemName": "6004-C-2HRS,RILLENKUGELLAGER",
+        "itemAmount": 0
+      },
+      {
+        
+        "itemCode": "DIN 912 M6X10",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 2,
+        "itemBuyPrice": 1.5
+      },
+      {
+        
+        "itemCode": "DIN 912 M6X12",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 28,
+        "itemBuyPrice": 1.6
+      },
+      {
+        
+        "itemCode": "DIN 912 M6X20",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 2,
+        "itemBuyPrice": 1.8
+      },
+      {
+        
+        "itemCode": "DIN 912 M6X25",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 4,
+        "itemBuyPrice": 1.9
+      },
+      {
+        
+        "itemCode": "DIN 912 M6X50",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 2,
+        "itemBuyPrice": 1.14
+      },
+      {
+        
+        "itemCode": "DIN 912 M8X20",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 4,
+        "itemBuyPrice": 1.23
+      },
+      {
+        
+        "itemCode": "DIN 912 M8X16",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 4,
+        "itemBuyPrice": 1.22
+      },
+      {
+        
+        "itemCode": "DIN 912 M8X25",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 8,
+        "itemBuyPrice": 1.24
+      },
+      {
+        
+        "itemCode": "DIN 912 M10X20",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 4,
+        "itemBuyPrice": 1.38
+      },
+      {
+        
+        "itemCode": "DIN 912 M10X25",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 6,
+        "itemBuyPrice": 1.39
+      },
+      {
+        
+        "itemCode": "DIN 912 M10X70",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 2,
+        "itemBuyPrice": 1.48
+      },
+      {
+        
+        "itemCode": "DIN 912 M10X120",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 4,
+        "itemBuyPrice": 1.52
+      },
+      {
+        
+        "itemCode": "DIN 912 M12X100",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 4,
+        "itemBuyPrice": 1.65
+      },
+      {
+        
+        "itemCode": "DIN 912 M3X25",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 2,
+        "itemBuyPrice": 1107
+      },
+      {
+        
+        "itemCode": "DIN 912 M5X40",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 4,
+        "itemBuyPrice": 1120
+      },
+      {
+        
+        "itemCode": "DIN 912 M5X35",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 4,
+        "itemBuyPrice": 1119
+      }
+    ]
+  },
+  {
+    
+    "assemblyName": "ABFALLAUFWICKLUNG",
+    "assemblyNumber": "17.402.00.00.00-B",
+    "companyId": "RMB01",
+    "__v": 0,
+    "assemblyItems": [
+      {
+        
+        "itemCode": "00.003.00.00.04-A",
+        "itemName": "KNIEHEBELWELLE",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "00.003.00.00.03",
+        "itemName": "KNIEHEBEL",
+        "itemAmount": 8,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "00.003.00.00.08",
+        "itemName": "SPREIZLEISTE 1",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "00.003.00.00.13-A",
+        "itemName": "SCHEIBE",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "00.003.00.00.18",
+        "itemName": "MITNEHMER",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "00.003.00.00.09",
+        "itemName": "SPREIZLEISTE 2",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "00.003.00.00.24",
+        "itemName": "BOLZEN, KNIEHEBEL",
+        "itemAmount": 8,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "00.003.00.01.02",
+        "itemName": "WICKELROHR",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "17.400.00.00.04",
+        "itemName": "RITZEL, Z=16, M=2; AUFWICKLUNG",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "17.402.00.00.01-B",
+        "itemName": "STREBE, WICKELWELLE",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "17.402.00.00.03",
+        "itemName": "ZAHNRAD, Z=47, M=2; AUFWICKLUNG",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "17.400.00.00.03",
+        "itemName": "SCHEIBE, AUFWICKLUNG",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "17.402.00.00.02-A",
+        "itemName": "GETRIEBEABDECKUNG, AUSSEN",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "17.402.00.00.05",
+        "itemName": "DISTANZRING",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "17.402.00.00.08",
+        "itemName": "DISTANZRING",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "17.402.00.00.07",
+        "itemName": "ZWISCHENWELLE",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "17.402.00.00.09",
+        "itemName": "GETRIEBEABDECKUNG, INNEN",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "17.402.00.01.02-A",
+        "itemName": "STREBE, GESTELL",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "17.402.00.01.01-A",
+        "itemName": "HALTESTREBE, GESTELL",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "17.402.00.01.03-A",
+        "itemName": "BODENPLATTE, GESTELL",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "DIN 125-A-4.3",
+        "itemName": "SCHEIBE",
+        "itemAmount": 3,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "17.402.01.01.01",
+        "itemName": "FLANSCH WICKELWELLE",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "DIN 125-A-5.3",
+        "itemName": "SCHEIBE",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 125-A-8.4",
+        "itemName": "SCHEIBE",
+        "itemAmount": 4,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 471 10X1",
+        "itemName": "WELLENSICHERUNGSRING",
+        "itemAmount": 16
+      },
+      {
+        
+        "itemCode": "DIN 471 12X1",
+        "itemName": "WELLENSICHERUNGSRING",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 472 58X2",
+        "itemName": "SICHERUNGSRING",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "DIN 625 - 6001.2RSR",
+        "itemName": "RILLENKUGELLAGER",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "DIN 625 - 16003-2RSR",
+        "itemName": "RILLENKUGELLAGER",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "DIN 6885 5X5X12",
+        "itemName": "PASSFEDER",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 6885 6X6X25",
+        "itemName": "PASSFEDER",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 6885 8X7X28",
+        "itemName": "PASSFEDER",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 7991 M6X16",
+        "itemName": "SENKSCHRAUBE",
+        "itemAmount": 9,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "PM 2025",
+        "itemName": "BUCHSE",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "ISO 4032 - M12",
+        "itemName": "SECHSKANTMUTTER",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "TK-28-320",
+        "itemName": "3/2-WEGEVENTIL",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "GN 319.2-50-M12-A",
+        "itemName": "DREHBARER KUGELKNOPF",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "FND453",
+        "itemName": "FREILAUF",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "AS3201F-03-10SA",
+        "itemName": "DROSSELRÜCKSCHLAGVENTIL, EINSCHRAUBBAR",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "AR20-F02G-A",
+        "itemName": "DRUCKREGLER",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "KQ2L06-02AS",
+        "itemName": "WINKEL-STECKVERBINDUNG",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "KQ2L06-03AS",
+        "itemName": "WINKELSTECKVERSCHRAUBUNG",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "KQ2S06-01AS",
+        "itemName": "STECKVERSCHRAUBUNG MIT INNENSECHSKANT",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "KQ2L10-02AS",
+        "itemName": "WINKEL-STECKVERBINDUNG",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "VHS20-F02A-S",
+        "itemName": "3-WEGE-HANDABSPERRVENTIL",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "Y200T-A",
+        "itemName": "ZWISCHENSTÜCK MIT BEFESTIGUNGSELEMENT",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "4-AM-ARV-119",
+        "itemName": "DRUCKLUFTMOTOR",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "00.003.00.01.01",
+        "itemName": "KAPPE, WICKELWELLE",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "17.402.00.00.04",
+        "itemName": "SCHEIBE, WICKELWELLE",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 7991 M6X16",
+        "itemName": "SENKSCHRAUBE",
+        "itemAmount": 9,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 912 M8X20",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 4,
+        "itemBuyPrice": 1.23
+      },
+      {
+        
+        "itemCode": "DIN 912 M8X50",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 4,
+        "itemBuyPrice": 1.29
+      },
+      {
+        
+        "itemCode": "DIN 912 M8X90",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 2,
+        "itemBuyPrice": 1.34
+      },
+      {
+        
+        "itemCode": "DIN 912 M12X25",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 8,
+        "itemBuyPrice": 1.55
+      },
+      {
+        
+        "itemCode": "DIN 912 M12X60",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 4,
+        "itemBuyPrice": 1.62
+      },
+      {
+        
+        "itemCode": "DIN 912 M4X25",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 3,
+        "itemBuyPrice": 1108
+      },
+      {
+        
+        "itemCode": "DIN 912 M5X12",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 2,
+        "itemBuyPrice": 1115
+      },
+      {
+        
+        "itemCode": "DIN 912 M5X16",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 1,
+        "itemBuyPrice": 1116
+      }
+    ]
+  },
+  {
+    
+    "assemblyName": "FOLIENTRANSPORT",
+    "assemblyNumber": "14.401.00.00.00-C",
+    "companyId": "RMB01",
+    "__v": 0,
+    "assemblyItems": [
+      {
+        
+        "itemCode": "00.105.05.04.03",
+        "itemName": "DECKBLECH, FOLIENTRANSPORTANTRIEB",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "00.105.05.05.01",
+        "itemName": "EINLAUFTISCH",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "10.401.00.00.17",
+        "itemName": "SEITENANSCHLAG",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "00.105.05.05.02",
+        "itemName": "HALTELEISTE FÜR FOLIENFÜHRUNG",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "14.102.00.00.39",
+        "itemName": "DISTANZROHR",
+        "itemAmount": 20,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "14.200.00.00.19",
+        "itemName": "SCHEIBE",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "14.102.00.00.33",
+        "itemName": "SCHEIBE, EINLAUF",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "14.400.00.00.01",
+        "itemName": "EXZENTERACHSE",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "14.200.00.00.18",
+        "itemName": "HÜLSE",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "14.400.00.00.02",
+        "itemName": "DUPLEX KETTENRAD DIN 8192 - ISO 08 B - 2 (1/2\" X 5/16\"), 13 ZÄHNE",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "14.400.00.00.03",
+        "itemName": "ENTSTACHELSCHEIBE",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "14.400.00.00.05",
+        "itemName": "DUPLEX KETTENRAD, DIN 8192 - A, ISO 08B-2 (1/2\" X 5/16\"), 19 ZÄHNE",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "14.400.00.00.06",
+        "itemName": "LAGERBOLZEN",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "14.400.00.00.09",
+        "itemName": "GLEITSCHIENE UNTEN, VORNE",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "14.400.00.00.10",
+        "itemName": "GLEITSCHIENE UNTEN, HINTEN",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "14.400.00.00.11",
+        "itemName": "UMLENKSTÜCK, VORNE",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "14.400.00.00.12",
+        "itemName": "UMLENKSTÜCK, HINTEN",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "14.400.00.00.13",
+        "itemName": "GLEITFLACHSTAHL",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "14.400.00.00.15-A",
+        "itemName": "OBERES DECKBLECH,AUSLAUF HINTEN",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "14.400.00.00.17-A",
+        "itemName": "OBERES DECKBLECH, EINLAUF VORNE",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "14.400.00.00.18-A",
+        "itemName": "OBERES DECKBLECH, EINLAUF HINTEN",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "14.400.00.00.20",
+        "itemName": "UNTERES DECKBLECH, EINLAUF",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "14.400.00.00.14-A",
+        "itemName": "OBERES DECKBLECH, AUSLAUF VORNE",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "14.400.00.00.22",
+        "itemName": "ABDECKUNG, AUSLAUF HINTEN",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "14.400.00.00.21",
+        "itemName": "ABDECKUNG, AUSLAUF VORNE",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "14.400.00.00.23",
+        "itemName": "KETTENSPANNBLECH",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "14.400.00.00.24-D",
+        "itemName": "FÜHRUNGSPLATTE",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "14.400.00.00.25",
+        "itemName": "ZYLINDERPLATTE",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "14.400.00.00.29-B",
+        "itemName": "AUFLAGESTÜCK FÜR FOLIENTRANSPORT",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "14.400.00.00.28",
+        "itemName": "JUSTIERBOLZEN",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "14.400.00.00.31",
+        "itemName": "HÜLSE FÜR KETTENRAD MIT NABE",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "14.400.00.00.35",
+        "itemName": "EINLAUFROLLE",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "14.400.00.00.32-A",
+        "itemName": "SPINDEL, FORMSTATION",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "14.400.00.00.33-A",
+        "itemName": "SPINDEL, EINLAUF",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "14.400.00.00.36",
+        "itemName": "EINLAUFACHSE",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "14.400.00.00.40",
+        "itemName": "EINSTACHELROLLE",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "14.400.00.00.41",
+        "itemName": "MUTTER M20, LINKS",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "14.400.00.00.42",
+        "itemName": "MUTTER M20, RECHTS",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "14.400.00.00.47-A",
+        "itemName": "SPREIZPLATTE",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "14.400.00.00.43",
+        "itemName": "BRÜCKE, SPREIZHUBVERSTELLUNG",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "14.400.00.04.01",
+        "itemName": "VIERKANTROHR",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "14.400.00.04.02",
+        "itemName": "ANSCHLUßSTÜCK",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "14.400.00.04.03",
+        "itemName": "ENDSTÜCK",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "14.400.00.04.04",
+        "itemName": "ROHR",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "14.400.00.05.01-A",
+        "itemName": "FLACHSTAHL",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "14.400.01.00.02-A",
+        "itemName": "DECKLEISTE, FOLIENFÜHRUNG",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "14.400.01.00.04",
+        "itemName": "ROLLE",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "14.400.01.00.05",
+        "itemName": "M20 MUTTER, RECHTS",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "14.400.00.06.01-B",
+        "itemName": "FLACHSTAHL",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "14.400.00.06.02-B",
+        "itemName": "FLACHSTAHL",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "14.400.01.00.06",
+        "itemName": "M20 MUTTER, LINKS",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "14.400.01.00.07",
+        "itemName": "LAGERKLOTZ",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "14.400.00.00.04",
+        "itemName": "LAGERBOLZEN F. KETTENRAD MIT NABE",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "14.400.01.00.08",
+        "itemName": "SPINDEL",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "14.400.00.05.02-A",
+        "itemName": "VIERKANT",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "14.401.00.00.02",
+        "itemName": "OBERE GLEITSCHIENE, HINTEN",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "14.401.00.00.01",
+        "itemName": "OBERE GLEITSCHIENE, VORNE",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "14.401.00.00.05",
+        "itemName": "UNTERES DECKBLECH, MITTE, HINTEN",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "14.401.00.00.03",
+        "itemName": "OBERES DECKBLECH, MITTE, HINTEN",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "14.401.00.00.04",
+        "itemName": "OBERES DECKBLECH, MITTE, VORNE",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "14.401.00.00.06",
+        "itemName": "UNTERES DECKBLECH, MITTE, VORNE",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "14.401.00.00.08",
+        "itemName": "KETTENRAD, VERSTELLSPINDEL",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "14.401.00.00.07",
+        "itemName": "KETTENRAD, EINLAUFSPINDEL",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "14.401.00.00.09",
+        "itemName": "DISTANZSCHEIBE",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "14.401.00.00.11",
+        "itemName": "KETTENSPANNER, FOLIENBREITENVERSTELLUNG",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "14.400.01.00.01-A",
+        "itemName": "LEISTE, FOLIENFÜHRUNG",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "14.401.00.01.01",
+        "itemName": "BLECH",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "14.401.00.00.10",
+        "itemName": "SECHSKANTMUTTER",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "14.401.00.01.02",
+        "itemName": "STIRNSEITENBLECH",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "14.401.00.01.03",
+        "itemName": "BLECH, UNTEN",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "14.401.00.02.01",
+        "itemName": "WANGE, HINTEN",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "14.400.00.05.03-A",
+        "itemName": "STÜTZE, HINTEN",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "14.401.00.02.03",
+        "itemName": "BLECH, UNTEN",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "15.400.00.00.01",
+        "itemName": "KEILWELLE",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "15.400.00.00.03",
+        "itemName": "DISTANZSTÜCK FÜR STEHLAGER",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "14.401.00.02.02",
+        "itemName": "STIRNSEITENBLECH",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "15.400.00.00.05-C",
+        "itemName": "MOTORFLANSCHPLATTE",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "15.400.00.00.02",
+        "itemName": "LAGERFLANSCH",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "15.400.00.00.06",
+        "itemName": "ABDECKBLECH",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "15.400.00.00.08-A",
+        "itemName": "ZAHNRIEMENSCHEIBE, KEILWELLE",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "15.400.00.00.11",
+        "itemName": "DUPLEX KETTENRAD, DIN 8192 - A, ISO 08B-2 (1/2\" X 5/16\"),19 ZÄHNE",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "15.400.00.00.12",
+        "itemName": "KEILNABE",
+        "itemAmount": 6
+      },
+      {
+        
+        "itemCode": "15.401.00.00.01",
+        "itemName": "BLECHKONSOLE",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "15.401.01.00.01",
+        "itemName": "ABSTANDSTRÄGER",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "15.401.01.00.02",
+        "itemName": "ABSTANDSTRÄGER SEITEN",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 125-A-8.4",
+        "itemName": "SCHEIBE",
+        "itemAmount": 22,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 125-A-10.5",
+        "itemName": "SCHEIBE",
+        "itemAmount": 6,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 125-A-21",
+        "itemName": "SCHEIBE",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 471 20X1.2",
+        "itemName": "WELLENSICHERUNGSRING",
+        "itemAmount": 4
+      },
+      {
+        
+        "itemCode": "DIN 125-A-13",
+        "itemName": "SCHEIBE",
+        "itemAmount": 10,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 125-A-6.4",
+        "itemName": "SCHEIBE",
+        "itemAmount": 8,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 471 45X1.75",
+        "itemName": "WELLENSICHERUNGSRING",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 625 - 6001.2RSR",
+        "itemName": "RILLENKUGELLAGER",
+        "itemAmount": 4
+      },
+      {
+        
+        "itemCode": "DIN 625 - 6003.2RSR",
+        "itemName": "RILLENKUGELLAGER",
+        "itemAmount": 8
+      },
+      {
+        
+        "itemCode": "DIN 472 35X1.5",
+        "itemName": "SICHERUNGSRING",
+        "itemAmount": 4,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 625 - 6009.2RSR",
+        "itemName": "RILLENKUGELLAGER",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "DIN 975 M8X125",
+        "itemName": "GEWINDESTANGE",
+        "itemAmount": 4,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 472 75X2.5",
+        "itemName": "SICHERUNGSRING",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "ISO 4017 M10X40",
+        "itemName": "SECHSKANTSCHRAUBE",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "ISO 4032 M6",
+        "itemName": "SECHSKANTMUTTER",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 471 14X1",
+        "itemName": "WELLENSICHERUNGSRING",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "ISO 4032 M6",
+        "itemName": "SECHSKANTMUTTER",
+        "itemAmount": 4,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "ISO 4032 M8",
+        "itemName": "SECHSKANTMUTTER",
+        "itemAmount": 12,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "ISO 4032 M10",
+        "itemName": "SECHSKANTMUTTER",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "ISO 4032 M12",
+        "itemName": "SECHSKANTMUTTER",
+        "itemAmount": 4,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "ISO 4032 M12",
+        "itemName": "SECHSKANTMUTTER",
+        "itemAmount": 5,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "ISO 4032 M16",
+        "itemName": "SECHSKANTMUTTER",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "ISO 7380 M6X12",
+        "itemName": "RUNDKOPFSCHRAUBE",
+        "itemAmount": 30,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "ISO 8752 6X24",
+        "itemName": "SPANNSTIFT",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "ISO 8752 6X30",
+        "itemName": "SPANNSTIFT",
+        "itemAmount": 5,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "PM 1615 DS",
+        "itemName": "PTFE-GLEITLAGERBUCHSE",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "8000-025-034",
+        "itemName": "SPANNSATZ",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "MSK071D-0300-NN-M3-UG1-NNNN",
+        "itemName": "SYNCHRON SERVOMOTR INDRADYN S",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 6335-KU-63-M12-K",
+        "itemName": "KREUZGRIFF",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "DIN 471 12X1",
+        "itemName": "WELLENSICHERUNGSRING",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "17477214",
+        "itemName": "ZAHNRIEMENRAD HTD-8M-TAPER, RIEMENBREITE 30MM, Z=28",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "DIN ISO 606 - 05 B1; 8,0 X 3,0",
+        "itemName": "ROLLENKETTE; 400 GLIEDER INKL. SCHLOSS",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "DIN 625 - 6001-2RSR",
+        "itemName": "RILLENKUGELLAGER",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "STACHELKETTE [SONDERAUSFÜHRUNG]",
+        "itemName": "1/2\" X 5/16\" GLIEDERZAHL INKL. VERSCHLUß 352",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "LFZ12",
+        "itemName": "ZAPFEN, ZENTRISCH",
+        "itemAmount": 4
+      },
+      {
+        
+        "itemCode": "HTD 800-8M-30",
+        "itemName": "ZAHNRIEMEN",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "LFS52 - LÄNGE: 726MM",
+        "itemName": "TRAGSCHIENE",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "CDQMA50TF-10",
+        "itemName": "KOMPAKTZYLINDER MIT FÜHRUNGEN",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "KQ2L06-01AS",
+        "itemName": "WINKEL-STECKVERBINDUNG",
+        "itemAmount": 4
+      },
+      {
+        
+        "itemCode": "62250332",
+        "itemName": "TAPER SPANNBUCHSE 1210, Ø32",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "KQ2L06-02AS",
+        "itemName": "WINKEL-STECKVERBINDUNG",
+        "itemAmount": 4
+      },
+      {
+        
+        "itemCode": "KQ2T06-00A",
+        "itemName": "STECKVERBINDUNG",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "LFE12-1/M12",
+        "itemName": "ZAPFEN, EXZENTRISCH",
+        "itemAmount": 4
+      },
+      {
+        
+        "itemCode": "DIN 471 17X1",
+        "itemName": "WELLENSICHERUNGSRING",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "DIN 705-A-16",
+        "itemName": "STELLRING",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "STACHELKETTE [SONDERAUSFÜHRUNG]",
+        "itemName": "1/2\" X 5/16\" GLIEDERZAHL INCL. VERSCHLUß 352",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "14.400.01.01.01",
+        "itemName": "STANGE FÜR WÄRMEKLAPPE",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "14.401.08.00.03",
+        "itemName": "BEFESTIGUNSWINKEL",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "DIN 912 M6X12",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 34,
+        "itemBuyPrice": 1.6
+      },
+      {
+        
+        "itemCode": "DIN 912 M6X16",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 9,
+        "itemBuyPrice": 1.7
+      },
+      {
+        
+        "itemCode": "DIN 912 M6X20",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 26,
+        "itemBuyPrice": 1.8
+      },
+      {
+        
+        "itemCode": "DIN 912 M6X25",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 20,
+        "itemBuyPrice": 1.9
+      },
+      {
+        
+        "itemCode": "DIN 912 M6X35",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 4,
+        "itemBuyPrice": 1.11
+      },
+      {
+        
+        "itemCode": "DIN 912 M6X30",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 23,
+        "itemBuyPrice": 1.1
+      },
+      {
+        
+        "itemCode": "DIN 912 M6X45",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 4,
+        "itemBuyPrice": 1.13
+      },
+      {
+        
+        "itemCode": "DIN 912 M6X80",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 4,
+        "itemBuyPrice": 1.18
+      },
+      {
+        
+        "itemCode": "DIN 912 M8X12",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 2,
+        "itemBuyPrice": 1.21
+      },
+      {
+        
+        "itemCode": "DIN 912 M8X20",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 12,
+        "itemBuyPrice": 1.23
+      },
+      {
+        
+        "itemCode": "DIN 912 M8X16",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 10,
+        "itemBuyPrice": 1.22
+      },
+      {
+        
+        "itemCode": "DIN 912 M8X25",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 12,
+        "itemBuyPrice": 1.24
+      },
+      {
+        
+        "itemCode": "DIN 912 M8X30",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 4,
+        "itemBuyPrice": 1.25
+      },
+      {
+        
+        "itemCode": "DIN 912 M8X40",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 8,
+        "itemBuyPrice": 1.27
+      },
+      {
+        
+        "itemCode": "DIN 912 M8X50",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 4,
+        "itemBuyPrice": 1.29
+      },
+      {
+        
+        "itemCode": "DIN 912 M10X20",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 6,
+        "itemBuyPrice": 1.38
+      },
+      {
+        
+        "itemCode": "DIN 912 M10X25",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 4,
+        "itemBuyPrice": 1.39
+      },
+      {
+        
+        "itemCode": "DIN 912 M10X40",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 3,
+        "itemBuyPrice": 1.43
+      },
+      {
+        
+        "itemCode": "DIN 912 M10X50",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 2,
+        "itemBuyPrice": 1.45
+      },
+      {
+        
+        "itemCode": "DIN 912 M3X25",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 2,
+        "itemBuyPrice": 1107
+      },
+      {
+        
+        "itemCode": "DIN 912 M12X20",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 8,
+        "itemBuyPrice": 1.54
+      },
+      {
+        
+        "itemCode": "DIN 912 M12X80",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 8,
+        "itemBuyPrice": 1.64
+      },
+      {
+        
+        "itemCode": "DIN 7991 M6X12",
+        "itemName": "SENKSCHRAUBEN MIT INNENSECHSKANT",
+        "itemAmount": 8,
+        "itemBuyPrice": 1.87
+      },
+      {
+        
+        "itemCode": "DIN 7991 M5X16",
+        "itemName": "FLACHKOPFSCHRAUBEN MIT INNENSECHSKANT",
+        "itemAmount": 8,
+        "itemBuyPrice": 1101
+      }
+    ]
+  },
+  {
+    
+    "assemblyName": "FORMSTATION MIT HEBELANTRIEB",
+    "assemblyNumber": "11.401.00.00.00-D",
+    "companyId": "RMB01",
+    "__v": 0,
+    "assemblyItems": [
+      {
+        
+        "itemCode": "11.400.00.00.07-B",
+        "itemName": "FÜHRUNGSSTÜCK, HINTEN",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "11.400.00.00.08-B",
+        "itemName": "FÜHRUNGSSTÜCK, VORNE",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "11.400.00.00.10-A",
+        "itemName": "FLANSCH FÜR FÜHRUNG",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.400.00.00.09-B",
+        "itemName": "FÜHRUNGSWELLE, VORNE",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.400.00.00.12",
+        "itemName": "SCHEIBE",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.400.00.00.15",
+        "itemName": "ACHSBOLZEN, SCHWINGE",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.400.00.00.22-A",
+        "itemName": "TISCHGERADFÜHRUNG, HINTEN",
+        "itemAmount": 1,
+        "itemBuyPrice": 24
+      },
+      {
+        
+        "itemCode": "11.400.00.00.24-B",
+        "itemName": "TISCHANLENKUNG, VORDERTEIL",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.400.00.00.25",
+        "itemName": "BOLZEN, TISCHANLENKUNG",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.400.00.00.26",
+        "itemName": "FLANSCH FÜR TISCHANLENKUNG",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.400.00.00.27",
+        "itemName": "ABDECKUNG FLANSCH",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.400.00.00.28",
+        "itemName": "KNIEHEBELBOLZEN",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "11.400.00.00.36-B",
+        "itemName": "FÜHRUNGSWELLE, VORNE",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.400.00.00.29",
+        "itemName": "ACHSHALTER",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.400.00.00.41-A",
+        "itemName": "FÜHRUNGSSTANGE FÜR FORMTISCH",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "11.400.00.00.43",
+        "itemName": "BEGRENZUNGSSCHEIBE, STÜTZROLLE",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.400.00.00.49-A",
+        "itemName": "DISTANZHÜLSE FÜR SCHWINGENFLANSCH",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.400.00.00.37-A",
+        "itemName": "TISCHANLENKUNG, HINTERTEIL",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.400.00.00.44",
+        "itemName": "DICHTSCHEIBE, KNIEHEBELLAGER",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.400.00.00.51",
+        "itemName": "BEGRENZUNGSSCHEIBE, TISCHANLENKUNG",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.400.00.00.53",
+        "itemName": "EINSTELLKEIL, TISCHGERADFÜHRUNG VORNE",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "11.400.00.00.54-B",
+        "itemName": "VERSTELLSCHRAUBE",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.400.00.00.52",
+        "itemName": "EINSTELLKEIL, TISCHGERADFÜHRUNG HINTEN",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "11.400.00.00.55",
+        "itemName": "HALTEPLATTE",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.400.00.00.58",
+        "itemName": "AUSWERFERPLATTE, SCHWIMMENDE LAGERUNG",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.400.00.00.57-A",
+        "itemName": "HALTEBUCHSE",
+        "itemAmount": 4,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.400.00.00.60",
+        "itemName": "INIHALTER",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.400.00.02.01",
+        "itemName": "ZAPFEN",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.400.00.02.02-A",
+        "itemName": "VORDERE SEITENWAND FORMTISCH",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.400.00.02.03-A",
+        "itemName": "HINTERE SEITENWAND FORMTISCH",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.400.00.02.05",
+        "itemName": "STREBE",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.400.00.02.04",
+        "itemName": "PLATTE, INNEN",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.400.00.02.06-C",
+        "itemName": "TRÄGER, INNEN",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.400.00.02.07-C",
+        "itemName": "PLATTE, OBEN",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.400.00.03.00-E",
+        "itemName": "AUSWERFERKONSOLE;ZYLINDER Ø63; HUB 150MM",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "11.401.00.00.01-A",
+        "itemName": "ANTRIEBSWELLE",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.401.00.00.02-A",
+        "itemName": "KURBEL",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "11.401.00.00.03",
+        "itemName": "KURBELBOLZEN",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "11.401.00.00.05",
+        "itemName": "KOPPEL, VORNE",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "11.401.00.00.06",
+        "itemName": "KOPPEL, HINTEN",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "11.401.00.00.08",
+        "itemName": "ACHSBOLZEN",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.401.00.00.09-B",
+        "itemName": "KNIEHEBEL, VORNE",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.401.00.00.10-B",
+        "itemName": "KNIEHEBEL, HINTEN",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "11.401.00.00.15",
+        "itemName": "REFLEKTOR",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.401.01.00.01",
+        "itemName": "SEITENWAND, HINTEN",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "11.401.01.00.02",
+        "itemName": "SEITENWAND, VORNE",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "11.401.01.00.03",
+        "itemName": "BODENPLATTE FORMSTATION, STÖBER GETRIEBE",
+        "itemAmount": 1,
+        "itemBuyPrice": 350
+      },
+      {
+        
+        "itemCode": "11.401.01.01.01",
+        "itemName": "TRÄGERPLATTE ANTRIEB, STÖBER GETRIEBE",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.401.01.00.07",
+        "itemName": "INITIATORHALTER",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.401.01.01.02",
+        "itemName": "STREBE, STÖBER GETRIEBE",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "11.401.01.00.04",
+        "itemName": "PLATTE, STÖBER GETRIEBE",
+        "itemAmount": 1,
+        "itemBuyPrice": 210
+      },
+      {
+        
+        "itemCode": "11.401.01.00.05",
+        "itemName": "GEGENLAGER FÜR EINSTELLKEIL",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.401.02.00.01-A",
+        "itemName": "SCHNECKENWELLE FÜR HANDVERSTELLUNG",
+        "itemAmount": 1,
+        "itemBuyPrice": 105
+      },
+      {
+        
+        "itemCode": "11.401.02.00.02",
+        "itemName": "POM-BUCHSE",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "11.401.02.01.02",
+        "itemName": "LAGERPLATTE, VORNE",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "11.401.02.00.04",
+        "itemName": "SCHNECKENRAD",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "11.401.02.01.01",
+        "itemName": "TRÄGERBLOCK,HANDKURBEL",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.401.02.01.04",
+        "itemName": "GRIFF FÜR FIXIERUNGSSTIFTE",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.401.02.01.03",
+        "itemName": "LAGERPLATTE, HINTEN",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "11.401.02.01.05",
+        "itemName": "HALTEWINKEL FÜR NÄHERUNGSSCHALTER (M12)",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "12.402.01.00.02",
+        "itemName": "GLOCKE FORMSTATION, UNTEN-REXROTH MOTOR - STÖBER GETRIEBE",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "21.400.00.01.01",
+        "itemName": "FORMLUFTVERTEILER",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "24.400.00.00.06",
+        "itemName": "KÜHLWASSERVERTEILER, UNTERWERKZEUG",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "24.400.00.00.07",
+        "itemName": "ANSCHLUSS, DREHDURCHFÜHRUNG",
+        "itemAmount": 8,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "24.400.00.00.08",
+        "itemName": "KÜHLWASSERVERTEILER FORMSTATION",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "24.400.00.00.09",
+        "itemName": "DISTANZBUCHSE FÜR KÜHLWASSERVERTEILER",
+        "itemAmount": 4,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "24.400.00.00.10",
+        "itemName": "DISTANZBUCHSE FÜR KÜHLWASSERVERTEILER, KURZ",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 125-A-4.3",
+        "itemName": "SCHEIBE",
+        "itemAmount": 3,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 125-A-10.5",
+        "itemName": "SCHEIBE",
+        "itemAmount": 4,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 125-A-6.4",
+        "itemName": "SCHEIBE",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.401.00.00.13",
+        "itemName": "FLANSCH FÜR SCHWINGE",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 125-A-13",
+        "itemName": "SCHEIBE",
+        "itemAmount": 8,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 471 30X1.5",
+        "itemName": "WELLENSICHERUNGSRING",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "DIN 471 45X2.5",
+        "itemName": "WELLENSICHERUNGSRING",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 471 40X1.75",
+        "itemName": "WELLENSICHERUNGSRING",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "DIN 472 80X2.5",
+        "itemName": "SICHERUNGSRING",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "DIN 472 100X3",
+        "itemName": "SICHERUNGSRING",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "DIN 472 90X3",
+        "itemName": "SICHERUNGSRING",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "DIN 472 110X4",
+        "itemName": "SICHERUNGSRING",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "DIN 625 - 6011.2RSR",
+        "itemName": "RILLENKUGELLAGER",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "DIN 625 - 6012.2RSR",
+        "itemName": "RILLENKUGELLAGER",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "DIN 625 - 6207.2RSR",
+        "itemName": "RILLENKUGELLAGER",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "DIN 625 - 6208.2RSR",
+        "itemName": "RILLENKUGELLAGER",
+        "itemAmount": 4
+      },
+      {
+        
+        "itemCode": "DIN 625 - 6309.2RSR",
+        "itemName": "RILLENKUGELLAGER",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "DIN 625 - 6310 - 2RSR",
+        "itemName": "RILLENKUGELLAGER, BEIDSEITIGE DICHTUNG",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "ISO 4032 M6",
+        "itemName": "SECHSKANTMUTTER",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 913 M16X20",
+        "itemName": "GEWINDESTIFT MIT INNENSECHSKANT UND KEGELKUPPE",
+        "itemAmount": 4,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "12.402.01.00.03",
+        "itemName": "GLOCKE FORMSTATION, OBEN-REXROTH MOTOR - STÖBER GETRIEBE",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "ISO 4032 M12",
+        "itemName": "SECHSKANTMUTTER",
+        "itemAmount": 4,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "ISO 4032 M16",
+        "itemName": "SECHSKANTMUTTER",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 6912 M16X45-10.9",
+        "itemName": "ZYLINDERSCHRAUBE, FLACHER KOPF MIT GEWINDE BIS KOPF",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "ISO 7379 16X100",
+        "itemName": "SCHULTERSCHRAUBE",
+        "itemAmount": 4
+      },
+      {
+        
+        "itemCode": "ISO 8752 6X24",
+        "itemName": "SPANNSTIFT",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "ISO 8735-12X60",
+        "itemName": "ZYLINDERSTIFT MIT INNENGEWINDE",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "ISO 8735-12X40",
+        "itemName": "ZYLINDERSTIFT MIT INNENGEWINDE",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 71412 M10X1-SW 11",
+        "itemName": "KEGELSCHMIERNIPPEL, H1, GERADE",
+        "itemAmount": 4,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN EN ISO 8735-12X80-A-ST",
+        "itemName": "ZYLINDERSTIFT MIT INNENGEWINDE",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "PM 1615 DS",
+        "itemName": "PTFE-GLEITLAGERBUCHSE",
+        "itemAmount": 8
+      },
+      {
+        
+        "itemCode": "TFB 3026",
+        "itemName": "BUNDBUCHSE MIT TEFLONBESCHICHTUNG",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "O-RING 88X2",
+        "itemName": "O-RING",
+        "itemAmount": 4,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "RUNDSCHNURRING 12 X 80",
+        "itemName": "",
+        "itemAmount": 4,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "8000-050-065",
+        "itemName": "SPANNSATZ",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "MSK071D-0300-NN-M3-UG1-NNNN",
+        "itemName": "SYNCHRON SERVOMOTR INDRADYN S",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "Z62 - 34X2 - 16.3",
+        "itemName": "TELLERFEDER",
+        "itemAmount": 24
+      },
+      {
+        
+        "itemCode": "Z82-9-R1_4",
+        "itemName": "HASCO SCHNELLVERSCHLUSSKUPPLUNG",
+        "itemAmount": 4
+      },
+      {
+        
+        "itemCode": "Z811_9-R1_4",
+        "itemName": "VERSCHLUSSNIPPEL",
+        "itemAmount": 4
+      },
+      {
+        
+        "itemCode": "DIN 125-A-8.4",
+        "itemName": "SCHEIBE",
+        "itemAmount": 12,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "IFS244",
+        "itemName": "INDUKTIVER SENSOR",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "IF5904",
+        "itemName": "INDUKTIVER SENSOR",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "22210-E1",
+        "itemName": "PENDELROLLENLAGER",
+        "itemAmount": 4
+      },
+      {
+        
+        "itemCode": "MZA70175",
+        "itemName": "PNEUMATIKZYLINDERSENSOR",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "550287900040",
+        "itemName": "DKM MITTELSTÜCK",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "NATR 30 PP",
+        "itemName": "STÜTZROLLE",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "550281000002",
+        "itemName": "ROTEX GS28 ZAHNKRANZ 98 SHORE A - GS",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "ROTEX GS28 SPANNRINGNABE 32H7 KUPPLUNG",
+        "itemName": "KTR; ROTEX GS28 SPANNRINGNABE Ø32H7",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "PARKER 39182-2-4",
+        "itemName": "STECKANSCHLUSS, LM-DRUCKLUFTSERVICE: GTP 186",
+        "itemAmount": 8,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "AN20-02",
+        "itemName": "SMC; SCHALLDÄMPFER",
+        "itemAmount": 3
+      },
+      {
+        
+        "itemCode": "EB 1547.500",
+        "itemName": "E-BOX",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "ASV510F-02-10S",
+        "itemName": "DROSSEL-SCHNELLENTLÜFTUNGSVENTIL",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "ANB1-12",
+        "itemName": "HOCHLEISTUNGSSCHALLDÄMPFER",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "KQ2L10-01AS",
+        "itemName": "WINKEL-STECKVERBINDUNG",
+        "itemAmount": 4
+      },
+      {
+        
+        "itemCode": "KQ2S06-01AS",
+        "itemName": "STECKVERSCHRAUBUNG MIT INNENSECHSKANT",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "KK6P-12H",
+        "itemName": "S-KUPPLUNG, STECKER",
+        "itemAmount": 6
+      },
+      {
+        
+        "itemCode": "KQ2S10-01AS",
+        "itemName": "STECKVERSCHRAUBUNG MIT INNENSECHSKANT",
+        "itemAmount": 4
+      },
+      {
+        
+        "itemCode": "KQ2S10-02AS",
+        "itemName": "STECKVERSCHRAUBUNG, GERADE MIT INNENSECHSKANT",
+        "itemAmount": 12
+      },
+      {
+        
+        "itemCode": "KK6S-04MS",
+        "itemName": "S-KUPPLUNG BUCHSE",
+        "itemAmount": 6
+      },
+      {
+        
+        "itemCode": "VF5123-5YZD1-02F",
+        "itemName": "5-2-WEGE VENTIL",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "MGPM63TF-140Z-XB10",
+        "itemName": "KOMPAKTZYLINDER MIT FÜHRUNG",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "VP3165-105DZA1-Q",
+        "itemName": "3-2-WEGE VENTIL",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "ST7491 40X095",
+        "itemName": "STEINEL FÜHRUNGSBUCHSE MIT SCHMIERNUT",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "K513 SG 0290 MR30",
+        "itemName": "KEGELRADGETRIEBE, I= 29,18",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "GT 189 MS",
+        "itemName": "GEWINDETÜLLE",
+        "itemAmount": 8,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "MURR - 7000-12341-6341000",
+        "itemName": "",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DN 1010 ST",
+        "itemName": "DOPPELNIPPEL; R1\"",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "WE 10 ST",
+        "itemName": "EINSCHRAUBWINKEL 90°; 1\"",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "WE 114 ST",
+        "itemName": "EINSCHRAUBWINKEL 90° MIT INNEN- UND AUßENGEWINDE; R1 1/4\"",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "LKM 60060",
+        "itemName": "KABELKANAL 60X60, L=1650MM",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "GT 1025 MS",
+        "itemName": "GEWINDETÜLLE",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "VS 10 ST",
+        "itemName": "VERSCHLUSSSTOPFEN",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.400.00.00.06-A",
+        "itemName": "KNIEHEBEL, VORNE OBEN",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "11.400.00.00.05-A",
+        "itemName": "KNIEHEBEL, HINTEN OBEN",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "11.400.00.00.11",
+        "itemName": "SCHEIBE",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.401.00.00.04",
+        "itemName": "DISTANZSCHEIBE",
+        "itemAmount": 4,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.400.00.00.46",
+        "itemName": "DISTANZACHSE",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.401.00.00.07",
+        "itemName": "ACHSHALTER",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "11.401.00.00.12",
+        "itemName": "DISTANZSCHEIBE",
+        "itemAmount": 4,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "12.402.01.00.01",
+        "itemName": "GETRIEBEFLANSCH",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "11.401.01.01.03-A",
+        "itemName": "LAGERPLATTE",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemName": "RNA69/32-ZW-XL",
+        "itemAmount": 0,
+        "itemCode": "4012802197440"
+      },
+      {
+        
+        "itemCode": "4012802721706",
+        "itemName": "NKS25",
+        "itemAmount": 0
+      },
+      {
+        
+        "itemCode": "DIN 912 M6X12",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 4,
+        "itemBuyPrice": 1.6
+      },
+      {
+        
+        "itemCode": "DIN 912 M6X16",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 10,
+        "itemBuyPrice": 1.7
+      },
+      {
+        
+        "itemCode": "DIN 912 M6X25",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 2,
+        "itemBuyPrice": 1.9
+      },
+      {
+        
+        "itemCode": "DIN 912 M6X40",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 4,
+        "itemBuyPrice": 1.12
+      },
+      {
+        
+        "itemCode": "DIN 912 M6X70",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 2,
+        "itemBuyPrice": 1.17
+      },
+      {
+        
+        "itemCode": "DIN 912 M8X20",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 4,
+        "itemBuyPrice": 1.23
+      },
+      {
+        
+        "itemCode": "DIN 912 M8X16",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 12,
+        "itemBuyPrice": 1.22
+      },
+      {
+        
+        "itemCode": "DIN 912 M8X25",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 38,
+        "itemBuyPrice": 1.24
+      },
+      {
+        
+        "itemCode": "DIN 912 M8X45",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 4,
+        "itemBuyPrice": 1.28
+      },
+      {
+        
+        "itemCode": "DIN 912 M8X55",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 12,
+        "itemBuyPrice": 1.3
+      },
+      {
+        
+        "itemCode": "DIN 912 M8X60",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 12,
+        "itemBuyPrice": 1.31
+      },
+      {
+        
+        "itemCode": "DIN 912 M8X90",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 2,
+        "itemBuyPrice": 1.34
+      },
+      {
+        
+        "itemCode": "DIN 912 M10X25",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 13,
+        "itemBuyPrice": 1.39
+      },
+      {
+        
+        "itemCode": "DIN 912 M10X35",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 4,
+        "itemBuyPrice": 1.42
+      },
+      {
+        
+        "itemCode": "DIN 912 M10X40",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 8,
+        "itemBuyPrice": 1.43
+      },
+      {
+        
+        "itemCode": "DIN 912 M10X50",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 16,
+        "itemBuyPrice": 1.45
+      },
+      {
+        
+        "itemCode": "DIN 912 M10X45",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 12,
+        "itemBuyPrice": 1.44
+      },
+      {
+        
+        "itemCode": "DIN 912 M10X80",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 2,
+        "itemBuyPrice": 1.49
+      },
+      {
+        
+        "itemCode": "DIN 912 M10X30",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 4,
+        "itemBuyPrice": 1.4
+      },
+      {
+        
+        "itemCode": "DIN 912 M4X40",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 4,
+        "itemBuyPrice": 1110
+      },
+      {
+        
+        "itemCode": "DIN 912 M12X40",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 6,
+        "itemBuyPrice": 1.58
+      },
+      {
+        
+        "itemCode": "DIN 912 M12X50",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 16,
+        "itemBuyPrice": 1.6
+      },
+      {
+        
+        "itemCode": "DIN 912 M12X60",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 4,
+        "itemBuyPrice": 1.62
+      },
+      {
+        
+        "itemCode": "DIN 912 M12X80",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 1,
+        "itemBuyPrice": 1.64
+      },
+      {
+        
+        "itemCode": "DIN 912 M16X45",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 4,
+        "itemBuyPrice": 1.7
+      },
+      {
+        
+        "itemCode": "DIN 912 M20X80",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 2,
+        "itemBuyPrice": 1.74
+      },
+      {
+        
+        "itemCode": "DIN 912 M16X35",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 4,
+        "itemBuyPrice": 1.69
+      },
+      {
+        
+        "itemCode": "DIN 912 M24X100",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 2,
+        "itemBuyPrice": 1.77
+      },
+      {
+        
+        "itemCode": "DIN 7991 M8X20",
+        "itemName": "SENKSCHRAUBEN MIT INNENSECHSKANT",
+        "itemAmount": 2,
+        "itemBuyPrice": 1.91
+      },
+      {
+        
+        "itemCode": "DIN 7991 M10X25",
+        "itemName": "FLACHKOPFSCHRAUBEN MIT INNENSECHSKANT",
+        "itemAmount": 4,
+        "itemBuyPrice": 1104
+      },
+      {
+        
+        "itemCode": "DIN 7991 M12X25",
+        "itemName": "FLACHKOPFSCHRAUBEN MIT INNENSECHSKANT",
+        "itemAmount": 2,
+        "itemBuyPrice": 1106
+      },
+      {
+        
+        "itemCode": "DIN 6912 M10X20",
+        "itemName": "ZYLINDERSCHRAUBEN MIT INNENSECHSKANT, NIEDRIGER KOPF MIT SCHLÜSSELFÜHRUNG",
+        "itemAmount": 2,
+        "itemBuyPrice": 1.98
+      },
+      {
+        
+        "itemCode": "DIN 6912 M8X20",
+        "itemName": "ZYLINDERSCHRAUBEN MIT INNENSECHSKANT, NIEDRIGER KOPF MIT SCHLÜSSELFÜHRUNG",
+        "itemAmount": 2,
+        "itemBuyPrice": 1.97
+      }
+    ]
+  },
+  {
+    
+    "assemblyName": "HEIZUNG",
+    "assemblyNumber": "18.400.00.00.00-C",
+    "companyId": "RMB01",
+    "__v": 0,
+    "assemblyItems": [
+      {
+        
+        "itemCode": "18.400.00.00.02",
+        "itemName": "BEFESTIGUNGSLASCHE",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "18.400.00.00.03-B",
+        "itemName": "ABSCHIRMBLECH",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "18.400.00.00.06-A",
+        "itemName": "VERFAHRWINKEL HEIZUNG, EINLAUFSEITE",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "18.400.00.00.05-A",
+        "itemName": "VERFAHRWINKEL HEIZUNG, SEITE FORMSTATION",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "18.400.00.00.08-A",
+        "itemName": "BEFESTIGUNGSWINKEL, KABELSCHLEPP",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "18.400.00.00.09",
+        "itemName": "ABSTANDHALTER, ABSCHIRMBLECH",
+        "itemAmount": 6,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "18.400.00.00.10",
+        "itemName": "KLEMMLEISTE, HEIZUNG OBEN",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "18.400.00.00.01",
+        "itemName": "BEFESTIGUNGSWINKEL",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "18.400.00.00.12",
+        "itemName": "GEWINDESTANGE M10, L=210MM",
+        "itemAmount": 4,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "18.400.00.00.15",
+        "itemName": "DISTANZRÖHRCHEN, HEIZUNGSRAHMEN",
+        "itemAmount": 8,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "18.400.00.00.14",
+        "itemName": "KABELSCHLEPPANSCHLAG",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "18.400.00.00.16",
+        "itemName": "GEWINDESTANGE M10, L=200MM",
+        "itemAmount": 4,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "18.400.00.00.13",
+        "itemName": "ABSTANDHALTER",
+        "itemAmount": 4,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "18.400.00.00.17",
+        "itemName": "HALTER FÜR PANZERSCHLAUCH",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "18.400.00.00.18",
+        "itemName": "KLEMMLEISTE, HEIZUNG UNTEN",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "18.400.00.00.19",
+        "itemName": "BEFESTIGUNGSLEISTE, HEIZUNG UNTEN",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "18.400.00.01.01",
+        "itemName": "S235 JR FL 60X20 X 680",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "18.400.00.01.02-B",
+        "itemName": "S235 JR FL 60X20 X 697",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "18.400.00.01.03",
+        "itemName": "S235 JR 120X20 X 620",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "18.400.00.01.04-A",
+        "itemName": "WINKEL, UNTEN",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "18.400.00.01.05-A",
+        "itemName": "S235 JR VKT 30X30 X 960",
+        "itemAmount": 4
+      },
+      {
+        
+        "itemCode": "18.400.00.01.06",
+        "itemName": "WINKEL 1",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "18.400.01.00.01",
+        "itemName": "STRAHLERBLECH, QUER",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "18.400.00.00.11",
+        "itemName": "BEFESTIGUNGSLEISTE, HEIZUNG OBEN",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "18.400.01.00.02",
+        "itemName": "STRAHLERBLECH, LÄNGS",
+        "itemAmount": 4
+      },
+      {
+        
+        "itemCode": "18.400.01.00.04",
+        "itemName": "STROMSCHIENE, LÄNGS",
+        "itemAmount": 16
+      },
+      {
+        
+        "itemCode": "18.400.01.00.03",
+        "itemName": "BEFESTIGUNG FÜR STROMSCHIENENHALTER",
+        "itemAmount": 36
+      },
+      {
+        
+        "itemCode": "18.400.01.00.05",
+        "itemName": "HALTER FÜR KLEMMEN",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "18.400.01.00.07",
+        "itemName": "HAUBE, OBERHEIZUNG",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "18.400.01.00.06",
+        "itemName": "STROMSCHIENE",
+        "itemAmount": 8
+      },
+      {
+        
+        "itemCode": "18.400.01.00.10",
+        "itemName": "HAUBENHÄLFTE, EINLAUFSEITE",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "18.400.01.00.08",
+        "itemName": "ABSCHLUSSBLECH HAUBE",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "18.400.01.00.11",
+        "itemName": "HAUBENHÄLFTE, FORMSTATIONSEITE",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "18.400.01.00.09-A",
+        "itemName": "ANSCHLUSSWINKEL, UNTERHEIZUNG",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "18.400.01.00.12-A",
+        "itemName": "DECKBLECH F. HEIZUNGSHAUBE, OBEN",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "18.400.01.00.13",
+        "itemName": "DECKBLECH F. HEIZUNGSHAUBE, UNTEN",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "18.400.01.00.17",
+        "itemName": "NULLEITER QUERREGELUNG",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "18.400.01.01.01-C",
+        "itemName": "WINKEL, LANG",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "18.400.01.00.15",
+        "itemName": "KLEMMSTÜCK F. HEIZUNGSHAUBEN",
+        "itemAmount": 12,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "18.400.01.01.02",
+        "itemName": "WINKEL",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "18.400.01.01.03",
+        "itemName": "WINKEL, MITTE",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "18.400.03.00.01",
+        "itemName": "STRAHLERBLECH, OBERHEIZUNG",
+        "itemAmount": 4
+      },
+      {
+        
+        "itemCode": "18.400.03.00.04",
+        "itemName": "NULLLEITER",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "18.400.03.00.03-A",
+        "itemName": "STROMSCHIENE FÜR OBERHEIZUNG",
+        "itemAmount": 16
+      },
+      {
+        
+        "itemCode": "18.400.03.00.02-A",
+        "itemName": "KLEMMENHALTER",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "18.400.03.00.06",
+        "itemName": "ANSCHLUSSWINKEL, OBERHEIZUNG",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "18.400.03.01.01-A",
+        "itemName": "WINKEL, LANG",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "18.400.03.00.05",
+        "itemName": "DISTANZHÜLSE NULLLEITER OBERHEIZUNG",
+        "itemAmount": 20,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "18.400.03.01.03",
+        "itemName": "WINKEL, LINKS",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "18.400.01.01.04",
+        "itemName": "WINKEL",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "18.400.04.00.01",
+        "itemName": "TRÄGERLEISTE SCHALTSCHRANK",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "18.400.00.01.07",
+        "itemName": "WINKEL 2",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "18.400.03.01.04",
+        "itemName": "WINKEL, KURZ",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "18.400.04.00.03",
+        "itemName": "ABSTANDHALTER",
+        "itemAmount": 4,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "24.400.00.01.01",
+        "itemName": "KÜHLPLATTE, SCHALTSCHRANK HEIZUNG",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 125-A-4.3-V2A",
+        "itemName": "SCHEIBE, NICHTROSTEND",
+        "itemAmount": 422,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "24.400.00.01.02",
+        "itemName": "AUFSCHRAUBPLATTE FÜR SOLID STATE RELAIS",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 125-A-6.4-V2A",
+        "itemName": "SCHEIBE, NICHTROSTEND",
+        "itemAmount": 77,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 128-A4-V2A",
+        "itemName": "FEDERRING, NICHTROSTEND",
+        "itemAmount": 169,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 128-A6-V2A",
+        "itemName": "FEDERRING, NICHTROSTEND",
+        "itemAmount": 32,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 912 M4X10-V2A",
+        "itemName": "ZYLINDERSCHRAUBE, NICHTROSTEND",
+        "itemAmount": 80,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 912 M4X20-V2A",
+        "itemName": "ZYLINDERSCHRAUBE, NICHTROSTEND",
+        "itemAmount": 8,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 912 M4X30-V2A",
+        "itemName": "ZYLINDERSCHRAUBE, NICHTROSTEND",
+        "itemAmount": 76,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 912 M4X25-V2A",
+        "itemName": "ZYLINDERSCHRAUBE, NICHTROSTEND",
+        "itemAmount": 21,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 912 M4X40-V2A",
+        "itemName": "ZYLINDERSCHRAUBE, NICHTROSTEND",
+        "itemAmount": 4,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 912 M6X10-V2A",
+        "itemName": "ZYLINDERSCHRAUBE, NICHTROSTEND",
+        "itemAmount": 11,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 912 M4X6-V2A",
+        "itemName": "ZYLINDERSCHRAUBE, NICHTROSTEND",
+        "itemAmount": 220,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 912 M6X12-V2A",
+        "itemName": "ZYLINDERSCHRAUBE, NICHTROSTEND",
+        "itemAmount": 23,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 912 M6X16-V2A",
+        "itemName": "ZYLINDERSCHRAUBE, NICHTROSTEND",
+        "itemAmount": 12,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 912 M6X20-V2A",
+        "itemName": "ZYLINDERSCHRAUBE, NICHTROSTEND",
+        "itemAmount": 10,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "ISO 4032 M6-V2A",
+        "itemName": "SECHSKANTMUTTER, NICHTROSTEND",
+        "itemAmount": 77,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "ISO 4032 M4-V2A",
+        "itemName": "SECHSKANTMUTTER, NICHTROSTEND",
+        "itemAmount": 178,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "ISO 7380 M6X12-V2A",
+        "itemName": "RUNDKOPFSCHRAUBE, NICHTROSTEND",
+        "itemAmount": 6,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 7991 M6X20-V2A",
+        "itemName": "SENKSCHRAUBE, NICHTROSTEND",
+        "itemAmount": 16,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 125-A-6.4",
+        "itemName": "SCHEIBE",
+        "itemAmount": 18,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 125-A-8.4",
+        "itemName": "SCHEIBE",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 125-A-10.5",
+        "itemName": "SCHEIBE",
+        "itemAmount": 26,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 125-A-13",
+        "itemName": "SCHEIBE",
+        "itemAmount": 8,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "ISO 4032 M5",
+        "itemName": "SECHSKANTMUTTER",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "ISO 4032 M6",
+        "itemName": "SECHSKANTMUTTER",
+        "itemAmount": 18,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "HTS-2 400W",
+        "itemName": "KERAMISCHER INFRAROT STRAHLER HTS/2 400W",
+        "itemAmount": 147
+      },
+      {
+        
+        "itemCode": "THTS-2 400W",
+        "itemName": "KERAMISCHER INFRAROT STRAHLER MIT THERMOELEMENT THTS/2 400W",
+        "itemAmount": 13
+      },
+      {
+        
+        "itemCode": "ISO 4032 M10",
+        "itemName": "SECHSKANTMUTTER",
+        "itemAmount": 24,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "XL-040-0600-050",
+        "itemName": "NORMZYLINDER",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "AK",
+        "itemName": "ANSCHLUSSKLEMME",
+        "itemAmount": 93
+      },
+      {
+        
+        "itemCode": "1",
+        "itemName": "SCHLEPPKETTE",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "LFS52",
+        "itemName": "SCHIENE, L=1120MM",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "LFZ12",
+        "itemName": "ZAPFEN ZENTRISCH",
+        "itemAmount": 8
+      },
+      {
+        
+        "itemCode": "AE 1060.500",
+        "itemName": "KOMPAKT-SCHALTSCHRANK",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "SIEMENS 3RF2120-1AA02",
+        "itemName": "",
+        "itemAmount": 15,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "AS2201F-02-06SA",
+        "itemName": "DROSSELRÜCKSCHLAGVENTIL",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "KQ2L06-01AS",
+        "itemName": "WINKEL-STECKVERBINDUNG",
+        "itemAmount": 14
+      },
+      {
+        
+        "itemCode": "KQ2S06-01AS",
+        "itemName": "STECKVERSCHRAUBUNG MIT INNENSECHSKANT",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "4012802794342",
+        "itemName": "LFR5201-10-2Z",
+        "itemAmount": 4
+      },
+      {
+        
+        "itemCode": "DIN 912 M6X20",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 2,
+        "itemBuyPrice": 1.8
+      },
+      {
+        
+        "itemCode": "DIN 912 M6X25",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 4,
+        "itemBuyPrice": 1.9
+      },
+      {
+        
+        "itemCode": "DIN 912 M6X45",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 4,
+        "itemBuyPrice": 1.13
+      },
+      {
+        
+        "itemCode": "DIN 912 M6X50",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 4,
+        "itemBuyPrice": 1.14
+      },
+      {
+        
+        "itemCode": "DIN 912 M6X60",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 8,
+        "itemBuyPrice": 1.16
+      },
+      {
+        
+        "itemCode": "DIN 912 M6X70",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 6,
+        "itemBuyPrice": 1.17
+      },
+      {
+        
+        "itemCode": "DIN 912 M8X20",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 11,
+        "itemBuyPrice": 1.23
+      },
+      {
+        
+        "itemCode": "DIN 912 M8X16",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 4,
+        "itemBuyPrice": 1.22
+      },
+      {
+        
+        "itemCode": "DIN 912 M8X25",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 2,
+        "itemBuyPrice": 1.24
+      },
+      {
+        
+        "itemCode": "DIN 912 M8X60",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 3,
+        "itemBuyPrice": 1.31
+      },
+      {
+        
+        "itemCode": "DIN 912 M10X16",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 2,
+        "itemBuyPrice": 1.37
+      },
+      {
+        
+        "itemCode": "DIN 912 M12X30",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 8,
+        "itemBuyPrice": 1.56
+      },
+      {
+        
+        "itemCode": "DIN 912 M10X30",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 14,
+        "itemBuyPrice": 1.4
+      },
+      {
+        
+        "itemCode": "DIN 7991 M8X20",
+        "itemName": "SENKSCHRAUBEN MIT INNENSECHSKANT",
+        "itemAmount": 4,
+        "itemBuyPrice": 1.91
+      },
+      {
+        
+        "itemCode": "DIN 912 M5X25",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 25,
+        "itemBuyPrice": 1117
+      }
+    ]
+  },
+  {
+    
+    "assemblyName": "STAPELWAGEN AJOVER",
+    "assemblyNumber": "23.405.00.00.00-A",
+    "companyId": "RMB01",
+    "__v": 0,
+    "assemblyItems": [
+      {
+        
+        "itemCode": "23.400.00.00.08",
+        "itemName": "MUTTER",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "23.400.00.00.09",
+        "itemName": "BRÜCKE FÜR SPINDELLAGER",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "23.400.00.00.12-A",
+        "itemName": "SPINDEL",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "23.400.00.00.10-A",
+        "itemName": "LAGERSCHILD, BRÜCKE",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "23.400.00.00.29",
+        "itemName": "TRÄGERLEISTE ABDECKHAUBE",
+        "itemAmount": 2,
+        "itemBuyPrice": 21
+      },
+      {
+        
+        "itemCode": "23.400.00.00.30",
+        "itemName": "SCHUTZBLENDE",
+        "itemAmount": 1,
+        "itemBuyPrice": 86
+      },
+      {
+        
+        "itemCode": "23.400.00.00.26",
+        "itemName": "ABDECKHAUBE, STAPELUNG",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "23.400.00.01.01",
+        "itemName": "GRUNDPLATTE",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "23.400.00.01.04-A",
+        "itemName": "FÜHRUNGSKLOTZ",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "23.400.00.01.02-A",
+        "itemName": "ZYLINDERBEFESTIGUNG; SMC-ZYLINDER",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "23.400.00.00.27",
+        "itemName": "VERSTEIFUNG FÜR HAUBE",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "23.400.00.01.06",
+        "itemName": "BEFESTIGUNGSLEISTE",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "23.400.00.01.05-A",
+        "itemName": "FÜHRUNGSBLOCK",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "23.400.00.01.07",
+        "itemName": "ZENTRIERUNG FÜR STAPELVORRICHTUNG",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "23.400.00.03.01",
+        "itemName": "ABSTÜTZUNG HINTEN",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "23.400.00.03.02",
+        "itemName": "LEISTE",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "23.400.00.03.03",
+        "itemName": "ZYLINDERWINKEL",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "23.401.00.00.01",
+        "itemName": "BEFESTIGUNGSWINKEL FÜR SPANNER",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "23.405.00.00.01",
+        "itemName": "FÜHRUNGSHALTER, VORNE",
+        "itemAmount": 1,
+        "itemBuyPrice": 60
+      },
+      {
+        
+        "itemCode": "23.405.00.00.04",
+        "itemName": "ZENTRIERDORN",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "23.400.00.03.04",
+        "itemName": "DISTANZBUCHSE",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 125-A-8.4",
+        "itemName": "SCHEIBE",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "23.405.00.00.07",
+        "itemName": "PRÜFSTÜCK, HANDKURBEL",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "23.400.00.03.05",
+        "itemName": "DISTANZHÜLSE",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "23.405.00.00.03",
+        "itemName": "FÜHRUNGSSTANGE",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "23.405.00.00.02",
+        "itemName": "FÜHRUNGSHALTER, HINTEN",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "23.405.00.00.05",
+        "itemName": "HALTERBEFESTIGUNG",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "23.401.00.00.02",
+        "itemName": "HALTERUNG FÜR STAPELWAGENANBINDUNG",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "23.405.01.01.00",
+        "itemName": "GESTELL, STAPELWAGEN",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 125-A-10.5",
+        "itemName": "SCHEIBE",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 912 M3X12",
+        "itemName": "ZYLINDERSCHRAUBE",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "ISO 7380 M6X16",
+        "itemName": "RUNDKOPFSCHRAUBE",
+        "itemAmount": 12,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "PM 2020",
+        "itemName": "BUCHSE",
+        "itemAmount": 8
+      },
+      {
+        
+        "itemCode": "23.400.00.01.03",
+        "itemName": "FÜHRUNGSSTANGE",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "GFM-1214-17",
+        "itemName": "BUNDBUCHSE",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "23.405.00.00.06",
+        "itemName": "HALTER, VERRIEGELUNG",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "HM-25-025",
+        "itemName": "RUNDZYLINDER",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "RD-25",
+        "itemName": "GABELKOPF",
+        "itemAmount": 1,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "GN 471.1-50-V8",
+        "itemName": "HANDKURBEL",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "AN10-01",
+        "itemName": "SCHALLDÄMPFER",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "GN 617-6-AK",
+        "itemName": "RASTBOLZEN",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "D-M9PL",
+        "itemName": "ELEKTRONISCHER SIGNALGEBER",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "GN 851-700-T2",
+        "itemName": "VERSCHLUSS-SPANNER",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "KQ2S10-01AS",
+        "itemName": "STECKVERSCHRAUBUNG MIT INNENSECHSKANT",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "KQ2T06-00A",
+        "itemName": "STECKVERBINDUNG",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "CDQ2A40TF-25DZ",
+        "itemName": "KOMPAKTZYLINDER",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "SY5320-5DZD-01F-Q",
+        "itemName": "5-3-WEGE VENTIL",
+        "itemAmount": 1
+      },
+      {
+        
+        "itemCode": "BCW-POD-080-R",
+        "itemName": "BOCKROLLE",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "LCW-POD-080-R",
+        "itemName": "LENKROLLE",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "KQ2L06-01AS",
+        "itemName": "WINKEL-STECKVERBINDUNG",
+        "itemAmount": 8
+      },
+      {
+        
+        "itemCode": "AS2002F-06",
+        "itemName": "DROSSELRÜCKSCHLAGVENTIL",
+        "itemAmount": 2
+      },
+      {
+        
+        "itemCode": "DIN 912 M3X12",
+        "itemName": "ZYLINDERSCHRAUBE",
+        "itemAmount": 2,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "ISO 7380 M6X16",
+        "itemName": "RUNDKOPFSCHRAUBE",
+        "itemAmount": 12,
+        "itemBuyPrice": null
+      },
+      {
+        
+        "itemCode": "DIN 912 M6X16",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 4,
+        "itemBuyPrice": 1.7
+      },
+      {
+        
+        "itemCode": "DIN 912 M6X20",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 4,
+        "itemBuyPrice": 1.8
+      },
+      {
+        
+        "itemCode": "DIN 912 M6X25",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 2,
+        "itemBuyPrice": 1.9
+      },
+      {
+        
+        "itemCode": "DIN 912 M6X35",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 4,
+        "itemBuyPrice": 1.11
+      },
+      {
+        
+        "itemCode": "DIN 912 M6X50",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 8,
+        "itemBuyPrice": 1.14
+      },
+      {
+        
+        "itemCode": "DIN 912 M8X12",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 16,
+        "itemBuyPrice": 1.21
+      },
+      {
+        
+        "itemCode": "DIN 912 M8X20",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 8,
+        "itemBuyPrice": 1.23
+      },
+      {
+        
+        "itemCode": "DIN 912 M8X16",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 16,
+        "itemBuyPrice": 1.22
+      },
+      {
+        
+        "itemCode": "DIN 912 M8X25",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 4,
+        "itemBuyPrice": 1.24
+      },
+      {
+        
+        "itemCode": "DIN 912 M8X30",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 10,
+        "itemBuyPrice": 1.25
+      },
+      {
+        
+        "itemCode": "DIN 912 M8X35",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 2,
+        "itemBuyPrice": 1.26
+      },
+      {
+        
+        "itemCode": "DIN 912 M8X55",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 9,
+        "itemBuyPrice": 1.3
+      },
+      {
+        
+        "itemCode": "DIN 912 M12X35",
+        "itemName": "ZYLINDERSCHRAUBEN, MIT INNENSECHSKANT",
+        "itemAmount": 1,
+        "itemBuyPrice": 1.57
+      },
+      {
+        
+        "itemCode": "DIN 6912 M6X12",
+        "itemName": "ZYLINDERSCHRAUBEN MIT INNENSECHSKANT, NIEDRIGER KOPF MIT SCHLÜSSELFÜHRUNG",
+        "itemAmount": 2,
+        "itemBuyPrice": 1.95
+      },
+      {
+        
+        "itemCode": "DIN 6912 M10X25",
+        "itemName": "ZYLINDERSCHRAUBEN MIT INNENSECHSKANT, NIEDRIGER KOPF MIT SCHLÜSSELFÜHRUNG",
+        "itemAmount": 6,
+        "itemBuyPrice": 1.99
+      }
+    ]
+  }
+]

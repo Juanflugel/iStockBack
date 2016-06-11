@@ -6,10 +6,11 @@ var AssemblySchema = new Schema({
     assemblyNumber:String,
     assemblyName:String,
     companyId:String,
+    assemblyImage:String,
     assemblyItems:[{
         itemCode:String,
         itemName:String,
-        itemAmountInAssembly:Number,
+        itemAmount:Number, // specific amount in assembly
         itemBuyPrice:Number
     }]
 
