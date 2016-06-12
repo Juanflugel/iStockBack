@@ -11,20 +11,39 @@ var mongoose = require('mongoose'),
 		app.put('/itemToProject',itemToProject);
 		app.delete('/projects', deleteProject);
 		app.get('/projectGeneralView', pruebaProject);
+		app.get('/requiredAmounts',pruebaAmounts);
+
+		function pruebaAmounts (req,res){
+			var query = req.query;
+			console.log(query);
+			Project.aggregate([
+							   {$match:query},
+							   { $unwind : "$projectAssemblies" },
+							   { $unwind : "$projectAssemblies.assemblyItems" },
+							   { $project: { projectNumber:1,
+							   				 itemCode:'$projectAssemblies.assemblyItems.itemCode',
+							   				 itemAmount:'$projectAssemblies.assemblyItems.itemAmount'
+							   				}
+							   },
+							   {$group:{_id:{itemCode:'$itemCode'},totalAmount:{$sum:'$itemAmount'}}}
+							   ],function (err,arr){
+				res.json(arr);
+			});
+		} 
 
 		function pruebaProject(req,res){
 			var query = req.query;
 			console.log(query);
 			
 			Project.aggregate( [ {$match: query},
-								 {$project:{projectNumber:1,projectName:1,projectType:1,projectItems:1,deadLine:1,isSubAssembly:1}},
+								 {$project:{projectNumber:1,projectName:1,projectType:1,projectItems:1,deadLine:1}},
 								 { $unwind : "$projectItems" },
-								 {$project:{ projectNumber:1,projectName:1,projectType:1,deadLine:1,isSubAssembly:1,itemName:'$projectItems.itemName',
+								 {$project:{ projectNumber:1,projectName:1,projectType:1,deadLine:1,itemName:'$projectItems.itemName',
 											 itemPrice:'$projectItems.itemBuyPrice',itemAmount:'$projectItems.itemAmount',
 											 itemTotalCost :{$multiply:['$projectItems.itemAmount','$projectItems.itemBuyPrice']}
 										   }
 								 },
-								 {$group:{_id:{_id:'$_id',projectNumber:'$projectNumber',projectName:'$projectName',deadLine:'$deadLine',projectType:'$projectType',isSubAssembly:'$isSubAssembly'},
+								 {$group:{_id:{_id:'$_id',projectNumber:'$projectNumber',projectName:'$projectName',deadLine:'$deadLine',projectType:'$projectType'},
 										  totalProjectCost:{$sum:'$itemTotalCost'}
 									  }                                         
 								 }],function (err,obj){
@@ -51,11 +70,33 @@ var mongoose = require('mongoose'),
 		}
 
 		function updateProject (req,res){
+			// si el re.body es un objeto se va a editar el proyecto en general 
+			// si el req.body es una collecion se van a insertar ensambles
 			var todo = req.body;
 			var query = req.query;
-			Project.findOneAndUpdate(query,todo,function (err,obj){
-				res.json(obj);
-			});
+
+			function updateProjectInfo (){
+				Project.findOneAndUpdate(query,todo,function (err,obj){
+					res.json(obj);
+				});	
+			}			
+
+			function insertAssemblies () {
+				var assembly = todo;
+				Project.findOneAndUpdate(query,// {_id=123......}; req.body [{},{}] assemblies to insert
+					{$push:{projectAssemblies:{$each:assembly}}},
+					{new:true},function (error,obj){
+						console.log('se insertaron varios ensambles');
+						res.json(obj);
+					});
+			}
+
+			if (Array.isArray(todo)){
+				insertAssemblies();
+			}
+			else{
+				updateProjectInfo();
+			}
 		}
 
 		function itemToProject (req,res) {

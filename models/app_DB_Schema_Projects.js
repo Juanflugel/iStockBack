@@ -5,12 +5,21 @@ var ProjectSchema = new Schema({
   
     projectNumber:String,
     projectName:String,
-    projectType:String, // Werkzeuge,Maschine,Subassembly
+    projectType:String, // Werkzeuge,Maschine
     companyId:String,
     openDate:Date,
     deadLine:Date,
     projectState:String,// open or closed
-    isSubAssembly:Number,
+    projectAssemblies:[{
+        assemblyName:String,
+        assemblyNumber:String,
+        assemblyItems:[{
+        itemCode:String,
+        itemName:String,
+        itemAmount:Number, // specific amount in assembly
+        itemBuyPrice:Number
+        }]
+    }],
     projectItems:[{
         itemCode:String,
         itemName:String,
