@@ -7,6 +7,7 @@ function items (app,Item,io){
 
 	app.get('/items',getItem);
 	app.get('/itemsCode',getByItemsCode);// regular expression para el front
+	app.get('/findDuplicates',findDuplicates);
 	app.post('/items',postItemOrCollection);
 	app.put('/items',updateAmountOrEveryThing);
 	app.put('/itemsMultipleAmount',updateMultipleAmount);
@@ -185,6 +186,17 @@ function items (app,Item,io){
 				res.json(obj);
 			});
 
+	}
+
+	function findDuplicates (req,res){
+		var query = req.query;
+		Item.aggregate([{$match:query},
+						{$group:{_id:{itemCode:'$itemCode'},total:{$sum:1}}},
+						{$match:{total:{$gt:1}}},
+						{$project:{_id:1,total:1}}
+							],function (err,array){
+			res.json(array);
+		});
 	}
 
 	

@@ -25,7 +25,9 @@ var mongoose = require('mongoose'),
 							   				 itemAmount:'$projectAssemblies.assemblyItems.itemAmount'
 							   				}
 							   },
-							   {$group:{_id:{itemCode:'$itemCode'},totalAmount:{$sum:'$itemAmount'}}}
+							   // {$group:{_id:{itemCode:'$itemCode'},veces:{$sum:1}}}
+							   {$group:{_id:{itemCode:'$itemCode'},totalAmount:{$sum:'$itemAmount'}}},
+							   {$project:{itemCode:'$_id.itemCode',itemAmount:'$totalAmount'}}// itemAmount =>total amount
 							   ],function (err,arr){
 				res.json(arr);
 			});
