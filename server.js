@@ -19,6 +19,7 @@ var express = require('express'),
 	items = require('./routes/items.js'),
 	companies = require('./routes/companies.js'),
 	assemblies = require('./routes/assemblies.js'),
+	handle = require('./routes/handle.js'),
 	projects = require('./routes/projects.js');
 	
 
@@ -42,6 +43,7 @@ bills(app,Bill);
 items(app,Item,io);
 companies(app,Company);
 assemblies(app,Assembly);
+handle(app,Item,Project);
 projects(app,Project);
 
 

@@ -18,6 +18,7 @@ var itemSchema = new Schema({
     itemCategorie:{type:String,uppercase: true}, // Buateile,Normteile,Kaufteile,Brennteile
     itemLocation:{type:String,uppercase: true},
     companyId:{type:String,uppercase: true},
+    remainingAmount:Number,// cantidad resante variable dependiendo del numero de proyectos en curso
     itemLastPerson:{
         userName:{type:String,uppercase: true},
         userId:{type:String,uppercase: true},
