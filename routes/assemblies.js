@@ -5,15 +5,18 @@ function assemblies (app,Assembly){
 
 	app.use(bodyParser.json());
 
-	app.get('/assemblies',prueba);
+	app.get('/assemblies',getAssemblies);
 	app.post('/assemblies',newAssembly);
 	app.put('/assemblies',updateAssembly);
 	app.delete('/assemblies',deleteAssembly);
 
-	function prueba (req,res){
-		Assembly.find({},function (err,array){
-			res.json(array);
-		});
+	function getAssemblies (req,res){
+		var query = req.query;
+		// console.log(query);
+		Assembly.find(query,function (err,array){
+				// console.log('que monda');
+				res.json(array);
+		});		
 	}
 
 	function newAssembly (req,res) {
