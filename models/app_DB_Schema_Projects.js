@@ -17,7 +17,11 @@ var ProjectSchema = new Schema({
         itemCode:String,
         itemName:String,
         itemAmount:Number, // specific amount in assembly
-        itemBuyPrice:Number
+        itemProvider:String,
+        itemBuyPrice:Number,
+        itemType:String,
+        itemCategorie:String,
+        itemAssembled:Boolean
         }]
     }],
     projectItems:[{

@@ -13,7 +13,7 @@ var mongoose = require('mongoose'),
 		app.get('/projectGeneralView', pruebaProject);
 		app.get('/requiredAmounts',pruebaAmounts);
 
-		function pruebaAmounts (req,res){
+		function pruebaAmounts (req,res){ // ruta para mostrar las cantidades necesaria de cada item dependiendo de las los projectos abiertos
 			var query = req.query;
 			console.log(query);
 			Project.aggregate([
