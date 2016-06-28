@@ -14,7 +14,7 @@ function companies (app,Company){
 	function findCompany (req,res){
 		var query = req.query;
 		Company.find(query,function (err,array){
-			console.log(array);
+			//console.log(array);
 			res.json(array);
 
 		});

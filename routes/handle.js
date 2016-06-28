@@ -74,7 +74,7 @@ function handle (app,Item,Project){
 
 	function queryProjects (req,res){
 		var query = req.query;		
-		function totalAmounts(){
+		function totalAmounts(){ // to show in pendings all items they lack of and how many
 			var codesAndAmounts = [];
 			var codesAndAmountsFromStock = [];
 			var negativeAmounts = [];
@@ -85,6 +85,7 @@ function handle (app,Item,Project){
 								   {$match:query},
 								   { $unwind : "$projectAssemblies" },
 								   { $unwind : "$projectAssemblies.assemblyItems" },
+								   {$match:{itemAssembled:{$ne:true}}},
 								   { $project: { projectNumber:1,
 												 itemCode:'$projectAssemblies.assemblyItems.itemCode',
 												 itemAmount:'$projectAssemblies.assemblyItems.itemAmount'
@@ -117,7 +118,7 @@ function handle (app,Item,Project){
 					         );
 		}
 
-		function insertedItems(){
+		function insertedItems(){ // to show in a project all items that are assembled 
 		
 			Project.aggregate([
 				               {$match:query}, // {companyId,_id,projectAssembly.assemblyNumber}
@@ -158,7 +159,14 @@ function handle (app,Item,Project){
 		Project.findOneAndUpdate(query,// {companyId,projectNumber,projectAssemblies.assemblyNumber}
 			{$set:{'projectAssemblies.$.assemblyItems':arrayItems}},
 			{new:true},function (err,obj){
-				res.json(obj);
+				if(err){
+					res.json(err);
+				}
+				else{
+					console.log(obj +' linea 165');
+					res.json(obj);
+				}
+				
 			});
 
 	}

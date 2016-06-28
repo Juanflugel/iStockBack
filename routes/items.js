@@ -48,10 +48,10 @@ function items (app,Item,io){
 		}
 
 		function findForAssembley(){
-			console.log(query.array)
-			console.log('todo bien mijo');
+			// console.log(query.array)
+			// console.log('array de items para');
 			Item.find({'itemCode':{$in:query.array},companyId:query.companyId},function (err,array){
-				console.log('responde con solo los items necesarios');
+				console.log('responde con solo los items necesarios:'+ array.length);
 				res.json(array);
 			});
 		}
@@ -149,10 +149,10 @@ function items (app,Item,io){
 	}
 
 	function updateMultipleAmount (req,res){
-		 var query = {};
+		 var query = req.query;
 		 var group = req.body;
 		 var l = group.length;
-		 console.log('linea 133'+l);
+		 console.log('linea 133 : '+l);
 		 var count = 0;
 
 
@@ -167,11 +167,12 @@ function items (app,Item,io){
 												if (err) {
 													res.json(err);
 												} 
-												count++                                                                        
+												count++ 
+												console.log(count,i);                                                                       
 												
 												if (i == count){
-													console.log('linea 149'+count);
-													res.json(count);
+													console.log('linea 149 : '+ count);
+													res.json({'length':count});
 												}
 												
 			});

@@ -23,18 +23,7 @@ var ProjectSchema = new Schema({
         itemCategorie:String,
         itemAssembled:Boolean
         }]
-    }],
-    projectItems:[{
-        itemCode:String,
-        itemName:String,
-        itemAmount:Number,
-        itemBuyPrice:Number,
-        itemAssemblyName:String, // BauGruppe Name
-        itemAssemblyNumber:String, // BauGruppe nummer
-        itemAssemblyTime:Date
-
     }]
- //[{},{},] UN ARRAY CON LOS OBJECTOS ASSEMBLY 
 
 });
 

@@ -8,7 +8,7 @@ var mongoose = require('mongoose'),
 		app.get('/projects',getCompanyProjects);
 		app.post('/projects',newProject);
 		app.put('/projects',updateProject);
-		app.put('/itemToProject',itemToProject);
+		// app.put('/itemToProject',itemToProject);
 		app.delete('/projects', deleteProject);
 		app.get('/projectGeneralView', pruebaProject);
 		app.get('/requiredAmounts',pruebaAmounts);
@@ -101,29 +101,30 @@ var mongoose = require('mongoose'),
 			}
 		}
 
-		function itemToProject (req,res) {
-			var query = req.query; //{projectNumber:number}
-			var item = req.body; // can be just an Object or a Collection			
+		// function itemToProject (req,res) {
+		// 	var query = req.query; //{projectNumber:number}
+		// 	var item = req.body; // can be just an Object or a Collection			
 
-			if (Array.isArray(item)){ // insert a complete collection 
-				item[0].itemAssemblyTime = new Date();
-				Project.findOneAndUpdate( query,// {projectNumber: 123455}
-									  {$push:{projectItems:{$each:item}}},
-									  {new:true},function (error,obj){
-									  	console.log('se metieron varios items');
-											res.json(obj);
-				});
-			}
-			else { // insert just an item
-				item.itemAssemblyTime = new Date();
-				Project.findOneAndUpdate( query,// {projectNumber: 123455}
-									  {$push:{projectItems:item}},
-									  {new:true},function (error,obj){
-											res.json(obj);
-				});
-			}
+		// 	if (Array.isArray(item)){ // insert a complete collection 
+		// 		item[0].itemAssemblyTime = new Date();
+		// 		Project.findOneAndUpdate( query,// {projectNumber: 123455}
+		// 							  {$push:{projectItems:{$each:item}}},
+		// 							  {new:true},function (error,obj){
+		// 							  	console.log('se metieron varios items');
+		// 									res.json(obj);
+		// 		});
+		// 	}
+		// 	else { // insert just an item
+		// 		item.itemAssemblyTime = new Date();
+		// 		Project.findOneAndUpdate( query,// {projectNumber: 123455}
+		// 							  {$push:{projectItems:item}},
+		// 							  {new:true},function (error,obj){
+		// 									res.json(obj);
+		// 		});
+		// 	}
 			
-		}
+		// }
+
 
 		function deleteProject (req,res){
 			var query = req.query;
