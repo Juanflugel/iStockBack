@@ -1,5 +1,5 @@
 var mongoose = require ('mongoose');
-var _=require('underscore');
+var _= require('underscore');
 var bodyParser = require('body-parser');
 
 function resumeCodeAndAmount (collection) { // funcion para reducir todo solo a codigo y cantidad
@@ -66,47 +66,45 @@ function handle (app,Item,Project){
 
 	app.use(bodyParser.json());
 
-	app.get('/handleProjects',queryProjects);
-	// app.get('/insertedItems',insertedItems);
-	// app.post('/assemblies',newAssembly);
+	app.get('/handleProjects',totalAmounts);
+	app.get('/insertedItems',insertedItems);
 	app.put('/handleProjects',updateProject);
-	// app.delete('/assemblies',deleteAssembly);
 
-	function queryProjects (req,res){
-		var query = req.query;		
-		function totalAmounts(){ // to show in pendings all items they lack of and how many
-			var codesAndAmounts = [];
-			var codesAndAmountsFromStock = [];
-			var negativeAmounts = [];
-			var arrayWithCodes = [];
-			var query = req.query;
+
+	function totalAmounts(req,res){ // to show in pendings all items they lack of and how many
+		var query = req.query;      
+		
+		var codesAndAmounts = []; // ['12345',3......] array collection with just codes ans amounts from items that are needed to complete a project
+		var codesAndAmountsFromStock = []; //['12345',3......] array collection with just codes ans amounts from items that are in Stock
+		var negativeAmounts = []; // array collection with all items wich have a negative amount afer the stock amount and amount need were compared
+		var arrayWithCodes = [];
 
 			Project.aggregate([
 								   {$match:query},
 								   { $unwind : "$projectAssemblies" },
 								   { $unwind : "$projectAssemblies.assemblyItems" },
-								   {$match:{itemAssembled:{$ne:true}}},
+								   {$match:{'projectAssemblies.assemblyItems.itemAssembled':{$ne:true}}},
 								   { $project: { projectNumber:1,
 												 itemCode:'$projectAssemblies.assemblyItems.itemCode',
-												 itemAmount:'$projectAssemblies.assemblyItems.itemAmount'
+												 itemAmount:'$projectAssemblies.assemblyItems.itemAmount',
+
 												}
 								   },
 								   // {$group:{_id:{itemCode:'$itemCode'},veces:{$sum:1}}}
 								   {$group:{_id:{itemCode:'$itemCode'},totalAmount:{$sum:'$itemAmount'}}},
 								   {$project:{itemCode:'$_id.itemCode',itemAmount:'$totalAmount'}}// itemAmount =>total amount
 							   ],function (err,arr){
+							   		
 									codesAndAmounts = resumeCodeAndAmount(arr);
-									// console.log('listo1',new Date());
-									Item.find({},function (err,array){
 
-									codesAndAmountsFromStock = resumeCodeAndAmount(array);
-									// console.log('listo2',new Date());
-									var negativeAmounts = checkIfNegative(subtract2arrays(codesAndAmountsFromStock,codesAndAmounts));
-									var justCodesWithNegative = getJustCodes(negativeAmounts);
+									Item.find({'companyId':query.companyId},function (err,array){
+
+										codesAndAmountsFromStock = resumeCodeAndAmount(array);									
+										negativeAmounts = checkIfNegative(subtract2arrays(codesAndAmountsFromStock,codesAndAmounts));
+										var justCodesWithNegative = getJustCodes(negativeAmounts);
 
 										Item.find({'itemCode':{$in:justCodesWithNegative}},function (err,arr){ // hay que complementar el querry con companyID
 											console.log('responde con solo los items necesarios');
-											// console.log(remainingAmount(arr,negativeAmounts));
 											res.json(remainingAmount(arr,negativeAmounts));
 
 										});
@@ -114,39 +112,36 @@ function handle (app,Item,Project){
 									});
 
 
-					            }
-					         );
-		}
+								}
+							 );
+	
 
-		function insertedItems(){ // to show in a project all items that are assembled 
-		
+	}
+
+	function insertedItems(req,res){ // to show in a project all items that are assembled 
+			var query = req.query;
+			
 			Project.aggregate([
-				               {$match:query}, // {companyId,_id,projectAssembly.assemblyNumber}
+							   {$match:{'companyId':query.companyId,'projectState':query.projectState}}, // {companyId,_id,projectAssembly.assemblyNumber}
 							   { $unwind : "$projectAssemblies" },
 							   { $unwind : "$projectAssemblies.assemblyItems" },
 							   { $project: { projectNumber:1,
-								   				 itemCode:'$projectAssemblies.assemblyItems.itemCode',
-								   				 itemAmount:'$projectAssemblies.assemblyItems.itemAmount',
-								   				 itemAssembled:'$projectAssemblies.assemblyItems.itemAssembled'
-								   				}
+											 itemCode:'$projectAssemblies.assemblyItems.itemCode',
+											 itemAmount:'$projectAssemblies.assemblyItems.itemAmount',
+											 itemAssembled:'$projectAssemblies.assemblyItems.itemAssembled'
+										   }
 							   },
-							   {$match:{itemAssembled:true}}
+							   {$match:{itemCode:{$in:query.codesArray}}},
+							   {$match:{itemAssembled:true}},
+							   {$group:{_id:{itemCode:'$itemCode'},totalAmount:{$sum:'$itemAmount'}}},
+							   {$project:{itemCode:'$_id.itemCode',itemAmount:'$totalAmount'}}// itemAmount =>total amount
 
 
 							   ],function (err,array){
-							   	console.log('todo bien');
-							   	res.json(array);
+								console.log('todo bien');
+								res.json(array);
 							   });
 	   }
-
-	   if(query.projectNumber){
-	   	insertedItems();
-	   }
-	   if(query.projectState){
-	   	totalAmounts();
-	   }
-
-	}
 
 	
 

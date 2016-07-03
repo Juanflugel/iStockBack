@@ -31,9 +31,10 @@ function assemblies (app,Assembly){
 		var query = req.query;
 		var todo = req.body;
 		console.log(query);
+		console.log(todo);
 
 		function updateItemInAssembly (){
-				Assembly.findOneAndUpdate(query, //{companyId:code,AssemblyNumber:2345,assemblyItems._id:_id@user}
+			Assembly.findOneAndUpdate(query, //{companyId:code,AssemblyNumber:2345,assemblyItems._id:_id@user}
 										{$set:{'assemblyItems.$':todo}},
 										{new:true},function (err,obj){
 											res.json(obj);
@@ -49,10 +50,23 @@ function assemblies (app,Assembly){
 										});
 		}
 
+		function insertItemInAssembly (){ // to insert an item once the assembliy is created
+			Assembly.findOneAndUpdate(query,//{companyId:code,'assemblyNumber':11.401......}
+										{$addToSet:{assemblyItems:todo}},
+										{new:true},
+										function (err,obj){
+											res.json(obj);
+										});
+		}
+
 		if(query.itemCode){
 			deleteItemFromAssembly();
 		}
-		if(query['assemblyItems._id'] && req.body){
+		if(!todo._id){
+			console.log('no reconoce id');
+			insertItemInAssembly();
+		}
+		if(query['assemblyItems._id'] && todo._id){
 			updateItemInAssembly();
 		}
 		
