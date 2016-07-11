@@ -3,15 +3,25 @@ var Schema = mongoose.Schema;
 
 var billSchema = new Schema({
   
-    providerId : String,
-    providerName : String,
-    providerLogo : String,
-    billItems : [{
-                  itemId:String,
-                  itemName:String,
-                  itemAmount:Number,
-                  itemUnit:String
-                 }]
+    billId:String,
+	providerId:String,
+	providerName:String,
+	providerImage:String,
+	mallAddress:String,
+	purchaseDate:Date,
+	totalPaid:Number,
+	currency:String,
+	bougthProducts:[{
+		itemId:String,
+		itemImage:String,
+		itemName:String,
+		itemLastDate:Date,
+		itemAmount:Number,
+		itemUnits:String,
+		itemPrice:Number,
+		itemPriceCurrency:String
+
+	}]
 
 
 });
