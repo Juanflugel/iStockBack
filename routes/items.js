@@ -84,7 +84,7 @@ function items (app,Item,io){
 					res.json(err);
 				}
 			res.json(array);
-		});
+		}).limit(20);
 	}
 	// prueba de regular expression
 

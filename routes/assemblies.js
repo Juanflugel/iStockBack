@@ -30,8 +30,8 @@ function assemblies (app,Assembly){
 
 		var query = req.query;
 		var todo = req.body;
-		console.log(query);
-		console.log(todo);
+		// console.log(query);
+		// console.log(todo);
 
 		function updateItemInAssembly (){
 			Assembly.findOneAndUpdate(query, //{companyId:code,AssemblyNumber:2345,assemblyItems._id:_id@user}
@@ -59,15 +59,27 @@ function assemblies (app,Assembly){
 										});
 		}
 
-		if(query.itemCode){
+		function updateAssemblyInfo (){
+			Assembly.findOneAndUpdate(query,todo,function (err,obj){
+					res.json(obj);
+				});	
+		}
+
+		if(query.itemCode && todo._id){
+			console.log('delete item from Assembly');
 			deleteItemFromAssembly();
 		}
 		if(!todo._id){
-			console.log('no reconoce id');
+			console.log('insert item in assembly');
 			insertItemInAssembly();
 		}
 		if(query['assemblyItems._id'] && todo._id){
+			console.log('update item in assembly');
 			updateItemInAssembly();
+		}
+		if (query._id){
+			console.log('update assembly Info');
+			updateAssemblyInfo();
 		}
 		
 		
