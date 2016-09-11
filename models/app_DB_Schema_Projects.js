@@ -14,14 +14,14 @@ var ProjectSchema = new Schema({
         assemblyName:String,
         assemblyNumber:String,
         assemblyItems:[{
-        itemCode:String,
-        itemName:String,
-        itemAmount:Number, // specific amount in assembly
-        itemProvider:String,
-        itemBuyPrice:Number,
-        itemType:String,
-        itemCategorie:String,
-        itemAssembled:Boolean
+            itemCode:String,
+            itemName:String,
+            itemAmount:Number, // specific amount in assembly
+            itemProvider:String,
+            itemBuyPrice:Number,
+            itemType:String,
+            itemCategorie:String,
+            itemAssembled:Boolean
         }]
     }]
 

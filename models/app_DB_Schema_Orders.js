@@ -12,6 +12,8 @@ var orderSchema = new Schema({
    			   	itemName:String,
    			   	itemAmount:Number,
    			   	itemBrand:String,
+                  itemType:String,
+                  itemProvider:String
                }
               ] 
     

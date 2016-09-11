@@ -1,6 +1,8 @@
 var mongoose = require ('mongoose');
 var _= require('underscore');
 var bodyParser = require('body-parser');
+var csv = require('express-csv');
+var json2csv = require('nice-json2csv');
 
 function resumeCodeAndAmount (collection) { // funcion para reducir todo solo a codigo y cantidad
 		const sample = [];
@@ -69,6 +71,27 @@ function handle (app,Item,Project){
 	app.get('/handleProjects',totalAmounts);
 	app.get('/insertedItems',insertedItems);
 	app.put('/handleProjects',updateProject);
+	app.get('/csv',csv);
+
+	function csv (req,res){
+
+		
+			Item.aggregate([
+					{$match:{}},
+					{ $project: {_id: 0 ,itemCode:1, itemAmount:1}
+								   }
+				],function (err,array){
+				res.csv(array, "myFile.csv");
+			});
+
+			// var d = JSON.stringify(array);
+			// console.log(typeof d);
+			// var obj = JSON.parse(d);
+			// console.log(typeof obj);
+			// res.csv(JSON.stringify(array), "myFile.csv");	
+			
+		
+	}
 
 
 	function totalAmounts(req,res){ // to show in pendings all items they lack of and how many
@@ -78,8 +101,7 @@ function handle (app,Item,Project){
 		var codesAndAmountsFromStock = []; //['12345',3......] array collection with just codes ans amounts from items that are in Stock
 		var negativeAmounts = []; // array collection with all items wich have a negative amount afer the stock amount and amount need were compared
 		var arrayWithCodes = [];
-
-			Project.aggregate([
+		var arrayQuery = [
 								   {$match:query},
 								   { $unwind : "$projectAssemblies" },
 								   { $unwind : "$projectAssemblies.assemblyItems" },
@@ -92,8 +114,22 @@ function handle (app,Item,Project){
 								   },
 								   // {$group:{_id:{itemCode:'$itemCode'},veces:{$sum:1}}}
 								   {$group:{_id:{itemCode:'$itemCode'},totalAmount:{$sum:'$itemAmount'}}},
-								   {$project:{itemCode:'$_id.itemCode',itemAmount:'$totalAmount'}}// itemAmount =>total amount
-							   ],function (err,arr){
+								   {$project:{itemCode:'$_id.itemCode',itemAmount:'$totalAmount'}}];
+			Project.aggregate(	arrayQuery
+								   // {$match:query},
+								   // { $unwind : "$projectAssemblies" },
+								   // { $unwind : "$projectAssemblies.assemblyItems" },
+								   // {$match:{'projectAssemblies.assemblyItems.itemAssembled':{$ne:true}}},
+								   // { $project: { projectNumber:1,
+											// 	 itemCode:'$projectAssemblies.assemblyItems.itemCode',
+											// 	 itemAmount:'$projectAssemblies.assemblyItems.itemAmount',
+
+											// 	}
+								   // },
+								   // // {$group:{_id:{itemCode:'$itemCode'},veces:{$sum:1}}}
+								   // {$group:{_id:{itemCode:'$itemCode'},totalAmount:{$sum:'$itemAmount'}}},
+								   // {$project:{itemCode:'$_id.itemCode',itemAmount:'$totalAmount'}}// itemAmount =>total amount
+							   ,function (err,arr){
 							   		
 									codesAndAmounts = resumeCodeAndAmount(arr);
 
@@ -106,6 +142,8 @@ function handle (app,Item,Project){
 										Item.find({'itemCode':{$in:justCodesWithNegative}},function (err,arr){ // hay que complementar el querry con companyID
 											console.log('responde con solo los items necesarios');
 											res.json(remainingAmount(arr,negativeAmounts));
+											// var vaina = remainingAmount(arr,negativeAmounts);
+											// res.csv(vaina, "myFile.csv");
 
 										});
 				

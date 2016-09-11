@@ -8,6 +8,7 @@ var mongoose = require('mongoose'),
 		app.get('/projects',getCompanyProjects);
 		app.post('/projects',newProject);
 		app.put('/projects',updateProject);
+		app.put('/itemInproject',updateItemInProject);
 		// app.put('/itemToProject',itemToProject);
 		app.delete('/projects', deleteProject);
 		app.get('/projectGeneralView', pruebaProject);
@@ -124,10 +125,23 @@ var mongoose = require('mongoose'),
 		// 	}
 			
 		// }
+		function updateItemInProject(req,res){
+			var query = req.query;
+			var collection = req.body;
+			console.log(query);
+			console.log(collection);
+			Project.findOneAndUpdate(query, //{_id:12234,projectAssemblies._id:123456}
+				{ $set: { "projectAssemblies.$.assemblyItems" : collection } },
+				{new:true},function (err,obj) {
+					res.json(obj);
+				});
+			
 
+		}
 
 		function deleteProject (req,res){
 			var query = req.query;
+			console.log(query);
 			Project.findOneAndRemove(query,function (err,obj){
 				res.json(obj);
 			});

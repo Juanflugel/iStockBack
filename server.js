@@ -13,7 +13,7 @@ var express = require('express'),
 	Company = require('./models/app_DB_Schema_Companies.js'),
 	Assembly = require('./models/app_DB_Schema_Assemblies.js'),
 	Project = require('./models/app_DB_Schema_Projects.js'),
-
+	Order =  require('./models/app_DB_Schema_Orders.js'),
 	// Cargo las rutas de la AP
 	bills = require('./routes/bills.js'),
 	items = require('./routes/items.js'),
@@ -21,6 +21,8 @@ var express = require('express'),
 	assemblies = require('./routes/assemblies.js'),
 	handle = require('./routes/handle.js'),
 	projects = require('./routes/projects.js');
+	orders = require('./routes/orders.js');
+	json2csv = require('nice-json2csv');
 	
 
 mongoose.connect('mongodb://localhost/istockDB');
@@ -38,6 +40,7 @@ db.once('open', function (callback) {
 app.use(cors());
 app.use(bodyParser.json({limit: '50mb'}));
 app.use(bodyParser.urlencoded({limit: '50mb',extended: true}));
+app.use(json2csv.expressDecorator);
 // route have to accept app and model,
 bills(app,Bill);
 items(app,Item,io);
@@ -45,6 +48,7 @@ companies(app,Company);
 assemblies(app,Assembly);
 handle(app,Item,Project);
 projects(app,Project);
+orders(app,Order);
 
 
 
