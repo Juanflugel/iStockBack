@@ -14,14 +14,16 @@ var express = require('express'),
 	Assembly = require('./models/app_DB_Schema_Assemblies.js'),
 	Project = require('./models/app_DB_Schema_Projects.js'),
 	Order =  require('./models/app_DB_Schema_Orders.js'),
+	User = require('./models/app_DB_Schema_Users.js')
 	// Cargo las rutas de la AP
 	bills = require('./routes/bills.js'),
 	items = require('./routes/items.js'),
 	companies = require('./routes/companies.js'),
 	assemblies = require('./routes/assemblies.js'),
 	handle = require('./routes/handle.js'),
-	projects = require('./routes/projects.js');
-	orders = require('./routes/orders.js');
+	projects = require('./routes/projects.js'),
+	orders = require('./routes/orders.js'),
+	users = require('./routes/users.js'),
 	json2csv = require('nice-json2csv');
 	
 
@@ -49,6 +51,7 @@ assemblies(app,Assembly);
 handle(app,Item,Project);
 projects(app,Project);
 orders(app,Order);
+users(app,User);
 
 
 
