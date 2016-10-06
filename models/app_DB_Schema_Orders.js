@@ -5,7 +5,10 @@ var orderSchema = new Schema({
   
    orderNumber:String,
    orderCreationDate:Date,
+   orderConfirmationDate:Date,
+   orderDeliveringDate:Date,
    orderToProvider:String,
+   state:String,
    orderItems:[
    			   {
    			   	itemCode:String,
@@ -13,7 +16,8 @@ var orderSchema = new Schema({
    			   	itemAmount:Number,
    			   	itemBrand:String,
                   itemType:String,
-                  itemProvider:String
+                  itemProvider:String,
+                  itemPrice:Number
                }
               ] 
     

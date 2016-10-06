@@ -12,9 +12,8 @@ function companies (app,Company){
 	app.delete('/company',deleteCompany);
 
 	function findCompany (req,res){
-		var query = req.query;
+		var query = req.query; // query:{companyId:1234}
 		Company.find(query,function (err,array){
-			//console.log(array);
 			res.json(array);
 
 		});
@@ -25,12 +24,12 @@ function companies (app,Company){
 			res.json(obj);
 		});
 	}
+
 	// CRUD company - CRUD User - CRUD Providers
+
 	function updateCompany (req,res){
 			var query = req.query;
 			var todo = req.body;
-			console.log(query,todo.providerName,todo._id);
-			// console.log(todo);
 
 			function updateCompanyInfo(){ // query{_id:as34664} 
 				Company.findOneAndUpdate(query,todo,{new:true},function (err,obj){
@@ -39,7 +38,7 @@ function companies (app,Company){
 
 			}
 			// user related CRUD
-			function newUser (){ // todo.userName === undefined 
+			function newUser (){ // todo.id === undefined 
 				Company.findOneAndUpdate( query,//query {companyId:code}
 	    							  {$push:{companyUsers:todo}},
 	    							  {new:true},function (error,obj){
@@ -63,9 +62,10 @@ function companies (app,Company){
 										});
 			}
 			// user related CRUD
+
 			// provider related CRUD
 			function newProvider (){
-				Company.findOneAndUpdate( query,//query {companyId:code}
+				Company.findOneAndUpdate(query,//query {companyId:code}
 	    							  {$push:{companyProviders:todo}},
 	    							  {new:true},function (error,obj){
 	    							  		res.json(obj);
@@ -123,7 +123,7 @@ function companies (app,Company){
     	
     	function newFilterTag (){
     		Company.findOneAndUpdate(query,//{companyId:RMB01,companyItemFilters.queryObjKey}
-    								{$push:{'companyItemFilters.$.array':req.body.cuerpo}},
+    								{$push:{'companyItemFilters.$.array':req.body.toAdd}},
     								{new:true},function (err,obj){
     									res.json(obj);
     								}	
@@ -132,14 +132,14 @@ function companies (app,Company){
 
     	function deleteFilterTag (){
     		Company.findOneAndUpdate(query,//{companyId:RMB01,companyItemFilters.queryObjKey}
-    								{$pull:{'companyItemFilters.$.array':req.body.tagToRemove}},
+    								{$pull:{'companyItemFilters.$.array':req.body.toRemove}},
     								{new:true},function (err,obj){
     									res.json(obj);
     								}
     			)
     	}
 
-    	if(req.body.tagToRemove){
+    	if(req.body.toRemove){
     		console.log(query);
     		deleteFilterTag();
     	}

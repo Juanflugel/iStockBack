@@ -63,6 +63,7 @@ function remainingAmount(colItems,colCAA){
 
 	return newColWhitRemaining;
 }
+var colToDownload = [];
 
 function handle (app,Item,Project){
 
@@ -76,13 +77,9 @@ function handle (app,Item,Project){
 	function csv (req,res){
 
 		
-			Item.aggregate([
-					{$match:{}},
-					{ $project: {_id: 0 ,itemCode:1, itemAmount:1}
-								   }
-				],function (err,array){
-				res.csv(array, "myFile.csv");
-			});
+			
+				res.csv(colToDownload, "myFile.csv");
+			
 
 			// var d = JSON.stringify(array);
 			// console.log(typeof d);
@@ -102,56 +99,48 @@ function handle (app,Item,Project){
 		var negativeAmounts = []; // array collection with all items wich have a negative amount afer the stock amount and amount need were compared
 		var arrayWithCodes = [];
 		var arrayQuery = [
-								   {$match:query},
-								   { $unwind : "$projectAssemblies" },
-								   { $unwind : "$projectAssemblies.assemblyItems" },
-								   {$match:{'projectAssemblies.assemblyItems.itemAssembled':{$ne:true}}},
-								   { $project: { projectNumber:1,
-												 itemCode:'$projectAssemblies.assemblyItems.itemCode',
-												 itemAmount:'$projectAssemblies.assemblyItems.itemAmount',
+							  { $match:query },
+							  { $unwind : "$projectAssemblies" },
+							  { $unwind : "$projectAssemblies.assemblyItems" },
+							  { $match:{'projectAssemblies.assemblyItems.itemAssembled':{$ne:true}}},
+							  { $project: { projectNumber:1,
+											itemCode:'$projectAssemblies.assemblyItems.itemCode',
+											itemAmount:'$projectAssemblies.assemblyItems.itemAmount'
+										  }
+							  },
+							  {$group:{_id:{itemCode:'$itemCode'},totalAmount:{$sum:'$itemAmount'}}},
+							  {$project:{itemCode:'$_id.itemCode',itemAmount:'$totalAmount'}}
+						 ];
 
-												}
-								   },
-								   // {$group:{_id:{itemCode:'$itemCode'},veces:{$sum:1}}}
-								   {$group:{_id:{itemCode:'$itemCode'},totalAmount:{$sum:'$itemAmount'}}},
-								   {$project:{itemCode:'$_id.itemCode',itemAmount:'$totalAmount'}}];
-			Project.aggregate(	arrayQuery
-								   // {$match:query},
-								   // { $unwind : "$projectAssemblies" },
-								   // { $unwind : "$projectAssemblies.assemblyItems" },
-								   // {$match:{'projectAssemblies.assemblyItems.itemAssembled':{$ne:true}}},
-								   // { $project: { projectNumber:1,
-											// 	 itemCode:'$projectAssemblies.assemblyItems.itemCode',
-											// 	 itemAmount:'$projectAssemblies.assemblyItems.itemAmount',
+			Project.aggregate(arrayQuery,function (err,arr){
 
-											// 	}
-								   // },
-								   // // {$group:{_id:{itemCode:'$itemCode'},veces:{$sum:1}}}
-								   // {$group:{_id:{itemCode:'$itemCode'},totalAmount:{$sum:'$itemAmount'}}},
-								   // {$project:{itemCode:'$_id.itemCode',itemAmount:'$totalAmount'}}// itemAmount =>total amount
-							   ,function (err,arr){
-							   		
-									codesAndAmounts = resumeCodeAndAmount(arr);
+				codesAndAmounts = resumeCodeAndAmount(arr);
 
-									Item.find({'companyId':query.companyId},function (err,array){
+				Item.find({'companyId':query.companyId},function (err,array){
 
-										codesAndAmountsFromStock = resumeCodeAndAmount(array);									
-										negativeAmounts = checkIfNegative(subtract2arrays(codesAndAmountsFromStock,codesAndAmounts));
-										var justCodesWithNegative = getJustCodes(negativeAmounts);
+					codesAndAmountsFromStock = resumeCodeAndAmount(array);									
+					negativeAmounts = checkIfNegative(subtract2arrays(codesAndAmountsFromStock,codesAndAmounts));
+					var justCodesWithNegative = getJustCodes(negativeAmounts);
 
-										Item.find({'itemCode':{$in:justCodesWithNegative}},function (err,arr){ // hay que complementar el querry con companyID
-											console.log('responde con solo los items necesarios');
-											res.json(remainingAmount(arr,negativeAmounts));
-											// var vaina = remainingAmount(arr,negativeAmounts);
-											// res.csv(vaina, "myFile.csv");
+					// Item.find({'itemCode':{$in:justCodesWithNegative}},function (err,arr){ // hay que complementar el querry con companyID
+					// 	console.log('responde con solo los items necesarios'); // hay que usar aggregation framework
+					// 	res.json(remainingAmount(arr,negativeAmounts));
+											
 
-										});
+					// });
+
+					Item.aggregate([
+						{$match:{'itemCode':{$in:justCodesWithNegative}}},
+						{$project:{_id:1,itemCode:1,itemName:1,itemType:1,itemProvider:1,remainingAmount:1}}
+						],function(err,col){
+							colToDownload = remainingAmount(col,negativeAmounts);
+							res.json(colToDownload);
+					});
 				
-									});
+				});
 
 
-								}
-							 );
+			});
 	
 
 	}
@@ -179,7 +168,7 @@ function handle (app,Item,Project){
 								console.log('todo bien');
 								res.json(array);
 							   });
-	   }
+	}
 
 	
 

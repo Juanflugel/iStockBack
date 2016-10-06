@@ -11,16 +11,15 @@ function assemblies (app,Assembly){
 	app.delete('/assemblies',deleteAssembly);
 
 	function getAssemblies (req,res){
-		var query = req.query;
-		// console.log(query);
-		Assembly.find(query,function (err,array){
-				// console.log('que monda');
+
+		var query = req.query; // query:{companyId}		
+		Assembly.find(query,function (err,array){				
 				res.json(array);
 		});		
 	}
 
 	function newAssembly (req,res) {
-			console.log (req.body);
+			
 			Assembly.create(req.body,function (err,obj) {
 				res.json(obj);
 			});
@@ -30,11 +29,9 @@ function assemblies (app,Assembly){
 
 		var query = req.query;
 		var todo = req.body;
-		// console.log(query);
-		// console.log(todo);
 
-		function updateItemInAssembly (){
-			Assembly.findOneAndUpdate(query, //{companyId:code,AssemblyNumber:2345,assemblyItems._id:_id@user}
+		function updateItemInAssembly (){ // update item information once a item is inside an Assembly 
+			Assembly.findOneAndUpdate(query, //{companyId:code,AssemblyNumber:2345,assemblyItems._id:_id@item}
 										{$set:{'assemblyItems.$':todo}},
 										{new:true},function (err,obj){
 											res.json(obj);
@@ -59,6 +56,15 @@ function assemblies (app,Assembly){
 										});
 		}
 
+		function insertItemsInAssembly (){ // to insert an item once the assembliy is created
+			Assembly.findOneAndUpdate(query,//{companyId:code,'assemblyNumber':11.401......}
+										{$addToSet:{assemblyItems:{$each:todo}}},
+										{new:true},
+										function (err,obj){
+											res.json(obj);
+										});
+		}
+
 		function updateAssemblyInfo (){
 			Assembly.findOneAndUpdate(query,todo,function (err,obj){
 					res.json(obj);
@@ -69,7 +75,7 @@ function assemblies (app,Assembly){
 			console.log('delete item from Assembly');
 			deleteItemFromAssembly();
 		}
-		if(!todo._id){
+		if(!todo._id && !Array.isArray(todo) && !undefined && !null){
 			console.log('insert item in assembly');
 			insertItemInAssembly();
 		}
@@ -80,6 +86,10 @@ function assemblies (app,Assembly){
 		if (query._id){
 			console.log('update assembly Info');
 			updateAssemblyInfo();
+		}
+		if (Array.isArray(todo)){
+			console.log('multiple items inserted');
+			insertItemsInAssembly();
 		}
 		
 		

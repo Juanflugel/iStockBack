@@ -14,7 +14,8 @@ var AssemblySchema = new Schema({
         itemProvider:String,
         itemBuyPrice:Number,
         itemType:String,
-        itemCategorie:String
+        itemCategorie:String,
+        itemAssembled:Boolean
     }]
 
 
