@@ -6,12 +6,12 @@ var itemSchema = new Schema({
     itemCode:{type:String,uppercase: true},
     itemCodeType:{type:String,uppercase: true},
     itemName:{type:String,uppercase: true},
-    itemType:{type:String,uppercase: true}, // schraube, zylinder, motor, blech, fertigunsteil
-    itemAssemblyName:{type:String,uppercase: true}, // BauGruppe Name,General 
+    itemType:{type:String,uppercase: true, default:'NONE'}, // schraube, zylinder, motor, blech, fertigunsteil
+    itemAssemblyName:{type:String,uppercase: true, default:'NONE'}, // BauGruppe Name,General 
     itemAssemblyNumber:String, // BauGruppe nummer, General
     itemAmount:Number, // amout of items there are in Stock
     itemUnits:{type:String,uppercase: true}, // Units zb mm,m,kg
-    itemProvider:{type:String,uppercase: true},
+    itemProvider:{type:String,uppercase: true,default:'NONE'},
     itemBrand:{type:String, uppercase:true,trim:true },
     itemSellPrice:Number,
     itemBuyPrice:Number,

@@ -72,23 +72,7 @@ function handle (app,Item,Project){
 	app.get('/handleProjects',totalAmounts);
 	app.get('/insertedItems',insertedItems);
 	app.put('/handleProjects',updateProject);
-	app.get('/csv',csv);
 
-	function csv (req,res){
-
-		
-			
-				res.csv(colToDownload, "myFile.csv");
-			
-
-			// var d = JSON.stringify(array);
-			// console.log(typeof d);
-			// var obj = JSON.parse(d);
-			// console.log(typeof obj);
-			// res.csv(JSON.stringify(array), "myFile.csv");	
-			
-		
-	}
 
 
 	function totalAmounts(req,res){ // to show in pendings all items they lack of and how many
@@ -121,18 +105,18 @@ function handle (app,Item,Project){
 					codesAndAmountsFromStock = resumeCodeAndAmount(array);									
 					negativeAmounts = checkIfNegative(subtract2arrays(codesAndAmountsFromStock,codesAndAmounts));
 					var justCodesWithNegative = getJustCodes(negativeAmounts);
-
 					// Item.find({'itemCode':{$in:justCodesWithNegative}},function (err,arr){ // hay que complementar el querry con companyID
 					// 	console.log('responde con solo los items necesarios'); // hay que usar aggregation framework
-					// 	res.json(remainingAmount(arr,negativeAmounts));
-											
+					// 	res.json(remainingAmount(arr,negativeAmounts));								
 
 					// });
 
 					Item.aggregate([
-						{$match:{'itemCode':{$in:justCodesWithNegative}}},
-						{$project:{_id:1,itemCode:1,itemName:1,itemType:1,itemProvider:1,remainingAmount:1}}
-						],function(err,col){
+						{$match:{'companyId':query.companyId,'itemCode':{$in:justCodesWithNegative}}},
+						{$project:
+							{_id:0,itemCode:1,itemAmount:1,itemName:1,itemType:1,itemProvider:1,remainingAmount:1,itemAssemblyName:1
+							}
+						}],function(err,col){
 							colToDownload = remainingAmount(col,negativeAmounts);
 							res.json(colToDownload);
 					});
