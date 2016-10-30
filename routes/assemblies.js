@@ -11,11 +11,18 @@ function assemblies (app,Assembly){
 	app.delete('/assemblies',deleteAssembly);
 
 	function getAssemblies (req,res){
-
-		var query = req.query; // query:{companyId}		
-		Assembly.find(query,function (err,array){				
+		
+		var query = req.query; // query:{companyId}	
+		
+		if(query.companyId){
+			Assembly.find(query,function (err,array){				
 				res.json(array);
-		});		
+			});	
+		}
+		else{
+			res.json('please give a companyId');
+		}	
+			
 	}
 
 	function newAssembly (req,res) {

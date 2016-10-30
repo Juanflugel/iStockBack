@@ -2,18 +2,24 @@ var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
 var orderSchema = new Schema({
-  
+
+   companyId :String,
    orderNumber:String,
+   projectNumbers:[String],
    orderCreationDate:Date,
    orderConfirmationDate:Date,
+   orderPaymentDate:Date,
    orderDeliveringDate:Date,
-   orderToProvider:String,
-   state:String,
-   orderItems:[
+   orderProvider:String,
+   businessPartner:String,
+   tel: String,
+   orderState:String, // open , close
+   orderStatus:String, // ordered, paid, delivered
+   orderedItems:[
    			   {
    			   	itemCode:String,
    			   	itemName:String,
-   			   	itemAmount:Number,
+   			   	amountOrdered:Number,
    			   	itemBrand:String,
                   itemType:String,
                   itemProvider:String,

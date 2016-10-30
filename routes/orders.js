@@ -7,9 +7,14 @@ function orders (app,Order){
 
 	app.get('/orders',getOrders);
 	app.post('/orders',newOrder);
+	app.put('/orders',updateOrder);
+	app.delete('/orders',deleteOrder);
 
 	function newOrder (req,res){
-		Order.create(req.body,function (err,obj){
+		var query = req.query;
+		var obj = req.body;
+		obj.orderCreationDate = new Date();
+		Order.create(obj,function (err,obj){
 			console.log('nuevo');
 			res.json(obj);
 		});	
@@ -28,6 +33,27 @@ function orders (app,Order){
 			getBillById();
 		}
 		
+	}
+
+	function updateOrder (req,res){
+		var query = req.query;
+		var todo = req.body;
+
+		function updateOrderInfo(){
+			Order.findOneAndUpdate(query,todo,{new:true},function (err,obj){
+				res.json(obj);
+			});
+		}
+		if (query._id){
+			updateOrderInfo();
+		}
+	}
+
+	function deleteOrder (req,res){
+		var query = req.query;
+		Order.findOneAndRemove(query,function (err,obj){
+			res.json(obj);
+		});
 	}
 
 

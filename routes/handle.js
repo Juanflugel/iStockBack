@@ -1,7 +1,6 @@
 var mongoose = require ('mongoose');
 var _= require('underscore');
 var bodyParser = require('body-parser');
-var csv = require('express-csv');
 var json2csv = require('nice-json2csv');
 
 function resumeCodeAndAmount (collection) { // funcion para reducir todo solo a codigo y cantidad
@@ -63,7 +62,7 @@ function remainingAmount(colItems,colCAA){
 
 	return newColWhitRemaining;
 }
-var colToDownload = [];
+
 
 function handle (app,Item,Project){
 
@@ -77,7 +76,7 @@ function handle (app,Item,Project){
 
 	function totalAmounts(req,res){ // to show in pendings all items they lack of and how many
 		var query = req.query;      
-		
+		console.log(query);
 		var codesAndAmounts = []; // ['12345',3......] array collection with just codes ans amounts from items that are needed to complete a project
 		var codesAndAmountsFromStock = []; //['12345',3......] array collection with just codes ans amounts from items that are in Stock
 		var negativeAmounts = []; // array collection with all items wich have a negative amount afer the stock amount and amount need were compared
@@ -105,11 +104,7 @@ function handle (app,Item,Project){
 					codesAndAmountsFromStock = resumeCodeAndAmount(array);									
 					negativeAmounts = checkIfNegative(subtract2arrays(codesAndAmountsFromStock,codesAndAmounts));
 					var justCodesWithNegative = getJustCodes(negativeAmounts);
-					// Item.find({'itemCode':{$in:justCodesWithNegative}},function (err,arr){ // hay que complementar el querry con companyID
-					// 	console.log('responde con solo los items necesarios'); // hay que usar aggregation framework
-					// 	res.json(remainingAmount(arr,negativeAmounts));								
 
-					// });
 
 					Item.aggregate([
 						{$match:{'companyId':query.companyId,'itemCode':{$in:justCodesWithNegative}}},
@@ -161,7 +156,7 @@ function handle (app,Item,Project){
 
 		var query = req.query; 
 		var arrayItems = req.body;
-
+ // cambiar el query para buscar el assembly por Id en caso que halla mas de un assembly igual por proyecto
 		Project.findOneAndUpdate(query,// {companyId,projectNumber,projectAssemblies.assemblyNumber}
 			{$set:{'projectAssemblies.$.assemblyItems':arrayItems}},
 			{new:true},function (err,obj){

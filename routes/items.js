@@ -11,6 +11,7 @@ function items (app,Item,io){
 	app.post('/items',postItemOrCollection);
 	app.put('/items',updateAmountOrEveryThing);
 	app.put('/itemsMultipleAmount',updateMultipleAmount);
+	app.put('/increment',increment);
 	app.delete('/items',deleteItem);
 
 	function getItem (req,res){ // get items by Code, all items in collection and items with amount 0
@@ -198,6 +199,24 @@ function items (app,Item,io){
 							],function (err,array){
 			res.json(array);
 		});
+	}
+
+	function increment (req,res){ // function to try to add and sustract amount from stock
+		var query = req.query;
+		var arrayOfObj = req.body;//[[itemCode,Amount],[]]
+		var l = arrayOfObj.length;
+		
+		for (var i=0; i < l ; i++){
+			query.itemCode = arrayOfObj[i][0];
+			console.log(query);
+			Item.findOneAndUpdate(query,{
+				$inc: { 'itemAmount':arrayOfObj[i][1]},'itemLastDate': new Date()
+			},{new:true},function (err,obj){
+					console.log(obj);
+			});
+		}
+
+		res.json('todo fue actualizado correctamente');
 	}
 
 	

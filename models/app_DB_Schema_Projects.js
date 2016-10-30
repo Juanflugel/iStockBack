@@ -21,7 +21,7 @@ var ProjectSchema = new Schema({
             itemBuyPrice:Number,
             itemType:String,
             itemCategorie:String,
-            itemAssembled:Boolean
+            itemAssembled:{type:Boolean,default:false }
         }]
     }]
 
