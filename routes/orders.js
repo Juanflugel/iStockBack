@@ -44,9 +44,41 @@ function orders (app,Order){
 				res.json(obj);
 			});
 		}
-		if (query._id){
+		
+
+		function updateItemInOrder (){ // update item information once a item is inside an Assembly 
+			Order.findOneAndUpdate(query, //{companyId:code,orderNumber:2345,orderedItems._id:_id@item}
+										{$set:{'orderedItems.$':todo}},
+										{new:true},function (err,obj){
+											res.json(obj);
+										});
+		
+		}
+
+		function insertItemInOrder (){ // to insert an item once the assembliy is created
+			Order.findOneAndUpdate(query,//{companyId:code,'orderNUmber':11.401......}
+										{$addToSet:{orderedItems:todo}},
+										{new:true},
+										function (err,obj){
+											res.json(obj);
+										});
+		}
+
+		if (query._id){ // id of the order
 			updateOrderInfo();
 		}
+
+		if(query['orderedItems._id'] && todo._id){ 
+			console.log('update item in assembly');
+			updateItemInOrder();
+		}
+
+		if(!todo._id){
+			console.log('nuevo item insertado en la orden');
+			insertItemInOrder();
+		}
+
+
 	}
 
 	function deleteOrder (req,res){

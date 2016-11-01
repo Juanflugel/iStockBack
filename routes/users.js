@@ -11,7 +11,9 @@ function users (app,User){
 	app.delete('/users',deleteUser);
 
 	function newUser (req,res){
-		User.create(req.body,function (err,obj){
+		var obj = req.body;
+		console.log(obj);
+		User.create(obj,function (err,obj){
 			console.log('nuevo');
 			res.json(obj);
 		});	
@@ -39,6 +41,9 @@ function users (app,User){
 		}
 
 		if (req.query.companyId){
+			getCompanyUsersCollection();
+		}
+		else{
 			getCompanyUsersCollection();
 		}
 		

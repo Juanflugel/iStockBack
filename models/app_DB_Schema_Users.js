@@ -9,11 +9,11 @@ var userSchema = new Schema({
    userRole:String,
    userPassWord:String,
    companyId:String,
-   email: {
-    type: String,
-    unique: true,
-    required: true
-   },
+   // email: {
+   //  type: String,
+   //  unique: true,
+   //  required: true
+   // },
    hash: String,
    salt: String
     

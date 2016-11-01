@@ -23,7 +23,8 @@ var orderSchema = new Schema({
    			   	itemBrand:String,
                   itemType:String,
                   itemProvider:String,
-                  itemPrice:Number
+                  itemPrice:Number,
+                  totalPrice:Number
                }
               ] 
     
