@@ -64,6 +64,14 @@ function orders (app,Order){
 										});
 		}
 
+		function deleteItemFromOrder (){
+			Order.findOneAndUpdate({companyId:query.companyId,orderNumber:query.orderNumber},//{companyId:code,'assemblyNumber':11.401......}
+										{$pull:{orderedItems:{itemCode:query.itemCode}}},{new:true},
+										function (err,obj){
+											res.json(obj);
+										});
+		}
+
 		if (query._id){ // id of the order
 			updateOrderInfo();
 		}
@@ -76,6 +84,11 @@ function orders (app,Order){
 		if(!todo._id){
 			console.log('nuevo item insertado en la orden');
 			insertItemInOrder();
+		}
+
+		if(query.itemCode && todo._id){
+			console.log('item  deleted from order');
+			deleteItemFromOrder();
 		}
 
 
