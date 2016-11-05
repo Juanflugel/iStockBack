@@ -203,20 +203,24 @@ function items (app,Item,io){
 
 	function increment (req,res){ // function to try to add and sustract amount from stock
 		var query = req.query;
+		console.log(query);
 		var arrayOfObj = req.body;//[[itemCode,Amount],[]]
 		var l = arrayOfObj.length;
 		
 		for (var i=0; i < l ; i++){
 			query.itemCode = arrayOfObj[i][0];
-			console.log(query);
-			Item.findOneAndUpdate(query,{
+			//console.log(query);
+			Item.findOneAndUpdate(query,{// companyId
 				$inc: { 'itemAmount':arrayOfObj[i][1]},'itemLastDate': new Date()
 			},{new:true},function (err,obj){
-					console.log(obj);
+				if (err){
+					console.log(err);
+				}
+					//console.log(obj.itemCode);
 			});
 		}
 
-		res.json('todo fue actualizado correctamente');
+		res.json({answer:'everything updated'});
 	}
 
 	

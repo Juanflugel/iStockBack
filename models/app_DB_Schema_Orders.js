@@ -24,7 +24,8 @@ var orderSchema = new Schema({
                   itemType:String,
                   itemProvider:String,
                   itemPrice:Number,
-                  totalPrice:Number
+                  totalPrice:Number,
+                  isDelivered:{type:Boolean,default:false}
                }
               ] 
     

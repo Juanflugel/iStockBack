@@ -164,7 +164,7 @@ function handle (app,Item,Project){
 					res.json(err);
 				}
 				else{
-					console.log(obj +' linea 165');
+					console.log('items inserted in Project sucessfully');
 					res.json(obj);
 				}
 				

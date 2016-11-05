@@ -64,6 +64,22 @@ function orders (app,Order){
 										});
 		}
 
+		function updateItemsCollecion (){
+ 
+		Order.findOneAndUpdate(query,// {companyId,orderNumber}
+			{$set:{'orderedItems':todo}},
+			{new:true},function (err,obj){
+				if(err){
+					res.json(err);
+				}
+				else{
+					console.log('items actualizados');
+					res.json(obj);
+				}
+				
+			});
+		}
+
 		function deleteItemFromOrder (){
 			Order.findOneAndUpdate({companyId:query.companyId,orderNumber:query.orderNumber},//{companyId:code,'assemblyNumber':11.401......}
 										{$pull:{orderedItems:{itemCode:query.itemCode}}},{new:true},
@@ -81,7 +97,7 @@ function orders (app,Order){
 			updateItemInOrder();
 		}
 
-		if(!todo._id){
+		if(!todo._id && !Array.isArray(todo)){
 			console.log('nuevo item insertado en la orden');
 			insertItemInOrder();
 		}
@@ -89,6 +105,10 @@ function orders (app,Order){
 		if(query.itemCode && todo._id){
 			console.log('item  deleted from order');
 			deleteItemFromOrder();
+		}
+
+		if(Array.isArray(todo)){
+			updateItemsCollecion();			
 		}
 
 
