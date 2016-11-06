@@ -140,7 +140,7 @@ function companies (app,Company){
     	}
 
     	if(req.body.toRemove){
-    		console.log(query);
+    		//console.log(query);
     		deleteFilterTag();
     	}
     	else {

@@ -10,7 +10,6 @@ function items (app,Item,io){
 	app.get('/findDuplicates',findDuplicates);
 	app.post('/items',postItemOrCollection);
 	app.put('/items',updateAmountOrEveryThing);
-	app.put('/itemsMultipleAmount',updateMultipleAmount);
 	app.put('/increment',increment);
 	app.delete('/items',deleteItem);
 
@@ -92,19 +91,17 @@ function items (app,Item,io){
 	function postItemOrCollection (req,res){
 		
 		function insertCollection (){ // insert a collection of Documents
-			//Item.collection.insert
+
 			Item.create(req.body,function (err,array){
 				res.json(array);               
-			});            
-			//io.emit('newCollection',req.body);            
+			});       
 		}
 
 		function insertItem (){ // create just one Document in the collection
-			// console.log(req.body);
+
 			Item.create(req.body,function (err,array){
 				res.json(array);
-			});
-			//then(io.emit('newItem',req.body));           
+			});          
 		}
 
 		if (Array.isArray(req.body)){
@@ -149,45 +146,11 @@ function items (app,Item,io){
 		}
 	}
 
-	function updateMultipleAmount (req,res){
-		 var query = req.query;
-		 var group = req.body;
-		 var l = group.length;
-		 console.log('linea 133 : '+l);
-		 var count = 0;
-
-
-		 for (i=0;i<l;i++){
-
-		 	var item = group[i];
-            query.itemCode = item[0];
-            var currentAmount = item[1];
-
-            Item.findOneAndUpdate(query,{'itemAmount':currentAmount},
-            					  {new:true},function (err,obj){
-												if (err) {
-													res.json(err);
-												} 
-												count++ 
-												console.log(count,i);                                                                       
-												
-												if (i == count){
-													console.log('linea 149 : '+ count);
-													res.json({'length':count});
-												}
-												
-			});
-
-
-		 }
-	}
-
 	function deleteItem (req,res){
 		var query = req.query;
 			Item.findOneAndRemove(query,function (err,obj){
 				res.json(obj);
 			});
-
 	}
 
 	function findDuplicates (req,res){

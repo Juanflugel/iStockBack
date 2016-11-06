@@ -15,7 +15,7 @@ function orders (app,Order){
 		var obj = req.body;
 		obj.orderCreationDate = new Date();
 		Order.create(obj,function (err,obj){
-			console.log('nuevo');
+			// console.log('nuevo');
 			res.json(obj);
 		});	
 	}
@@ -24,7 +24,7 @@ function orders (app,Order){
 		// res.json('todo bien primo');
 		function getBillById (){
 			const query = req.query;
-			console.log(query);
+			// console.log(query);
 			Order.find(query,function (err,array){
 			res.json(array);
 			});
@@ -39,14 +39,14 @@ function orders (app,Order){
 		var query = req.query;
 		var todo = req.body;
 
-		function updateOrderInfo(){
+		function updateOrderInfo(){ // update general info from an Order F.E Number, provider, etc
 			Order.findOneAndUpdate(query,todo,{new:true},function (err,obj){
 				res.json(obj);
 			});
 		}
 		
 
-		function updateItemInOrder (){ // update item information once a item is inside an Assembly 
+		function updateItemInOrder (){ // update item information once an item is inside an Assembly 
 			Order.findOneAndUpdate(query, //{companyId:code,orderNumber:2345,orderedItems._id:_id@item}
 										{$set:{'orderedItems.$':todo}},
 										{new:true},function (err,obj){
@@ -73,7 +73,7 @@ function orders (app,Order){
 					res.json(err);
 				}
 				else{
-					console.log('items actualizados');
+					//console.log('items actualizados');
 					res.json(obj);
 				}
 				

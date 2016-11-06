@@ -9,7 +9,6 @@ var mongoose = require('mongoose'),
 		app.post('/projects',newProject);
 		app.put('/projects',updateProject);
 		app.put('/itemInproject',updateItemInProject);
-		// app.put('/itemToProject',itemToProject);
 		app.delete('/projects', deleteProject);
 		app.get('/projectGeneralView', pruebaProject);
 		app.get('/requiredAmounts',pruebaAmounts);
@@ -94,38 +93,37 @@ var mongoose = require('mongoose'),
 					});
 			}
 
+			function deleteAssemblyFromProject (){// funcion para eliminar un emsanble de un projecto
+ 
+				Project.findOneAndUpdate({companyId:query.companyId,projectNumber:query.projectNumber},// {companyId,projectNumber,projectAssemblies._id}
+					{$pull:{'projectAssemblies':{_id:query['projectAssemblies._id']}}},
+					{new:true},function (err,obj){
+						if(err){
+							res.json(err);
+							console.log(err);
+						}
+						else{
+							console.log('assembly removed from  Project sucessfully');
+							res.json(obj);
+						}
+					
+				});
+
+			}
+
 			if (Array.isArray(todo)){
 				insertAssemblies();
+			}
+			if (query['projectAssemblies._id']){
+				console.log('entro a borrar');
+				deleteAssemblyFromProject();
 			}
 			else{
 				updateProjectInfo();
 			}
 		}
 
-		// function itemToProject (req,res) {
-		// 	var query = req.query; //{projectNumber:number}
-		// 	var item = req.body; // can be just an Object or a Collection			
-
-		// 	if (Array.isArray(item)){ // insert a complete collection 
-		// 		item[0].itemAssemblyTime = new Date();
-		// 		Project.findOneAndUpdate( query,// {projectNumber: 123455}
-		// 							  {$push:{projectItems:{$each:item}}},
-		// 							  {new:true},function (error,obj){
-		// 							  	console.log('se metieron varios items');
-		// 									res.json(obj);
-		// 		});
-		// 	}
-		// 	else { // insert just an item
-		// 		item.itemAssemblyTime = new Date();
-		// 		Project.findOneAndUpdate( query,// {projectNumber: 123455}
-		// 							  {$push:{projectItems:item}},
-		// 							  {new:true},function (error,obj){
-		// 									res.json(obj);
-		// 		});
-		// 	}
-			
-		// }
-		function updateItemInProject(req,res){
+		function updateItemInProject(req,res){ // basically to change the atribute isAssembled to true
 			var query = req.query;
 			var collection = req.body;
 			console.log(query);

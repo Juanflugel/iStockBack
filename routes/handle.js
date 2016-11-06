@@ -144,7 +144,7 @@ function handle (app,Item,Project){
 
 
 							   ],function (err,array){
-								console.log('todo bien');
+								//console.log('todo bien');
 								res.json(array);
 							   });
 	}

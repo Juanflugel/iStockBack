@@ -23,14 +23,14 @@ function users (app,User){
 		var query = req.query;
 		// res.json('todo bien primo');
 		function getUserById (){	
-			console.log(query);
+			//console.log(query);
 			User.find(query,function (err,array){
 			res.json(array);
 			});
 		}
 
 		function getCompanyUsersCollection (){			
-			console.log(query);
+			//console.log(query);
 			User.find(query,function (err,array){ // query:{companyId:'RMB01'} 
 			res.json(array);
 			});
