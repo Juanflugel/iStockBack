@@ -25,9 +25,11 @@ function assemblies (app,Assembly){
 			
 	}
 
-	function newAssembly (req,res) {
-			
+	function newAssembly (req,res) {			
 			Assembly.create(req.body,function (err,obj) {
+				if (err){
+					console.log(err);
+				}
 				res.json(obj);
 			});
 	}

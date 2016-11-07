@@ -118,7 +118,8 @@ var mongoose = require('mongoose'),
 				console.log('entro a borrar');
 				deleteAssemblyFromProject();
 			}
-			else{
+			if (query._id && !Array.isArray(todo) ){
+				console.log('que es esto');
 				updateProjectInfo();
 			}
 		}
