@@ -8,6 +8,7 @@ function items (app,Item,io){
 	app.get('/items',getItem);
 	app.get('/itemsCode',getByItemsCode);// regular expression para el front
 	app.get('/findDuplicates',findDuplicates);
+	app.get('/fullSearch',fullSearch);
 	app.post('/items',postItemOrCollection);
 	app.put('/items',updateAmountOrEveryThing);
 	app.put('/increment',increment);
@@ -78,13 +79,16 @@ function items (app,Item,io){
 	// prueba de regular expressions, esto hay que mejoralo pero por ahora bien
 
 	function getByItemsCode(req,res){
-		var codeToSearch = req.query.itemCode;
-		Item.find({ itemCode: new RegExp(codeToSearch,"i"),companyId:req.query.companyId},function (err,array){
-			if (err){
-					res.json(err);
-				}
-			res.json(array);
-		}).limit(20);
+		var query = req.query;
+		var stringToSearch = req.query.string;
+		Item.find( { $or: [	{itemCode: new RegExp(stringToSearch,"i"),companyId:query.companyId},
+							{itemName: new RegExp(stringToSearch,"i"),companyId:query.companyId} ] },
+							function (err,array){
+								if (err){
+									res.json(err);
+								}
+								res.json(array);
+		}).limit(30);
 	}
 	// prueba de regular expression
 
@@ -181,6 +185,18 @@ function items (app,Item,io){
 		}
 
 		res.json({answer:'everything updated'});
+	}
+
+	function fullSearch (req,res){
+		var query = req.query;
+		var stringToSearch =  query.string;
+		console.log(query);
+		Item.find( { $or: [	{itemCode: new RegExp(stringToSearch,"i"),companyId:query.companyId},
+							{itemName: new RegExp(stringToSearch,"i"),companyId:query.companyId} ] },
+							function (err,array){
+								res.json(array);
+		})
+		
 	}
 
 	
