@@ -6,7 +6,7 @@ function items (app,Item,io){
 	app.use(bodyParser.json());
 
 	app.get('/items',getItem);
-	app.get('/itemsCode',getByItemsCode);// regular expression para el front
+	app.get('/itemsCodeOrName',getByItemsCodeOrName);// regular expression para el front
 	app.get('/findDuplicates',findDuplicates);
 	app.get('/fullSearch',fullSearch);
 	app.post('/items',postItemOrCollection);
@@ -78,7 +78,7 @@ function items (app,Item,io){
 
 	// prueba de regular expressions, esto hay que mejoralo pero por ahora bien
 
-	function getByItemsCode(req,res){
+	function getByItemsCodeOrName(req,res){
 		var query = req.query;
 		var stringToSearch = req.query.string;
 		Item.find( { $or: [	{itemCode: new RegExp(stringToSearch,"i"),companyId:query.companyId},
