@@ -69,6 +69,7 @@ function handle (app,Item,Project){
 	app.use(bodyParser.json());
 
 	app.get('/handleProjects',totalAmounts);
+	app.get('/pendingInProject',pendingInProject);
 	app.get('/insertedItems',insertedItems);
 	app.put('/handleProjects',updateProject);
 
@@ -169,6 +170,65 @@ function handle (app,Item,Project){
 				}
 				
 			});
+
+	}
+
+	function pendingInProject (req,res){
+		var query = req.query; //{companyId:@id,projectState:open,projectNumber:[@projectNumber],codesArray[itemsCode]}
+		    
+		var arrayQuery = [
+							  { $match:{'companyId':query.companyId,'projectState':query.projectState,'projectNumber':{$in:query.projectsArray}}},
+							  { $unwind : "$projectAssemblies" },
+							  { $unwind : "$projectAssemblies.assemblyItems" },
+							  { $project: { projectNumber:1,
+											itemCode:'$projectAssemblies.assemblyItems.itemCode',
+											itemAmount:'$projectAssemblies.assemblyItems.itemAmount',
+											itemAssembled:'$projectAssemblies.assemblyItems.itemAssembled'
+										  }
+							  },
+							  {$match:{itemCode:{$in:query.codesArray}}},
+							  {$group:{_id:{projectNumber:'$projectNumber',
+							  				itemCode:'$itemCode',
+							  				itemAssembled:'$itemAssembled'},
+							  				totalAmount:{$sum:'$itemAmount'}
+							  		  }
+							  },
+							  {$project: {_id:0,projectNumber:'$_id.projectNumber',
+							  				itemCode:'$_id.itemCode',
+							  				itemAssembled:'$_id.itemAssembled',
+							  				totalAmount:'$totalAmount'}},
+							  {$group:{_id:{itemCode:'$itemCode',projectNumber:'$projectNumber'},resume:{$push:{amount:'$totalAmount',itemAssembled:'$itemAssembled'}}}},
+							  {$project:{_id:0,
+							  				projectNumber:'$_id.projectNumber',
+							  				itemCode:'$_id.itemCode',
+							  				muestra:'$resume'}}							  
+							  
+						 ];
+
+				 			 
+
+		Project.aggregate(arrayQuery,function (err,arr){
+			
+			var arreglo =_.each(arr,function (obj){	
+
+				if(obj.muestra.length ===1){
+					obj.netoAmount = obj.muestra[0].amount;
+					obj.itemAssembled = obj.muestra[0].itemAssembled;
+					return obj;
+				}
+				else{
+					_.each(obj.muestra,function (i){
+						 if(i.itemAssembled === false){
+						 	obj.netoAmount = i.amount;
+							obj.itemAssembled = i.itemAssembled;
+							return obj;
+						};
+					});
+				}
+			});
+			console.log(query);
+			res.json(arreglo);
+		});
 
 	}
 
