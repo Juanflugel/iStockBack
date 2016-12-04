@@ -70,7 +70,9 @@ function handle (app,Item,Project){
 
 	app.get('/handleProjects',totalAmounts);
 	app.get('/pendingInProject',pendingInProject);
+	app.get('/pendingsGeneral',pendingsGeneral);
 	app.get('/insertedItems',insertedItems);
+	app.get('/totalInsertedAndPending',totalInsertedAndPending);
 	app.put('/handleProjects',updateProject);
 
 
@@ -139,7 +141,7 @@ function handle (app,Item,Project){
 										   }
 							   },
 							   {$match:{itemCode:{$in:query.codesArray}}},
-							   {$match:{itemAssembled:true}},
+							   {$match:{itemAssembled:true}},							   
 							   {$group:{_id:{itemCode:'$itemCode'},totalAmount:{$sum:'$itemAmount'}}},
 							   {$project:{itemCode:'$_id.itemCode',itemAmount:'$totalAmount'}}// itemAmount =>total amount
 
@@ -232,6 +234,74 @@ function handle (app,Item,Project){
 
 	}
 
+	function pendingsGeneral (req,res) { // it is function to show all items that need to be assembled in a open project
+
+		var query = req.query; //{companyId:@id,projectState:open,codesArray[itemsCode]}
+		var arrayQuery = [
+							  { $match:{'companyId':query.companyId,'projectState':query.projectState}},
+							  { $unwind : "$projectAssemblies" },
+							  { $unwind : "$projectAssemblies.assemblyItems" },
+							  { $project: { projectNumber:1,
+											itemCode:'$projectAssemblies.assemblyItems.itemCode',
+											itemAmount:'$projectAssemblies.assemblyItems.itemAmount',
+											itemAssembled:'$projectAssemblies.assemblyItems.itemAssembled'
+										  }
+							  },
+							  {$match:{itemCode:{$in:query.codesArray}}},
+							  {$match:{itemAssembled:{$ne:true}}},
+							  {$group:{_id:{itemCode:'$itemCode'},totalAmount:{$sum:'$itemAmount'}}},
+							  {$project:{_id:0,itemCode:'$_id.itemCode',totalAmount:1}}						  				  
+							  
+						 ];
+		Project.aggregate(arrayQuery,function (err,arr){
+			res.json(arr);
+		});
+
+
+	}
+
+	function totalInsertedAndPending (req,res){
+			var query = req.query;
+			var arrayQuery = [
+							  { $match:{'companyId':query.companyId,'projectState':query.projectState}},
+							  { $unwind : "$projectAssemblies" },
+							  { $unwind : "$projectAssemblies.assemblyItems" },
+							  { $project: { projectNumber:1,
+											itemCode:'$projectAssemblies.assemblyItems.itemCode',
+											itemAmount:'$projectAssemblies.assemblyItems.itemAmount',
+											itemAssembled:'$projectAssemblies.assemblyItems.itemAssembled'
+										  }
+							  },
+							  {$match:{itemCode:{$in:query.codesArray}}},
+							  {$group:{_id:{itemCode:'$itemCode',itemAssembled:'$itemAssembled'},
+							  			totalAmount:{$sum:'$itemAmount'}
+							  }},
+							  {$project:{_id:0,itemCode:'$_id.itemCode',itemAssembled:'$_id.itemAssembled',totalAmount:'$totalAmount'}},
+							  {$group:{_id:{itemCode:'$itemCode'},resume:{$push:{amount:'$totalAmount',itemAssembled:'$itemAssembled'}}}},
+							  {$project:{_id:0,itemCode:'$_id.itemCode',resume:'$resume'}}	
+							  						  				  
+							  
+						 ];
+		Project.aggregate(arrayQuery,function (err,arr){
+
+			var sample = _.each(arr,function (obj){
+					var resumeCol = obj.resume;
+					_.each(resumeCol,function (subObj){
+
+						if (subObj.itemAssembled === true){
+							obj.insertedAmount = subObj.amount;
+						}
+						if (subObj.itemAssembled === false){
+							obj.totalPendingAmount = subObj.amount;
+						}
+						
+					});
+			});
+			
+			res.json(sample);
+		});
+
+	}
 
 }
 
