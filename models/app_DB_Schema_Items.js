@@ -9,7 +9,7 @@ var itemSchema = new Schema({
     itemType:{type:String,uppercase: true, default:'NONE'}, // schraube, zylinder, motor, blech, fertigunsteil
     itemAssemblyName:{type:String,uppercase: true, default:'NONE'}, // BauGruppe Name,General 
     itemAssemblyNumber:String, // BauGruppe nummer, General
-    itemAmount:Number, // amout of items there are in Stock
+    itemAmount:{type:Number,min:0}, // amout of items there are in Stock
     itemUnits:{type:String,uppercase: true}, // Units zb mm,m,kg
     itemProvider:{type:String,uppercase: true,default:'NONE'},
     itemBrand:{type:String, uppercase:true,trim:true },

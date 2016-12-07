@@ -136,7 +136,7 @@ function items (app,Item,io){
 
 		function updateDocument (){ // query {'_id':mongoid}
 			Item.findOneAndUpdate(query,todo,
-			{new:true},function (err,obj){
+			{upsert: true,new:true,runValidators: true},function (err,obj){
 				res.json(obj);
 			});
 		}   
@@ -177,7 +177,7 @@ function items (app,Item,io){
 			query.itemCode = arrayOfObj[i][0];
 			Item.findOneAndUpdate(query,{// companyId,itemCode
 				$inc: { 'itemAmount':arrayOfObj[i][1]},'itemLastDate': new Date()
-			},{new:true},function (err,obj){
+			},{new:true,runValidators: true},function (err,obj){
 				if (err){
 					console.log(err);
 				}

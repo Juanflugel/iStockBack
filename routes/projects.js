@@ -8,7 +8,7 @@ var mongoose = require('mongoose'),
 		app.get('/projects',getCompanyProjects);
 		app.post('/projects',newProject);
 		app.put('/projects',updateProject);
-		app.put('/itemInproject',updateItemInProject);
+		app.put('/itemsInproject',updateItemsInProject);
 		app.delete('/projects', deleteProject);
 		app.get('/projectGeneralView', pruebaProject);
 		app.get('/requiredAmounts',pruebaAmounts);
@@ -111,6 +111,7 @@ var mongoose = require('mongoose'),
 
 			}
 
+
 			if (Array.isArray(todo)){
 				insertAssemblies();
 			}
@@ -122,14 +123,15 @@ var mongoose = require('mongoose'),
 				console.log('que es esto');
 				updateProjectInfo();
 			}
+
 		}
 
-		function updateItemInProject(req,res){ // basically to change the atribute isAssembled to true
+		function updateItemsInProject(req,res){
+			// basically to change the atribute isAssembled to true, change a name, pull a item from project or push one new
 			var query = req.query;
 			var collection = req.body;
-			console.log(query);
-			console.log(collection);
-			Project.findOneAndUpdate(query, //{_id:12234,projectAssemblies._id:123456}
+			
+			Project.findOneAndUpdate(query, //{companyId_id:12234,projectNumber:1234,projectAssemblies.assemblyNumber:908765}
 				{ $set: { "projectAssemblies.$.assemblyItems" : collection } },
 				{new:true},function (err,obj) {
 					res.json(obj);
