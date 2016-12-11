@@ -13,6 +13,7 @@ var ProjectSchema = new Schema({
     projectAssemblies:[{
         assemblyName:String,
         assemblyNumber:String,
+        subAssemblies:[{subAssemblyNumber:String,subAssemblyName:String}],
         assemblyItems:[{
             itemCode:String,
             itemName:String,
@@ -21,7 +22,9 @@ var ProjectSchema = new Schema({
             itemBuyPrice:Number,
             itemType:String,
             itemCategorie:String,
-            itemAssembled:{type:Boolean,default:false }
+            itemAssembled:{type:Boolean,default:false },
+            subAssemblyNumber:String,
+            subAssemblyName:String
         }]
     }]
 

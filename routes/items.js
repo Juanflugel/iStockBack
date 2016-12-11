@@ -169,7 +169,7 @@ function items (app,Item,io){
 	}
 
 	function increment (req,res){ // function to try to add and sustract amount from stock
-		var query = req.query;
+		var query = req.query; // until here just companyId
 		var arrayOfObj = req.body; //[[itemCode,Amount],[]]
 		var l = arrayOfObj.length;
 		

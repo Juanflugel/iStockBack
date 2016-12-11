@@ -7,6 +7,7 @@ var AssemblySchema = new Schema({
     assemblyName:String,
     companyId:String,
     assemblyImage:String,
+    subAssemblies:[{subAssemblyNumber:String,subAssemblyName:String}],
     assemblyItems:[{
         itemCode:String,
         itemName:String,
@@ -15,7 +16,9 @@ var AssemblySchema = new Schema({
         itemBuyPrice:Number,
         itemType:String,
         itemCategorie:String,
-        itemAssembled:Boolean
+        itemAssembled:Boolean,
+        subAssemblyNumber:String,
+        subAssemblyName:String
     }]
 
 
